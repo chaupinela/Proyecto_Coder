@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Bocha Chueca | Juegos Infantiles | Contacto</title>
+  <meta name="description" content="Juguetes y juegos artesanales sin material plastico. " >
+  <meta name="keywords" content="juguetes, juegos, sin plastico, madera, amigurumi">
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap" rel="stylesheet" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/index.css" />
+      </head>
+
+<body>
+
+    <header class="headerIndex">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <img src="img/logobochachueca.png" width="250px" alt="logo">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="about.html">SOBRE NOSOTROS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="amigurumi.html">AMIGURUMI</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <div id="carouselExampleIndicators" class="carousel slide container-sm" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="carrusel1.jpg" width="980px" height="324px" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="carrusel2.jpg" width="980px" height="324px" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="carrusel3.jpg" width="980px" height="324px" class="d-block w-100" alt="..." />
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </header>
+    <main>
+        <div class="mainContacto container">
+            <div class="mainContacto__cajaMainContacto flexColum">
+                <h2 class="mainContacto__cajaMainContacto__tituloContacto">CONTACTO</h2>
+                <h3 class="mainContacto__cajaMainContacto__tituloDatosPersonales">DATOS PERSONALES</h3>
+                <form class="mainContacto__cajaMainContacto__cajaFormulario container" action="" method="post"
+                    enctype="application/x-www-form-urlencoded">
+
+                    <input id="inpNombre" type="text" name="Nombre:" placeholder="Nombre">
+                    <input id="inpApellido" type="text" name="Apellido:" placeholder="Apellido">
+                    <input id="inpCorreo" id="cajaMail" type="email" name="email" placeholder="Correo" required />
+                    <h4 id="recibir">¿Desea recibir información?</h4>
+                    <input id="clickSi" type="checkbox" name="value1" />
+                    <label id="meInteresa" for="value1">Sí, me interesa recibir información y/o promociones</label>
+                    <input id="clickNo" type="checkbox" name="value1" />
+                    <label id="noInteresa" for="value1">No por el momento</label>
+
+                    <label id="ciudad" for="Ciudad">Seleccione su ciudad</label>
+                    <select id="ciudadesList" name="Ciudad" id="">
+                        Ciudad:
+                        <option value="Seleccion">Ciudades</option>
+                        <option value="Mar del Plata">Mar del Plata</option>
+                        <option value="Miramar">Miramar</option>
+                        <option value="Necochea">Necochea</option>
+                        <option value="Santa Clara">Santa Clara</option>
+                        <option value="Batan">Batan</option>
+                        <option value="Otras">
+                            Otras (Aclare cual en el campo "comentario"
+                        </option>
+                    </select>
+
+                    <label id="comentario" for="comentario">Escriba un comentario</label>
+                    <textarea id="cajaComentario" name="Comentario" id="" cols="50" rows="10"></textarea>
+                    <input class="btn btn-warning" id="limpia" type="reset" value="Limpiar" />
+                    <input class="btn btn-warning" id="envia" type="submit" value="Enviar" />    
+
+
+                </form>
+            </div>
+
+           
+
+        </div>
+        </div>
+    </main>
+
+
+    <footer>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+</body>
+
+</html>
