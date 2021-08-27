@@ -1,56 +1,9 @@
-/*globales*/
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: content-box;
-}
-body {
-  font-size: 62.5%;
-  width: 100vw;
-  height: 2048px;
-  font-family: "Montserrat", sans-serif;
-  background-color: var(--smoky-black);
-}
-#bodyForja {
-  font-size: 62.5%;
-  width: 100vw;
-  height: 1024px;
-  font-family: "Montserrat", sans-serif;
-  background-color: var(--smoky-black);
-}
+/* globales */ 
+@import "./Partials/globales";
 
-a {
-  text-decoration: none;
-}
-ul {
-  list-style-type: none;
-}
-.container {
-  display: grid;
-}
-.flexRow {
-  display: flex;
-  flex-direction: row;
-}
-.flexColum {
-  display: flex;
-  flex-direction: column;
-}
-/* Variables */
 
-:root {
-  --manatee: #a1a6b4ff;
-  --black: #000100ff;
-  --dark-sky-blue: #94c5ccff;
-  --beau-blue: #b4d2e7ff;
-  --cultured: #f8f8f8ff;
-  --bone: #d4cbb3ff;
-  --dim-gray: #6b6d76ff;
-  --tea-green: #d2e0bfff;
-  --smoky-black: #131112ff;
-  --rich-black-fogra-39: #080705ff;
-}
+
 
 /*Header index*/
 .headerIndex {
