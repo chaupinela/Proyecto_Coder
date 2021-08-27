@@ -1,0 +1,37 @@
+
+.headerIndex{
+
+     .headerIndex__banner{
+    background-image: url(../img/carrusel1.jpg);
+    width: 100vw;
+    height: 45vh;
+    
+        .headerIndex__banner__navbar{
+            background-color: rgba(245, 245, 220, 0.349);
+            width: 100vw;
+            height: 15vh;
+            margin-top: 0 auto;
+            justify-content: space-between;
+            align-content: center;
+            align-items: center;
+            position: fixed;
+            z-index: 2;
+            .headerIndex__banner__navbar__logo{
+                width: 350px;
+
+            }
+            .headerIndex__banner__navbar__items{
+                background-color: burlywood;
+               
+                
+                margin: 5px 25px;
+                .headerIndex__banner__navbar__items__list{
+                    display: inline-block;
+                    font-size: 1.2rem;
+                    padding: 5px 25px;
+                }
+            }
+        
+        }
+}
+}

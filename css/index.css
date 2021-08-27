@@ -1,9 +1,26 @@
-@charset "UTF-8";
-/*globales*/
+/* globales */
 * {
   margin: 0;
   padding: 0;
   box-sizing: content-box;
+}
+
+:root {
+  --medium-purple: #9381ffff;
+  --maximum-blue-purple: #b8b8ffff;
+  --ghost-white: #f8f7ffff;
+  --antique-white: #ffeeddff;
+  --unbleached-silk: #ffd8beff;
+  --manatee: #a1a6b4ff;
+  --black: #000100ff;
+  --dark-sky-blue: #94c5ccff;
+  --beau-blue: #b4d2e7ff;
+  --cultured: #f8f8f8ff;
+  --bone: #d4cbb3ff;
+  --dim-gray: #6b6d76ff;
+  --tea-green: #d2e0bfff;
+  --smoky-black: #131112ff;
+  --rich-black-fogra-39: #080705ff;
 }
 
 body {
@@ -11,15 +28,7 @@ body {
   width: 100vw;
   height: 2048px;
   font-family: "Montserrat", sans-serif;
-  background-color: var(--smoky-black);
-}
-
-#bodyForja {
-  font-size: 62.5%;
-  width: 100vw;
-  height: 1024px;
-  font-family: "Montserrat", sans-serif;
-  background-color: var(--smoky-black);
+  background-color: var(--beau-blue);
 }
 
 a {
@@ -45,54 +54,37 @@ ul {
 }
 
 /* Variables */
-:root {
-  --manatee: #a1a6b4ff;
-  --black: #000100ff;
-  --dark-sky-blue: #94c5ccff;
-  --beau-blue: #b4d2e7ff;
-  --cultured: #f8f8f8ff;
-  --bone: #d4cbb3ff;
-  --dim-gray: #6b6d76ff;
-  --tea-green: #d2e0bfff;
-  --smoky-black: #131112ff;
-  --rich-black-fogra-39: #080705ff;
+/* partials */
+.headerIndex .headerIndex__banner {
+  background-image: url(../img/carrusel1.jpg);
+  width: 100vw;
+  height: 45vh;
+}
+.headerIndex .headerIndex__banner .headerIndex__banner__navbar {
+  background-color: rgba(245, 245, 220, 0.349);
+  width: 100vw;
+  height: 15vh;
+  margin-top: 0 auto;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 2;
+}
+.headerIndex .headerIndex__banner .headerIndex__banner__navbar .headerIndex__banner__navbar__logo {
+  width: 350px;
+}
+.headerIndex .headerIndex__banner .headerIndex__banner__navbar .headerIndex__banner__navbar__items {
+  background-color: burlywood;
+  margin: 5px 25px;
+}
+.headerIndex .headerIndex__banner .headerIndex__banner__navbar .headerIndex__banner__navbar__items .headerIndex__banner__navbar__items__list {
+  display: inline-block;
+  font-size: 1.2rem;
+  padding: 5px 25px;
 }
 
 /*Header index*/
-.headerIndex {
-  width: 1024px;
-  height: 55vh;
-  margin: 0 auto;
-}
-
-/* barra de navegación*/
-/* header #navegacion{
-    background-color: rgba(0, 0, 0, 0.575);
-    width: 1024px;
-    height: 10vh;
-    justify-content: space-around;
-    align-items: center;
-    color: var(--manatee);
-}
-#navegacion h1 a{
-    color: var(--manatee);
-}
-nav{
-
-    align-items: center;
-
-}
-.itemNav{
-    color: var(--manatee);
-    list-style: none;
-    font-size: 1.1rem;
-    justify-content: space-around;
-    width: 40vw;
-
-}
-.itemNav a{
-    color:var(--manatee);
-} */
 /* ------------------------------main del index --------------------------------------------------------- */
 .mainIndexUno {
   width: 1024px;

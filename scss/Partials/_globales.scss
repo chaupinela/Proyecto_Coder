@@ -3,20 +3,36 @@
     padding: 0;
     box-sizing: content-box;
   }
+  :root {
+    --medium-purple: #9381ffff;
+    --maximum-blue-purple: #b8b8ffff;
+    --ghost-white: #f8f7ffff;
+    --antique-white: #ffeeddff;
+    --unbleached-silk: #ffd8beff;
+      $medium-purple: rgba(147, 129, 255, 1);
+      $maximum-blue-purple: rgba(184, 184, 255, 1);
+      $ghost-white: rgba(248, 247, 255, 1);
+      $antique-white: rgba(255, 238, 221, 1);
+      $unbleached-silk: rgba(255, 216, 190, 1);
+    --manatee: #a1a6b4ff;
+    --black: #000100ff;
+    --dark-sky-blue: #94c5ccff;
+    --beau-blue: #b4d2e7ff;
+    --cultured: #f8f8f8ff;
+    --bone: #d4cbb3ff;
+    --dim-gray: #6b6d76ff;
+    --tea-green: #d2e0bfff;
+    --smoky-black: #131112ff;
+    --rich-black-fogra-39: #080705ff;
+  }
   body {
     font-size: 62.5%;
     width: 100vw;
     height: 2048px;
     font-family: "Montserrat", sans-serif;
-    background-color: var(--smoky-black);
+    background-color:var(--beau-blue);
   }
-  #bodyForja {
-    font-size: 62.5%;
-    width: 100vw;
-    height: 1024px;
-    font-family: "Montserrat", sans-serif;
-    background-color: var(--smoky-black);
-  }
+  
   
   a {
     text-decoration: none;
@@ -37,15 +53,4 @@
   }
   /* Variables */
   
-  :root {
-    --manatee: #a1a6b4ff;
-    --black: #000100ff;
-    --dark-sky-blue: #94c5ccff;
-    --beau-blue: #b4d2e7ff;
-    --cultured: #f8f8f8ff;
-    --bone: #d4cbb3ff;
-    --dim-gray: #6b6d76ff;
-    --tea-green: #d2e0bfff;
-    --smoky-black: #131112ff;
-    --rich-black-fogra-39: #080705ff;
-  }
+  
