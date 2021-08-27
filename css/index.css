@@ -6,6 +6,19 @@
 }
 
 :root {
+  --orange-yellow-crayola: #fed766ff;
+  --fire-opal: #e86252ff;
+  --russian-green: #659157ff;
+  --wild-blue-yonder: #a3a5c3ff;
+  --wild-blue-yonder50: rgba(163, 165, 195, 0.507);
+  --prussian-blue: #1c3144ff;
+  --maximum-green-yellow: #ddf45bff;
+  --midnight-green-eagle-green: #114b5fff;
+  --desert-sand: #e6beaeff;
+  --turquoise-green: #aad2baff;
+  --light-cyan: #d9fff5ff;
+  --magic-mint: #b9f5d8ff;
+  --middle-red: #d7816aff;
   --medium-purple: #9381ffff;
   --maximum-blue-purple: #b8b8ffff;
   --ghost-white: #f8f7ffff;
@@ -28,7 +41,7 @@ body {
   width: 100vw;
   height: 2048px;
   font-family: "Montserrat", sans-serif;
-  background-color: var(--beau-blue);
+  background-color: var(--russian-green);
 }
 
 a {
@@ -55,13 +68,84 @@ ul {
 
 /* Variables */
 /* partials */
-.headerIndex .headerIndex__banner {
-  background-image: url(../img/carrusel1.jpg);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+:root {
+  --orange-yellow-crayola: #fed766ff;
+  --fire-opal: #e86252ff;
+  --russian-green: #659157ff;
+  --wild-blue-yonder: #a3a5c3ff;
+  --wild-blue-yonder50: rgba(163, 165, 195, 0.507);
+  --prussian-blue: #1c3144ff;
+  --maximum-green-yellow: #ddf45bff;
+  --midnight-green-eagle-green: #114b5fff;
+  --desert-sand: #e6beaeff;
+  --turquoise-green: #aad2baff;
+  --light-cyan: #d9fff5ff;
+  --magic-mint: #b9f5d8ff;
+  --middle-red: #d7816aff;
+  --medium-purple: #9381ffff;
+  --maximum-blue-purple: #b8b8ffff;
+  --ghost-white: #f8f7ffff;
+  --antique-white: #ffeeddff;
+  --unbleached-silk: #ffd8beff;
+  --manatee: #a1a6b4ff;
+  --black: #000100ff;
+  --dark-sky-blue: #94c5ccff;
+  --beau-blue: #b4d2e7ff;
+  --cultured: #f8f8f8ff;
+  --bone: #d4cbb3ff;
+  --dim-gray: #6b6d76ff;
+  --tea-green: #d2e0bfff;
+  --smoky-black: #131112ff;
+  --rich-black-fogra-39: #080705ff;
+}
+
+body {
+  font-size: 62.5%;
   width: 100vw;
-  height: 45vh;
+  height: 2048px;
+  font-family: "Montserrat", sans-serif;
+  background-color: var(--russian-green);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container {
+  display: grid;
+}
+
+.flexRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.flexColum {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Variables */
+.headerIndex .headerIndex__banner {
+  background-image: url(../img/carrusel2.jpg);
+  background-position: bottom;
+  background-size: cover;
+  width: 100vw;
+  height: 65vh;
+  margin-top: 15px;
 }
 .headerIndex .headerIndex__banner .headerIndex__banner__navbar {
-  background-color: rgba(245, 245, 220, 0.349);
+  background-color: var(--wild-blue-yonder50);
   width: 100vw;
   height: 15vh;
   margin-top: 0 auto;
@@ -75,7 +159,6 @@ ul {
   width: 350px;
 }
 .headerIndex .headerIndex__banner .headerIndex__banner__navbar .headerIndex__banner__navbar__items {
-  background-color: burlywood;
   margin: 5px 25px;
 }
 .headerIndex .headerIndex__banner .headerIndex__banner__navbar .headerIndex__banner__navbar__items .headerIndex__banner__navbar__items__list {
@@ -105,7 +188,6 @@ ul {
 .mainIndexUno .mainIndexUno__seccionUno .mainIndexUno__seccionUno__divSeccionUno {
   height: 100%;
   margin: 35px auto;
-  background-color: var(--smoky-black);
   justify-content: space-around;
   align-items: center;
   color: var(--manatee);

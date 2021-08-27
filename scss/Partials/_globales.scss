@@ -4,16 +4,24 @@
     box-sizing: content-box;
   }
   :root {
+    --orange-yellow-crayola: #fed766ff;
+    --fire-opal: #e86252ff;
+    --russian-green: #659157ff;
+    --wild-blue-yonder: #a3a5c3ff;
+    --wild-blue-yonder50: rgba(163, 165, 195, 0.507);
+    --prussian-blue: #1c3144ff;
+    --maximum-green-yellow: #ddf45bff;
+    --midnight-green-eagle-green: #114b5fff;
+    --desert-sand: #e6beaeff;
+    --turquoise-green: #aad2baff;
+    --light-cyan: #d9fff5ff;
+    --magic-mint: #b9f5d8ff;
+    --middle-red: #d7816aff;
     --medium-purple: #9381ffff;
     --maximum-blue-purple: #b8b8ffff;
     --ghost-white: #f8f7ffff;
     --antique-white: #ffeeddff;
     --unbleached-silk: #ffd8beff;
-      $medium-purple: rgba(147, 129, 255, 1);
-      $maximum-blue-purple: rgba(184, 184, 255, 1);
-      $ghost-white: rgba(248, 247, 255, 1);
-      $antique-white: rgba(255, 238, 221, 1);
-      $unbleached-silk: rgba(255, 216, 190, 1);
     --manatee: #a1a6b4ff;
     --black: #000100ff;
     --dark-sky-blue: #94c5ccff;
@@ -30,7 +38,7 @@
     width: 100vw;
     height: 2048px;
     font-family: "Montserrat", sans-serif;
-    background-color:var(--beau-blue);
+    background-color:var(--russian-green);
   }
   
   
