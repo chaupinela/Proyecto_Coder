@@ -1,42 +1,86 @@
 @import "./globales";
 
+
+
+
 .headerIndex{
+    
+    .headerIndex__navbar{
+        background-color: var(--wild-blue-yonder50);
+        width: 100%;
+        height: 15vh;
+        justify-content: space-around;
+        align-content: center;
+        align-items: center;
+        position: fixed;
+        z-index: 0;
+        
+        .headerIndex__navbar__logo{
+            width: 280px;
+            height: 50px;
+            background-color: var(--middle-red-73);
+            border-radius: 15px;
+            padding: 15px 0;
+            
+            .headerIndex__navbar__logo__img{
+                width: 250px;
+                margin: 0 auto;
+            }
+        
+        }
+        .headerIndex__navbar__items{
+             
+            margin: 5px 25px;
+            .headerIndex__navbar__items__list{
+                display: inline-block;
+                font-size: 2rem;
+                padding: 5px 25px;
+                font-family: 'Indie Flower', cursive;
+    
+            }
+            .headerIndex__navbar__items__list:hover{
+                color: var(--fire-opal);
+                border-bottom: var(--maximum-green-yellow) 5px solid;
+               
+            }
+        }
+    }
 
      .headerIndex__banner{
     background-image: url(../img/carrusel2.jpg);
     background-position: bottom;
     background-size: cover;
-    width: 100vw;
-    height: 65vh;
-    margin-top: 15px;
-    
-    
-        .headerIndex__banner__navbar{
-            background-color: var(--wild-blue-yonder50);
-            width: 100vw;
-            height: 15vh;
-            margin-top: 0 auto;
-            justify-content: space-between;
-            align-content: center;
-            align-items: center;
-            position: fixed;
-            z-index: 2;
-            .headerIndex__banner__navbar__logo{
-                width: 350px;
+    width: 85vw;
+    height: 50vh;
+    margin: 15vh auto;
+    border-radius: 0 0 15px 15px;
+    justify-content: space-around;
+    box-shadow: black 4px 4px 6px;
+        .headerIndex__banner__nombre{
+            font-family: 'Palette Mosaic', cursive;
+            font-size: 3rem;
+            text-align: center;
+            margin-top: 50px;
+            color: var(--light-cyan);
+                        
 
-            }
-            .headerIndex__banner__navbar__items{
-                
-               
-                
-                margin: 5px 25px;
-                .headerIndex__banner__navbar__items__list{
-                    display: inline-block;
-                    font-size: 1.2rem;
-                    padding: 5px 25px;
-                }
-            }
+        }
+        .headerIndex__banner__titulo{
+            width: 100%;
+            font-family: 'Palette Mosaic', cursive;
+            font-size: 4rem;
+            color: var(--fire-opal);
+            text-shadow: black 2px 2px 4px;
+            align-items: center;
+            align-content: center;
+            justify-content: center;
+            justify-items: center;
+            height: 100%;
+            
+            
+            
+        }
+    
         
         }
-}
 }

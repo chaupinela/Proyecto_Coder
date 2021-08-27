@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: content-box;
+
   }
   :root {
     --orange-yellow-crayola: #fed766ff;
@@ -17,6 +18,7 @@
     --light-cyan: #d9fff5ff;
     --magic-mint: #b9f5d8ff;
     --middle-red: #d7816aff;
+    --middle-red-73: rgba(215, 130, 106, 0.733);
     --medium-purple: #9381ffff;
     --maximum-blue-purple: #b8b8ffff;
     --ghost-white: #f8f7ffff;
@@ -38,7 +40,7 @@
     width: 100vw;
     height: 2048px;
     font-family: "Montserrat", sans-serif;
-    background-color:var(--russian-green);
+    background-color:var(--light-cyan);
   }
   
   
