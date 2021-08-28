@@ -4,7 +4,7 @@
 
 /* partials */
 @import "./Partials/header";
-
+@import "./Partials/footer";
 
 
 /*Header index*/
@@ -33,9 +33,10 @@
       
       justify-content: space-around;
       align-items: center;
-      color: black;
+      
       .mainIndexUno__seccionUno__divSeccionUno__titulo{
         font-family: 'Indie Flower', cursive;
+        color: black;
       }
       .mainIndexUno__seccionUno__divSeccionUno__textoPrimero {
         font-size: 1.9rem;
@@ -50,11 +51,13 @@
     margin: 0 auto;
     gap: 1rem;
     .mainIndexUno__seccionDos__tituloGaleria {
+
+      .mainIndexUno__seccionDos__tituloGaleria__titulo{
       color: black;
-      font-size: 2rem;
+      font-size: 3rem;
       font-family: 'Indie Flower', cursive;
 
-      
+    }
       
     }
     .mainIndexUno__seccionDos__imagenesSeccionDos {
@@ -75,7 +78,7 @@
 
 
 .mainIndexDos {
-  background-color: chartreuse;
+  
   width: 85vw;
   height: 180vh;
   margin: 0px auto;
@@ -160,86 +163,86 @@
       gap: 2rem;
 }
 
-.pie {
+// .pie {
       
-      width: 1024px;
-      height: 55vh;
-      grid-area: pie;
-      margin: 0 auto;
-      text-decoration: none;
-      display: inline-block;
-      display: grid;
-      grid-template-areas:
-        "pie__pDeFooter pie__pDeFooter "
-        "pie__datos pie__derechos"
-        "pie__redes  pie__redes ";
-      grid-template-columns: 1fr 1fr;
-      grid-template-rows: 1fr 1fr 1fr;
-      align-content: center;
-      justify-content: space-around;
-      column-gap: 10px;
-      row-gap: 10px;
-      padding: 5px 10px;
-      color: var(--manatee);
-      margin-top: 25px;
-      .pie__pDeFooter {
-        grid-area: pie__pDeFooter;
-        font-size: 2rem;
-        text-align: center;
-        border-bottom: 6px var(--manatee) solid;
-        margin-bottom: 15px;
-        padding-bottom: 15px;
-      }
-      .pie__datos {
-        grid-area: pie__datos;
-        font-size: 2rem;
-        text-align: start;
-      }
-      .pie__derechos {
-        grid-area: pie__derechos;
-        font-size: 2rem;
-        text-align: end;
-      }
-      .pie__redes {
-        grid-area: pie__redes;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        width: 100%;
-        transition: 1s;
-        .pie__redes__item {
-          font-size: 1.5rem;
-          list-style: none;
-          .pie__redes__item__link {
-            list-style: none;
-            text-decoration: none;
-            font-size: 2rem;
-            color: var(--manatee);
-            border-radius: 5px;
-            #redes__face:hover {
-              background-color: rgba(50, 50, 230, 0.904);
-              color: white;
-            }
-            #redes__twiter:hover {
-              background-color: rgba(98, 198, 216, 0.925);
-              color: white;
-            }
-            #redes__instagram:hover {
-              background: linear-gradient(
-                45deg,
-                #ed601e 6%,
-                #f71348 31%,
-                #e50d8b 52%,
-                #f202d2 67%,
-                #cd02e0 84%,
-                #dd09f4 100%
-          );
-              color: white;
-        }
-      }
-    }
-  }
-}
+//       width: 1024px;
+//       height: 55vh;
+//       grid-area: pie;
+//       margin: 0 auto;
+//       text-decoration: none;
+//       display: inline-block;
+//       display: grid;
+//       grid-template-areas:
+//         "pie__pDeFooter pie__pDeFooter "
+//         "pie__datos pie__derechos"
+//         "pie__redes  pie__redes ";
+//       grid-template-columns: 1fr 1fr;
+//       grid-template-rows: 1fr 1fr 1fr;
+//       align-content: center;
+//       justify-content: space-around;
+//       column-gap: 10px;
+//       row-gap: 10px;
+//       padding: 5px 10px;
+//       color: var(--manatee);
+//       margin-top: 25px;
+//       .pie__pDeFooter {
+//         grid-area: pie__pDeFooter;
+//         font-size: 2rem;
+//         text-align: center;
+//         border-bottom: 6px var(--manatee) solid;
+//         margin-bottom: 15px;
+//         padding-bottom: 15px;
+//       }
+//       .pie__datos {
+//         grid-area: pie__datos;
+//         font-size: 2rem;
+//         text-align: start;
+//       }
+//       .pie__derechos {
+//         grid-area: pie__derechos;
+//         font-size: 2rem;
+//         text-align: end;
+//       }
+//       .pie__redes {
+//         grid-area: pie__redes;
+//         display: flex;
+//         flex-direction: row;
+//         justify-content: space-around;
+//         width: 100%;
+//         transition: 1s;
+//         .pie__redes__item {
+//           font-size: 1.5rem;
+//           list-style: none;
+//           .pie__redes__item__link {
+//             list-style: none;
+//             text-decoration: none;
+//             font-size: 2rem;
+//             color: var(--manatee);
+//             border-radius: 5px;
+//             #redes__face:hover {
+//               background-color: rgba(50, 50, 230, 0.904);
+//               color: white;
+//             }
+//             #redes__twiter:hover {
+//               background-color: rgba(98, 198, 216, 0.925);
+//               color: white;
+//             }
+//             #redes__instagram:hover {
+//               background: linear-gradient(
+//                 45deg,
+//                 #ed601e 6%,
+//                 #f71348 31%,
+//                 #e50d8b 52%,
+//                 #f202d2 67%,
+//                 #cd02e0 84%,
+//                 #dd09f4 100%
+//           );
+//               color: white;
+//         }
+//       }
+//     }
+//   }
+// }
 
 
 
