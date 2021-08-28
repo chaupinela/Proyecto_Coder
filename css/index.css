@@ -154,13 +154,16 @@ ul {
 .headerIndex .headerIndex__navbar .headerIndex__navbar__logo {
   width: 280px;
   height: 50px;
-  background-color: var(--middle-red-73);
+  background-color: var(--desert-sand);
   border-radius: 15px;
   padding: 15px 0;
+  justify-content: center;
+  align-items: center;
 }
-.headerIndex .headerIndex__navbar .headerIndex__navbar__logo .headerIndex__navbar__logo__img {
-  width: 250px;
-  margin: 0 auto;
+.headerIndex .headerIndex__navbar .headerIndex__navbar__logo .headerIndex__navbar__logo--logo_nav {
+  font-family: "Palette Mosaic", cursive;
+  font-size: 2rem;
+  color: var(--maximum-green-yellow);
 }
 .headerIndex .headerIndex__navbar .headerIndex__navbar__items {
   margin: 5px 25px;
@@ -170,6 +173,7 @@ ul {
   font-size: 2rem;
   padding: 5px 25px;
   font-family: "Indie Flower", cursive;
+  color: black;
 }
 .headerIndex .headerIndex__navbar .headerIndex__navbar__items .headerIndex__navbar__items__list:hover {
   color: var(--fire-opal);
@@ -192,14 +196,15 @@ ul {
   font-size: 3rem;
   text-align: center;
   margin-top: 50px;
-  color: var(--light-cyan);
+  color: var(--magic-mint);
+  text-shadow: aqua 2px 2px 4px;
 }
 .headerIndex .headerIndex__banner .headerIndex__banner__titulo {
   width: 100%;
   font-family: "Palette Mosaic", cursive;
   font-size: 4rem;
-  color: var(--fire-opal);
-  text-shadow: black 2px 2px 4px;
+  color: var(--magic-mint);
+  text-shadow: aqua 2px 2px 4px;
   align-items: center;
   align-content: center;
   justify-content: center;
@@ -210,8 +215,8 @@ ul {
 /*Header index*/
 /* ------------------------------main del index --------------------------------------------------------- */
 .mainIndexUno {
-  width: 1024px;
-  height: 110vh;
+  width: 85vw;
+  height: 120vh;
   gap: 1rem;
   margin: 0px auto;
 }
@@ -223,7 +228,7 @@ ul {
 .mainIndexUno .mainIndexUno__seccionUno .mainIndexUno__seccionUno__tituloindex {
   text-align: center;
   font-size: 4rem;
-  color: var(--manatee);
+  color: black;
 }
 .mainIndexUno .mainIndexUno__seccionUno .mainIndexUno__seccionUno__divSeccionUno {
   height: 100%;
@@ -231,15 +236,22 @@ ul {
   justify-content: space-around;
   align-items: center;
   color: black;
+<<<<<<< HEAD
+=======
+}
+.mainIndexUno .mainIndexUno__seccionUno .mainIndexUno__seccionUno__divSeccionUno .mainIndexUno__seccionUno__divSeccionUno__titulo {
+  font-family: "Indie Flower", cursive;
+>>>>>>> master
 }
 .mainIndexUno .mainIndexUno__seccionUno .mainIndexUno__seccionUno__divSeccionUno .mainIndexUno__seccionUno__divSeccionUno__textoPrimero {
   font-size: 1.9rem;
   text-align: center;
+  color: black;
 }
 .mainIndexUno .mainIndexUno__seccionDos {
   width: 100%;
-  height: 500px;
-  margin: 0px auto;
+  height: 40vh;
+  margin: 0 auto;
   gap: 1rem;
 }
 .mainIndexUno .mainIndexUno__seccionDos .mainIndexUno__seccionDos__tituloGaleria {
@@ -271,7 +283,9 @@ ul {
 }
 
 .mainIndexDos {
-  width: 1024px;
+  background-color: chartreuse;
+  width: 85vw;
+  height: 180vh;
   margin: 0px auto;
   height: 100vh;
   justify-content: flex-end;
@@ -279,8 +293,8 @@ ul {
 .mainIndexDos .mainIndexDos__imagenesPorfolio {
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(8, 1fr);
-  width: 1024px;
-  height: 600px;
+  width: 100%;
+  height: 800px;
   gap: 1rem;
   margin: 0 auto;
   padding: 0;
@@ -347,7 +361,6 @@ ul {
 }
 
 .pie {
-  background-color: var(--smoky-black);
   width: 1024px;
   height: 55vh;
   grid-area: pie;
