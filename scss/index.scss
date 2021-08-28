@@ -12,10 +12,11 @@
 /* ------------------------------main del index --------------------------------------------------------- */
 
 .mainIndexUno {
+  
   width: 1024px;
-  height: 700px;
+  height: 110vh;
   gap: 1rem;
-  margin: 150px auto;
+  margin: 0px auto;
   .mainIndexUno__seccionUno {
     
     grid-column: 1/13;
@@ -40,17 +41,21 @@
     }
   }
   .mainIndexUno__seccionDos {
-    margin: 50px auto;
+    
+    width: 100%;
+    height: 500px;
+    margin: 0px auto;
     gap: 1rem;
     .mainIndexUno__seccionDos__tituloGaleria {
       color: var(--manatee);
       font-size: 2rem;
+      font-family: 'Indie Flower', cursive;
       
       
     }
     .mainIndexUno__seccionDos__imagenesSeccionDos {
       gap: 4rem;
-
+      justify-content: space-around;
       @each $juguete in nariz supe nena {
         .img-#{$juguete} {
           background-image: url(../img/#{$juguete}.jpg);
@@ -66,15 +71,12 @@
 
 
 .mainIndexDos {
-  margin: 10px auto;
-  .mainIndexDos__tituloPorfolio {
-    margin-top: 50px;
-    .mainIndexDos__tituloPorfolio--titulo{
-      color: var(--manatee);
-        text-align: center;
-        font-size: 2rem;
-    }
-  }
+  width: 1024px;
+  
+  margin: 0px auto;
+  height: 100vh;
+  justify-content: flex-end;
+  
   .mainIndexDos__imagenesPorfolio {
         grid-template-columns: repeat(12, 1fr);
         grid-template-rows: repeat(8, 1fr);
@@ -82,6 +84,18 @@
         height: 600px;
         gap: 1rem;
         margin: 0 auto;
+        padding: 0;
+        .mainIndexDos__imagenesPorfolio__tituloPorfolio {
+          margin-top: 15px;
+          grid-column: 1/13;
+          grid-row: 1/2;
+          .mainIndexDos__imagenesPorfolio__tituloPorfolio--titulo{
+            color: var(--manatee);
+              text-align: center;
+              font-size: 3rem;
+              font-family: 'Indie Flower', cursive;
+          }
+        }
         .mainIndexDos__imagenesPorfolio__img{
 
           @for $i from 4 through 10{

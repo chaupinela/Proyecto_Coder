@@ -4,7 +4,7 @@
 
 
 .headerIndex{
-    
+    height: 400px;
     .headerIndex__navbar{
         background-color: var(--wild-blue-yonder50);
         width: 100%;
@@ -52,7 +52,8 @@
     background-size: cover;
     width: 85vw;
     height: 50vh;
-    margin: 15vh auto;
+    margin: 0 auto;
+    margin-top: 15vh;
     border-radius: 0 0 15px 15px;
     justify-content: space-around;
     box-shadow: black 4px 4px 6px;
