@@ -230,7 +230,7 @@ ul {
   margin: 35px auto;
   justify-content: space-around;
   align-items: center;
-  color: var(--manatee);
+  color: black;
 }
 .mainIndexUno .mainIndexUno__seccionUno .mainIndexUno__seccionUno__divSeccionUno .mainIndexUno__seccionUno__divSeccionUno__textoPrimero {
   font-size: 1.9rem;
@@ -243,7 +243,7 @@ ul {
   gap: 1rem;
 }
 .mainIndexUno .mainIndexUno__seccionDos .mainIndexUno__seccionDos__tituloGaleria {
-  color: var(--manatee);
+  color: black;
   font-size: 2rem;
   font-family: "Indie Flower", cursive;
 }
@@ -291,7 +291,7 @@ ul {
   grid-row: 1/2;
 }
 .mainIndexDos .mainIndexDos__imagenesPorfolio .mainIndexDos__imagenesPorfolio__tituloPorfolio .mainIndexDos__imagenesPorfolio__tituloPorfolio--titulo {
-  color: var(--manatee);
+  color: black;
   text-align: center;
   font-size: 3rem;
   font-family: "Indie Flower", cursive;
