@@ -18,24 +18,27 @@
         .headerIndex__navbar__logo{
             width: 280px;
             height: 50px;
-            background-color: var(--middle-red-73);
+            background-color: var(--desert-sand);
             border-radius: 15px;
             padding: 15px 0;
-            
-            .headerIndex__navbar__logo__img{
-                width: 250px;
-                margin: 0 auto;
+            justify-content: center;
+            align-items: center;
+            .headerIndex__navbar__logo--logo_nav{
+                font-family: 'Palette Mosaic', cursive;
+                font-size: 2rem;
+                color: var(--maximum-green-yellow);
+
             }
         
         }
         .headerIndex__navbar__items{
-             
             margin: 5px 25px;
             .headerIndex__navbar__items__list{
                 display: inline-block;
                 font-size: 2rem;
                 padding: 5px 25px;
                 font-family: 'Indie Flower', cursive;
+                color: black;
     
             }
             .headerIndex__navbar__items__list:hover{
@@ -62,7 +65,8 @@
             font-size: 3rem;
             text-align: center;
             margin-top: 50px;
-            color: var(--light-cyan);
+            color: var(--magic-mint);
+            text-shadow: aqua 2px 2px 4px;
                         
 
         }
@@ -70,8 +74,8 @@
             width: 100%;
             font-family: 'Palette Mosaic', cursive;
             font-size: 4rem;
-            color: var(--fire-opal);
-            text-shadow: black 2px 2px 4px;
+            color: var(--magic-mint);
+            text-shadow: aqua 2px 2px 4px;
             align-items: center;
             align-content: center;
             justify-content: center;
