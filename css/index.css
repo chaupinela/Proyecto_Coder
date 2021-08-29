@@ -213,8 +213,8 @@ ul {
 }
 
 .pie {
-  width: 100vw;
-  height: 20vh;
+  width: 80vw;
+  height: 30vh;
   grid-area: pie;
   margin: 50px auto;
   text-decoration: none;
@@ -223,8 +223,8 @@ ul {
   grid-template-areas: "pie__pDeFooter pie__pDeFooter " "pie__datos pie__derechos" "pie__redes  pie__redes ";
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  align-content: center;
-  justify-content: space-around;
+  align-content: stretch;
+  justify-content: stretch;
   column-gap: 10px;
   row-gap: 10px;
   padding: 5px 10px;
@@ -234,7 +234,7 @@ ul {
   grid-area: pie__pDeFooter;
   font-size: 1rem;
   text-align: center;
-  border-bottom: 6px var(--manatee) solid;
+  align-items: stretch;
   margin-bottom: 15px;
   padding-bottom: 15px;
 }
@@ -249,7 +249,6 @@ ul {
   text-align: end;
 }
 .pie .pie__redes {
-  justify-content: flex-end;
   grid-area: pie__redes;
   display: flex;
   flex-direction: row;
@@ -257,26 +256,36 @@ ul {
   width: 100%;
   transition: 1s;
 }
-.pie .pie__redes .pie__redes__item {
+.pie .pie__redes .pie__redes__item__link--face {
   font-size: 1.5rem;
-  list-style: none;
-}
-.pie .pie__redes .pie__redes__item .pie__redes__item__link {
   list-style: none;
   text-decoration: none;
-  font-size: 1.5rem;
   color: black;
   border-radius: 5px;
 }
-.pie .pie__redes .pie__redes__item .pie__redes__item__link .pie__redes__item__link--face:hover {
+.pie .pie__redes .pie__redes__item__link--face .pie__redes__item__link--face :hover {
   background-color: rgba(50, 50, 230, 0.904);
   color: white;
 }
-.pie .pie__redes .pie__redes__item .pie__redes__item__link .pie__redes__item__link--tw {
+.pie .pie__redes .pie__redes__item__link--tw {
+  font-size: 1.5rem;
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  border-radius: 5px;
+}
+.pie .pie__redes .pie__redes__item__link--tw .pie__redes__item__link--tw:hover {
   background-color: rgba(98, 198, 216, 0.925);
   color: white;
 }
-.pie .pie__redes .pie__redes__item .pie__redes__item__link .pie__redes__item__link--inst:hover {
+.pie .pie__redes .pie__redes__item__link--inst {
+  font-size: 1.5rem;
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  border-radius: 5px;
+}
+.pie .pie__redes .pie__redes__item__link--inst .pie__redes__item__link--inst:hover {
   background: linear-gradient(45deg, #ed601e 6%, #f71348 31%, #e50d8b 52%, #f202d2 67%, #cd02e0 84%, #dd09f4 100%);
   color: white;
 }
