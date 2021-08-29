@@ -557,6 +557,7 @@ font-size: 2rem;
           color:$colorTituloAbout;
           border: $colorTituloAbout 3px solid;
           border-radius: 5px;
+          font-family: $fuenteCuerpo;
           
         }
         .bodyAbout__main__articleUno__texto {
@@ -579,6 +580,7 @@ font-size: 2rem;
           border: $colorTituloAbout 3px solid;
           border-radius: 5px;
           font-size: $tamanioTitulo; 
+          font-family: $fuenteCuerpo;
         }
         .bodyAbout__main__articleDos__texto {
           padding: 10px 15px;

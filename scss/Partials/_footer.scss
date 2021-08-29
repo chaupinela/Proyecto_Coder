@@ -1,3 +1,8 @@
+@import "./globales";
+
+$colorFuenteFooter: var(--maximum-blue-purple);
+$fuenteFooter :'Indie Flower', cursive;
+
 .pie {
     width: 80vw;
     height: 30vh;
@@ -17,7 +22,9 @@
     column-gap: 10px;
     row-gap: 10px;
     padding: 5px 10px;
-    color:black;
+    color:$colorFuenteFooter;
+    font-family: $fuenteFooter;
+    
     
     .pie__pDeFooter {
       grid-area: pie__pDeFooter;

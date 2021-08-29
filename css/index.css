@@ -45,7 +45,7 @@
 body {
   font-size: 62.5%;
   width: 100vw;
-  height: 3048px;
+  height: 200vh;
   font-family: "Montserrat", sans-serif;
   background-color: var(--light-cyan);
 }
@@ -124,7 +124,7 @@ ul {
 body {
   font-size: 62.5%;
   width: 100vw;
-  height: 3048px;
+  height: 200vh;
   font-family: "Montserrat", sans-serif;
   background-color: var(--light-cyan);
 }
@@ -230,6 +230,84 @@ ul {
   height: 100%;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+:root {
+  --medium-turquoise: #4ecdc4ff;
+  --mint-cream: #f7fff7ff;
+  --skobeloff: #00635dff;
+  --slate-blue: #744fc6ff;
+  --bittersweet: #ff6b6bff;
+  --orange-yellow-crayola: #fed766ff;
+  --fire-opal: #e86252ff;
+  --russian-green: #659157ff;
+  --wild-blue-yonder: #a3a5c3ff;
+  --wild-blue-yonder50: rgba(163, 165, 195, 0.507);
+  --prussian-blue: #1c3144ff;
+  --maximum-green-yellow: #ddf45bff;
+  --midnight-green-eagle-green: #114b5fff;
+  --desert-sand: #e6beaeff;
+  --turquoise-green: #aad2baff;
+  --light-cyan: #d9fff5ff;
+  --magic-mint: #b9f5d8ff;
+  --middle-red: #d7816aff;
+  --middle-red-73: rgba(215, 130, 106, 0.733);
+  --medium-purple: #9381ffff;
+  --maximum-blue-purple: #b8b8ffff;
+  --ghost-white: #f8f7ffff;
+  --antique-white: #ffeeddff;
+  --unbleached-silk: #ffd8beff;
+  --manatee: #a1a6b4ff;
+  --black: #000100ff;
+  --dark-sky-blue: #94c5ccff;
+  --beau-blue: #b4d2e7ff;
+  --cultured: #f8f8f8ff;
+  --bone: #d4cbb3ff;
+  --dim-gray: #6b6d76ff;
+  --tea-green: #d2e0bfff;
+  --smoky-black: #131112ff;
+  --rich-black-fogra-39: #080705ff;
+}
+
+body {
+  font-size: 62.5%;
+  width: 100vw;
+  height: 200vh;
+  font-family: "Montserrat", sans-serif;
+  background-color: var(--light-cyan);
+}
+
+.bodyAbout {
+  height: 200vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container {
+  display: grid;
+}
+
+.flexRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.flexColum {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Variables */
 .pie {
   width: 80vw;
   height: 30vh;
@@ -246,7 +324,8 @@ ul {
   column-gap: 10px;
   row-gap: 10px;
   padding: 5px 10px;
-  color: black;
+  color: var(--maximum-blue-purple);
+  font-family: "Indie Flower", cursive;
 }
 .pie .pie__pDeFooter {
   grid-area: pie__pDeFooter;
@@ -698,6 +777,7 @@ h2 {
   color: var(--slate-blue);
   border: var(--slate-blue) 3px solid;
   border-radius: 5px;
+  font-family: "Indie Flower", cursive;
 }
 .bodyAbout__main .bodyAbout__main__articleUno .bodyAbout__main__articleUno__texto {
   font-size: 1.8rem;
@@ -715,6 +795,7 @@ h2 {
   border: var(--slate-blue) 3px solid;
   border-radius: 5px;
   font-size: 2.5rem;
+  font-family: "Indie Flower", cursive;
 }
 .bodyAbout__main .bodyAbout__main__articleDos .bodyAbout__main__articleDos__texto {
   padding: 10px 15px;
