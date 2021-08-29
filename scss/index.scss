@@ -1,6 +1,9 @@
 
 
+
+
 /* globales */ 
+
 @import "./Partials/globales";
 
 /* partials */
@@ -634,103 +637,257 @@ $colorcajainput:rgb(203, 245, 120);
   
   /*-------------------------------------------------------------------------------*/
 
+  
+/*------------------------------------- medias para celulares  hasta 320 PX ----------------------------------*/
 
-    @media (max-width: 376px) {
 
-     .headerIndex {
-      
-       
+@media (max-width: 320px) {
+
+  .headerIndex {
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+     
+   .headerIndex__navbar{
        display: flex;
        flex-direction: column;
-       height: 120px;
+       width: 100%;
+       height: 100px;
+       justify-content: center;
+       background-color: var(--fire-opal);
+       
+       .headerIndex__navbar__logo{
+           // width: 100px;
+           // height: 60px;
+           // text-align: center;
+           // font-size: 4rem;
+           background-color: var(--medium-turquoise);
+           .headerIndex__navbar__logo--logo_nav{
+               font-family: 'Palette Mosaic', cursive;
+               font-size: 1.5rem;
+               color: var(--maximum-green-yellow);
+               width: 200px;
+               height: 20px;
+               text-align: center;
+               
+
+           }
+       
+       }
+       .headerIndex__navbar__items{
+           margin: 5px 5px;
+           .headerIndex__navbar__items__list{
+               display: inline-block;
+               font-size: 1.5rem;
+               padding: 5px 5px;
+               font-family: 'Indie Flower', cursive;
+               
+               .headerIndex____navbar__items__list--index{
+                   color:var(--maximum-green-yellow)
+               }
+               .headerIndex__navbar__items__list--amigurumi{
+                   color:var(--maximum-green-yellow)
+               }
+               .headerIndex__navbar__items__list--about{
+                   color:var(--maximum-green-yellow)
+               }
+               .headerIndex__navbar__items__list--Contacto{
+                   color:var(--maximum-green-yellow)
+               }
+   
+           }
+           
+       }
+   }
+ }
+ 
+
+
+ .headerIndex__banner{
+   display: none;
+   // background-image: url(../img/carrusel2.jpg);
+   // background-position: bottom;
+   // background-size: cover;
+   // width: 85vw;
+   // height: 1200px;
+   // margin: 0 auto;
+   // margin-top: 15vh;
+   // border-radius: 0 0 15px 15px;
+   // justify-content: space-around;
+   // box-shadow: black 4px 4px 6px;
+       .headerIndex__banner__nombre{
+         display: none;
+           // font-family: 'Palette Mosaic', cursive;
+           // font-size: 3rem;
+           // text-align: center;
+           // margin-top: 50px;
+           // color: var(--fire-opal);
+           // text-shadow: aqua 2px 2px 4px;
+                       
+
+       }
+       .headerIndex__banner__titulo{
+       display: none;
+                
+       }
+      }
+  /*-----------------------------------------------------*/
+
+    
+  .mainIndexUno {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 350vh;
+    gap: 0.5rem;
+    margin: 0px auto;
+    .mainIndexUno__seccionUno {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+     
+      // .mainIndexUno__seccionUno__tituloindex{
+      //   text-align: center;
+      //   font-size: 1.5rem;
+      //   color: black;
+      // }
+      .mainIndexUno__seccionUno__divSeccionUno {
+        display: flex;
+        flex-direction: column;
+        background-color: yellow;
+       
         
-      .headerIndex__navbar{
-          display: flex;
-          flex-direction: column;
+        .mainIndexUno__seccionUno__divSeccionUno__titulo{
+          font-size: 2rem;
+        }
+        .mainIndexUno__seccionUno__divSeccionUno__textoPrimero {
           width: 100%;
-          height: 200px;
-          justify-content: center;
-          
-         
-          
-          .headerIndex__navbar__logo{
-              // width: 100px;
-              // height: 60px;
-              // text-align: center;
-              // font-size: 4rem;
-              .headerIndex__navbar__logo--logo_nav{
-                  font-family: 'Palette Mosaic', cursive;
-                  font-size: 1.5rem;
-                  color: var(--maximum-green-yellow);
-                  width: 200px;
-                  height: 20px;
-                  text-align: center;
-                  
-  
-              }
-          
-          }
-          .headerIndex__navbar__items{
-              margin: 5px 5px;
-              .headerIndex__navbar__items__list{
-                  display: inline-block;
-                  font-size: 1.5rem;
-                  padding: 5px 5px;
-                  font-family: 'Indie Flower', cursive;
-                  
-                  .headerIndex____navbar__items__list--index{
-                      color:var(--maximum-green-yellow)
-                  }
-                  .headerIndex__navbar__items__list--amigurumi{
-                      color:var(--maximum-green-yellow)
-                  }
-                  .headerIndex__navbar__items__list--about{
-                      color:var(--maximum-green-yellow)
-                  }
-                  .headerIndex__navbar__items__list--Contacto{
-                      color:var(--maximum-green-yellow)
-                  }
-      
-              }
-              .headerIndex__navbar__items__list:hover{
-                  color: var(--fire-opal);
-                  border-bottom: var(--maximum-green-yellow) 5px solid;
-                 
-              }
-          }
+          font-size: 1.2rem;
+          text-align: center;
+          color: black;
+          font-family: $fuenteCuerpo; 
+          margin: 0 auto;
+          margin-left: 25px; 
+        }
       }
     }
-    .headerIndex__banner{
-      display: none;
-      // background-image: url(../img/carrusel2.jpg);
-      // background-position: bottom;
-      // background-size: cover;
-      // width: 85vw;
-      // height: 1200px;
-      // margin: 0 auto;
-      // margin-top: 15vh;
-      // border-radius: 0 0 15px 15px;
-      // justify-content: space-around;
-      // box-shadow: black 4px 4px 6px;
-          .headerIndex__banner__nombre{
-            display: none;
-              // font-family: 'Palette Mosaic', cursive;
-              // font-size: 3rem;
-              // text-align: center;
-              // margin-top: 50px;
-              // color: var(--fire-opal);
-              // text-shadow: aqua 2px 2px 4px;
-                          
+    .mainIndexUno__seccionDos {
+      width: 100%;
+      height: 40vh;
+      margin: 0 auto;
+      gap: 1rem;
+      .mainIndexUno__seccionDos__tituloGaleria {
   
+        .mainIndexUno__seccionDos__tituloGaleria__titulo{
+        color: black;
+        font-size: 3rem;
+        font-family: 'Indie Flower', cursive;
+        text-align: center;
+  
+      }
+        
+      }
+      .mainIndexUno__seccionDos__imagenesSeccionDos {
+        gap: 4rem;
+        justify-content: space-around;
+        @each $juguete in nariz supe nena {
+          .img-#{$juguete} {
+            background-image: url(../img/#{$juguete}.jpg);
+            width: 200px;
+          height: 200px;
+          text-align: center;
           }
-          .headerIndex__banner__titulo{
-          display: none;
-              
-              
-              
+        }
+        
           }
-      
-          
-          }
-
+        }
   }
+  
+  
+  .mainIndexDos {
+    
+    width: 85vw;
+    height: 180vh;
+    margin: 0px auto;
+    height: 100vh;
+    justify-content: flex-end;
+    
+    .mainIndexDos__imagenesPorfolio {
+          grid-template-columns: repeat(12, 1fr);
+          grid-template-rows: repeat(8, 1fr);
+          width: 100%;
+          height: 800px;
+          gap: 1rem;
+          margin: 0 auto;
+          padding: 0;
+          .mainIndexDos__imagenesPorfolio__tituloPorfolio {
+            margin-top: 15px;
+            grid-column: 1/13;
+            grid-row: 1/2;
+            .mainIndexDos__imagenesPorfolio__tituloPorfolio--titulo{
+              color: black;
+                text-align: center;
+                font-size: 3rem;
+                font-family: 'Indie Flower', cursive;
+            }
+          }
+          .mainIndexDos__imagenesPorfolio__img{
+  
+            @for $i from 4 through 10{
+              &--#{$i} {
+                background-image:url(../img/porf#{$i}.jpg);
+                background-size: cover;
+                @if $i == 4{
+                  
+                  grid-column: 1/7;
+                  grid-row: 2/5;
+                }
+                @else if $i == 5{
+                  grid-column: 7 / 10;
+                  grid-row: 2/6;
+                  
+                }
+                @else if $i == 6{
+                  grid-column: 10 / 13;
+                  grid-row: 2/5;
+                  
+                }
+                @else if $i == 7{
+                  grid-column: 10 / 13;
+                  grid-row: 5/8;
+                  
+                }
+                @else if $i == 8{
+                  grid-column: 7 / 10;
+                  grid-row: 6/8;
+                  
+                }
+                @else if $i == 9{
+                  grid-column: 4 / 7;
+                  grid-row: 5/8;
+                  
+                }
+                @else if $i == 10{
+                  grid-column: 1 / 4;
+                  grid-row: 5/8;
+                  
+                }
+              }
+                
+  
+            }
+  
+  
+          }  
+  }
+  }
+  
+  
+  .card-group {
+        margin: 0 auto;
+        width: 72vw;
+        height: 450px;
+        gap: 2rem;
+  }
+
+} 
