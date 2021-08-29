@@ -326,10 +326,10 @@ ul {
   padding: 5px 10px;
   color: var(--maximum-blue-purple);
   font-family: "Indie Flower", cursive;
+  font-size: 1.5rem;
 }
 .pie .pie__pDeFooter {
   grid-area: pie__pDeFooter;
-  font-size: 1rem;
   text-align: center;
   align-items: stretch;
   margin-bottom: 15px;
@@ -337,12 +337,10 @@ ul {
 }
 .pie .pie__datos {
   grid-area: pie__datos;
-  font-size: 1rem;
   text-align: start;
 }
 .pie .pie__derechos {
   grid-area: pie__derechos;
-  font-size: 1rem;
   text-align: end;
 }
 .pie .pie__redes {
@@ -532,97 +530,92 @@ ul {
 }
 
 /*  --------------------------pagina de Amigurumi----------------------------------------------------- */
-.cajaAmigurumi__mainForja {
+.cajaAmigurumi__main {
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(9, 54px);
+  grid-template-rows: repeat(9, 1fr);
   width: 1020px;
-  height: 700px;
+  height: 180vh;
   margin: 90px auto;
   gap: 1rem;
 }
-.cajaAmigurumi__mainForja .cajaAmigurumi__mainForja__tituloMainForja {
-  background-color: yellow;
+.cajaAmigurumi__main .cajaAmigurumi__main__tituloMain {
+  color: var(--slate-blue);
+  font-family: "Indie Flower", cursive;
+  font-size: 2.5rem;
   justify-content: center;
   align-items: center;
   grid-column: 1/13;
   grid-row: 1/2;
   display: flex;
 }
-.cajaAmigurumi__mainForja .cajaAmigurumi__mainForja__tituloMainForja p {
+.cajaAmigurumi__main .cajaAmigurumi__main__tituloMain p {
   font-size: 3rem;
   text-align: center;
 }
-.cajaAmigurumi__mainForja .cajaAmigurumi__mainForja__tituloMainForja h2 {
+.cajaAmigurumi__main .cajaAmigurumi__main__tituloMain h2 {
   font-size: 2rem;
   color: var(--manatee);
 }
-.cajaAmigurumi__mainForja .cajaAmigurumi__mainForja__materiales1 {
+.cajaAmigurumi__main .cajaAmigurumi__main__materiales1 {
   grid-column: 1/5;
   grid-row: 2/4;
-  height: 130px;
-  width: 350px;
   max-width: 100%;
   background-image: url(../img/amigurumi1.jpg);
   background-size: cover;
   background-position: center;
 }
-.cajaAmigurumi__mainForja .cajaAmigurumi__mainForja__materiales2 {
-  font-size: 1.1rem;
-  text-align: center;
-  background-color: whitesmoke;
+.cajaAmigurumi__main .cajaAmigurumi__main__materiales2 {
+  font-size: 1.4rem;
+  font-family: "Indie Flower", cursive;
+  justify-self: stretch;
+  align-self: center;
   grid-column: 6/13;
   grid-row: 2/4;
 }
-.cajaAmigurumi__mainForja .cajaAmigurumi__mainForja__materiales3 {
-  font-size: 1.1rem;
-  text-align: center;
-  background-color: whitesmoke;
+.cajaAmigurumi__main .cajaAmigurumi__main__materiales3 {
+  font-size: 1.4rem;
+  font-family: "Indie Flower", cursive;
+  justify-self: stretch;
+  align-self: center;
   grid-column: 1/8;
   grid-row: 4/6;
 }
-.cajaAmigurumi__mainForja .cajaAmigurumi__mainForja__materiales4 {
+.cajaAmigurumi__main .cajaAmigurumi__main__materiales4 {
   background-image: url(../img/amigurumi2.jpg);
   background-size: cover;
   background-position: center;
   grid-column: 9/13;
   grid-row: 4/6;
 }
-.cajaAmigurumi__mainForja .cajaAmigurumi__mainForja__materiales5 {
+.cajaAmigurumi__main .cajaAmigurumi__main__materiales5 {
   background-image: url(../img/amigurumi3.jpg);
   background-size: cover;
   background-position: bottom;
   grid-column: 1/5;
   grid-row: 6/8;
 }
-.cajaAmigurumi__mainForja .cajaAmigurumi__mainForja__materiales6 {
-  font-size: 1.1rem;
-  text-align: center;
-  background-color: whitesmoke;
+.cajaAmigurumi__main .cajaAmigurumi__main__materiales6 {
+  font-size: 1.4rem;
+  font-family: "Indie Flower", cursive;
+  justify-self: stretch;
+  align-self: center;
   grid-column: 6/13;
   grid-row: 6/8;
 }
-.cajaAmigurumi__mainForja .cajaAmigurumi__mainForja__materiales7 {
-  font-size: 1.1rem;
-  text-align: center;
-  background-color: whitesmoke;
+.cajaAmigurumi__main .cajaAmigurumi__main__materiales7 {
+  font-size: 1.4rem;
+  font-family: "Indie Flower", cursive;
+  justify-self: stretch;
+  align-self: center;
   grid-column: 1/8;
   grid-row: 8/10;
 }
-.cajaAmigurumi__mainForja .cajaAmigurumi__mainForja__materiales8 {
+.cajaAmigurumi__main .cajaAmigurumi__main__materiales8 {
   background-image: url(../img/amigurumi5.jpg);
   background-size: cover;
   background-position: center;
   grid-column: 9/13;
   grid-row: 8/10;
-}
-
-.headerForja {
-  width: 1024px;
-  height: 55vh;
-  margin: 0 auto;
-  background-image: url(/imagenes/carbonEncendidas.jpg);
-  background-size: cover;
-  background-position: center;
 }
 
 /* -------------------------------------------pagina Contacto------------------------------------------*/

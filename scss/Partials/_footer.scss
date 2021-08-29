@@ -24,11 +24,12 @@ $fuenteFooter :'Indie Flower', cursive;
     padding: 5px 10px;
     color:$colorFuenteFooter;
     font-family: $fuenteFooter;
+    font-size: 1.5rem;
     
     
     .pie__pDeFooter {
       grid-area: pie__pDeFooter;
-      font-size: 1rem;
+      
       text-align: center;
       align-items: stretch;
       margin-bottom: 15px;
@@ -36,12 +37,12 @@ $fuenteFooter :'Indie Flower', cursive;
     }
     .pie__datos {
       grid-area: pie__datos;
-      font-size: 1rem;
+      
       text-align: start;
     }
     .pie__derechos {
       grid-area: pie__derechos;
-      font-size: 1rem;
+      
       text-align: end;
     }
     .pie__redes {
@@ -95,24 +96,5 @@ $fuenteFooter :'Indie Flower', cursive;
                 color: white;
               }
             }
-     
-
-    //       .pie__redes__item__link--tw {
-    //         background-color: rgba(98, 198, 216, 0.925);
-    //         color: white;
-    //       }
-    //       .pie__redes__item__link--inst:hover {
-    //         background: linear-gradient(
-    //           45deg,
-    //           #ed601e 6%,
-    //           #f71348 31%,
-    //           #e50d8b 52%,
-    //           #f202d2 67%,
-    //           #cd02e0 84%,
-    //           #dd09f4 100%
-    //     );
-    //         color: white;
-    //   }
-    // }
-  }
+}   
 }

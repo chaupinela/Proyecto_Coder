@@ -11,6 +11,7 @@ $tamanioFuenteCuerpo: 1.8rem;
 $tamanioTitulo:2.5rem;
 $colorTextoAbout: var(--fire-opal);
 $colorTituloAbout: var(--slate-blue);
+$fuenteTamanioGrid:1.4rem;
 /*Header index*/
 
 /* ------------------------------main del index --------------------------------------------------------- */
@@ -167,86 +168,6 @@ $colorTituloAbout: var(--slate-blue);
       gap: 2rem;
 }
 
-// .pie {
-      
-//       width: 1024px;
-//       height: 55vh;
-//       grid-area: pie;
-//       margin: 0 auto;
-//       text-decoration: none;
-//       display: inline-block;
-//       display: grid;
-//       grid-template-areas:
-//         "pie__pDeFooter pie__pDeFooter "
-//         "pie__datos pie__derechos"
-//         "pie__redes  pie__redes ";
-//       grid-template-columns: 1fr 1fr;
-//       grid-template-rows: 1fr 1fr 1fr;
-//       align-content: center;
-//       justify-content: space-around;
-//       column-gap: 10px;
-//       row-gap: 10px;
-//       padding: 5px 10px;
-//       color: var(--manatee);
-//       margin-top: 25px;
-//       .pie__pDeFooter {
-//         grid-area: pie__pDeFooter;
-//         font-size: 2rem;
-//         text-align: center;
-//         border-bottom: 6px var(--manatee) solid;
-//         margin-bottom: 15px;
-//         padding-bottom: 15px;
-//       }
-//       .pie__datos {
-//         grid-area: pie__datos;
-//         font-size: 2rem;
-//         text-align: start;
-//       }
-//       .pie__derechos {
-//         grid-area: pie__derechos;
-//         font-size: 2rem;
-//         text-align: end;
-//       }
-//       .pie__redes {
-//         grid-area: pie__redes;
-//         display: flex;
-//         flex-direction: row;
-//         justify-content: space-around;
-//         width: 100%;
-//         transition: 1s;
-//         .pie__redes__item {
-//           font-size: 1.5rem;
-//           list-style: none;
-//           .pie__redes__item__link {
-//             list-style: none;
-//             text-decoration: none;
-//             font-size: 2rem;
-//             color: var(--manatee);
-//             border-radius: 5px;
-//             #redes__face:hover {
-//               background-color: rgba(50, 50, 230, 0.904);
-//               color: white;
-//             }
-//             #redes__twiter:hover {
-//               background-color: rgba(98, 198, 216, 0.925);
-//               color: white;
-//             }
-//             #redes__instagram:hover {
-//               background: linear-gradient(
-//                 45deg,
-//                 #ed601e 6%,
-//                 #f71348 31%,
-//                 #e50d8b 52%,
-//                 #f202d2 67%,
-//                 #cd02e0 84%,
-//                 #dd09f4 100%
-//           );
-//               color: white;
-//         }
-//       }
-//     }
-//   }
-// }
 
 
 
@@ -255,17 +176,18 @@ $colorTituloAbout: var(--slate-blue);
 
 
 
-.cajaAmigurumi__mainForja{
+.cajaAmigurumi__main{
 
-    
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(9, 54px);
+    grid-template-rows: repeat(9, 1fr);
     width: 1020px;
-    height: 700px;
+    height: 180vh;
     margin: 90px auto;
     gap: 1rem;
-    .cajaAmigurumi__mainForja__tituloMainForja{
-      background-color:yellow;
+    .cajaAmigurumi__main__tituloMain{
+      color:$colorTituloAbout;
+      font-family: $fuenteCuerpo;
+      font-size: $tamanioTitulo;
       justify-content: center;
       align-items: center;
       grid-column: 1/13;
@@ -281,11 +203,10 @@ $colorTituloAbout: var(--slate-blue);
         }
     }
 
-    .cajaAmigurumi__mainForja__materiales1 {
+    .cajaAmigurumi__main__materiales1 {
       grid-column: 1/5;
       grid-row: 2/4;
-      height: 130px;
-      width: 350px;
+    
       max-width: 100%;
       // background-color: yellow;
       background-image:url(../img/amigurumi1.jpg);
@@ -293,51 +214,53 @@ $colorTituloAbout: var(--slate-blue);
       background-position: center;
       
     }
-    .cajaAmigurumi__mainForja__materiales2 {
-      font-size: 1.1rem;
-      text-align: center;
-      background-color: whitesmoke;
+    .cajaAmigurumi__main__materiales2 {
+      font-size: $fuenteTamanioGrid;
+      font-family: $fuenteCuerpo;
+      justify-self: stretch;
+      align-self: center;
       grid-column: 6/13;
       grid-row: 2/4;
     }
-    .cajaAmigurumi__mainForja__materiales3 {
-      font-size: 1.1rem;
-      text-align: center;
-      background-color: whitesmoke;
+    .cajaAmigurumi__main__materiales3 {
+      font-size: $fuenteTamanioGrid;
+      font-family: $fuenteCuerpo;
+      justify-self: stretch;
+      align-self: center;
       grid-column: 1/8;
       grid-row: 4/6;
     }
-    .cajaAmigurumi__mainForja__materiales4 {
+    .cajaAmigurumi__main__materiales4 {
       background-image:url(../img/amigurumi2.jpg);
       background-size: cover;
       background-position: center;
-      
       grid-column: 9/13;
       grid-row: 4/6;
     }
-    .cajaAmigurumi__mainForja__materiales5 {
+    .cajaAmigurumi__main__materiales5 {
       background-image:url(../img/amigurumi3.jpg);
       background-size: cover;
       background-position: bottom;
-      
       grid-column: 1/5;
       grid-row: 6/8;
     }
-    .cajaAmigurumi__mainForja__materiales6 {
-      font-size: 1.1rem;
-      text-align: center;
-      background-color: whitesmoke;
+    .cajaAmigurumi__main__materiales6 {
+      font-size: $fuenteTamanioGrid;
+      font-family: $fuenteCuerpo;
+      justify-self: stretch;
+      align-self: center;
       grid-column: 6/13;
       grid-row: 6/8;
     }
-    .cajaAmigurumi__mainForja__materiales7 {
-      font-size: 1.1rem;
-      text-align: center;
-      background-color: whitesmoke;
+    .cajaAmigurumi__main__materiales7 {
+      font-size: $fuenteTamanioGrid;
+      font-family: $fuenteCuerpo;
+      justify-self: stretch;
+      align-self: center;
       grid-column: 1/8;
       grid-row: 8/10;
     }
-    .cajaAmigurumi__mainForja__materiales8 {
+    .cajaAmigurumi__main__materiales8 {
       background-image: url(../img/amigurumi5.jpg);
       background-size: cover;
       background-position: center;
@@ -349,38 +272,6 @@ $colorTituloAbout: var(--slate-blue);
   }
 
 
-.headerForja {
-    width: 1024px;
-    height: 55vh;
-    margin: 0 auto;
-    background-image: url(/imagenes/carbonEncendidas.jpg);
-    background-size: cover;
-    background-position: center;
-  }
-  // .mainForja {
-  //   background-color: var(--smoky-black);
-  //   grid-template-columns: repeat(12, 1fr);
-  //   grid-template-rows: repeat(9, 54px);
-  //   width: 1024px;
-  //   height: 700px;
-  //   gap: 1rem;
-  //   margin: 0 auto;
-  // }
-
-  
-  // .cajaAmigurumi__mainForja__tituloMainForja {
-  //   background-color: var(--smoky-black);
-  //   justify-content: center;
-  //   align-items: center;
-  //   grid-column: 1/13;
-  //   grid-row: 1/2;
-  //   display: flex;
-  // }
- 
-  // .mainForja p {
-  //   font-size: 1.2rem;
-  //   text-align: center;
-  // }
 
   /* -------------------------------------------pagina Contacto------------------------------------------*/
 
