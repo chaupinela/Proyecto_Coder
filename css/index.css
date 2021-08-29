@@ -6,6 +6,11 @@
 }
 
 :root {
+  --medium-turquoise: #4ecdc4ff;
+  --mint-cream: #f7fff7ff;
+  --skobeloff: #00635dff;
+  --slate-blue: #744fc6ff;
+  --bittersweet: #ff6b6bff;
   --orange-yellow-crayola: #fed766ff;
   --fire-opal: #e86252ff;
   --russian-green: #659157ff;
@@ -43,6 +48,10 @@ body {
   height: 3048px;
   font-family: "Montserrat", sans-serif;
   background-color: var(--light-cyan);
+}
+
+.bodyAbout {
+  height: 200vh;
 }
 
 a {
@@ -76,6 +85,11 @@ ul {
 }
 
 :root {
+  --medium-turquoise: #4ecdc4ff;
+  --mint-cream: #f7fff7ff;
+  --skobeloff: #00635dff;
+  --slate-blue: #744fc6ff;
+  --bittersweet: #ff6b6bff;
   --orange-yellow-crayola: #fed766ff;
   --fire-opal: #e86252ff;
   --russian-green: #659157ff;
@@ -113,6 +127,10 @@ body {
   height: 3048px;
   font-family: "Montserrat", sans-serif;
   background-color: var(--light-cyan);
+}
+
+.bodyAbout {
+  height: 200vh;
 }
 
 a {
@@ -669,104 +687,102 @@ h2 {
 }
 
 /* --------------------------------------- pagina About ------------------------------------------------- */
-.bodyAbout {
-  height: 280vh;
-  align-content: center;
-  align-items: center;
-}
-.bodyAbout .bodyAbout__main {
-  align-content: center;
-  align-items: center;
+.bodyAbout__main {
+  align-content: flex-end;
+  align-items: flex-end;
   width: 1024px;
-  height: 1000px;
   margin: 45px auto;
 }
-.bodyAbout .bodyAbout__main .bodyAbout__main__articleUno .bodyAbout__main__articleUno__titulo {
-  font-size: 2rem;
-  color: yellow;
+.bodyAbout__main .bodyAbout__main__articleUno .bodyAbout__main__articleUno__titulo {
+  font-size: 2.5rem;
+  color: var(--slate-blue);
+  border: var(--slate-blue) 3px solid;
+  border-radius: 5px;
 }
-.bodyAbout .bodyAbout__main .bodyAbout__main__articleUno .bodyAbout__main__articleUno__texto {
-  font-size: 1.2rem;
+.bodyAbout__main .bodyAbout__main__articleUno .bodyAbout__main__articleUno__texto {
+  font-size: 1.8rem;
   padding: 10px 15px;
-  color: var(--manatee);
+  color: var(--fire-opal);
+  font-family: "Indie Flower", cursive;
 }
-.bodyAbout .bodyAbout__main .bodyAbout__main__articleDos {
+.bodyAbout__main .bodyAbout__main__articleDos {
   /*grid*/
   gap: 0.5rem;
-  height: 150vh;
   margin: 10px auto;
 }
-.bodyAbout .bodyAbout__main .bodyAbout__main__articleDos .bodyAbout__main__articleDos__titulo {
-  color: yellow;
-  font-size: 2rem;
+.bodyAbout__main .bodyAbout__main__articleDos .bodyAbout__main__articleDos__titulo {
+  color: var(--slate-blue);
+  border: var(--slate-blue) 3px solid;
+  border-radius: 5px;
+  font-size: 2.5rem;
 }
-.bodyAbout .bodyAbout__main .bodyAbout__main__articleDos .bodyAbout__main__articleDos__texto {
+.bodyAbout__main .bodyAbout__main__articleDos .bodyAbout__main__articleDos__texto {
   padding: 10px 15px;
-  font-size: 1rem;
-  color: var(--manatee);
+  font-size: 1.8rem;
+  font-family: "Indie Flower", cursive;
+  color: var(--fire-opal);
   text-align: justify;
 }
-.bodyAbout .bodyAbout__main .bodyAbout__main__articleDos .bodyAbout__main__articleDos__imagenes {
+.bodyAbout__main .bodyAbout__main__articleDos .bodyAbout__main__articleDos__imagenes {
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  height: 80vh;
   gap: 1rem;
 }
-.bodyAbout .bodyAbout__main .bodyAbout__main__articleDos .bodyAbout__main__articleDos__imagenes .bodyAbout__main__articleDos__imagenes__imagen1 {
+.bodyAbout__main .bodyAbout__main__articleDos .bodyAbout__main__articleDos__imagenes .bodyAbout__main__articleDos__imagenes__imagen1 {
   grid-column: 1/2;
   grid-row: 1/2;
   width: 200px;
   height: 200px;
-  background-color: yellow;
+  background-image: url(../img/bandidos1.jpg);
 }
-.bodyAbout .bodyAbout__main .bodyAbout__main__articleDos .bodyAbout__main__articleDos__imagenes .bodyAbout__main__articleDos__imagenes__imagen2 {
+.bodyAbout__main .bodyAbout__main__articleDos .bodyAbout__main__articleDos__imagenes .bodyAbout__main__articleDos__imagenes__imagen2 {
   grid-column: 2/3;
   grid-row: 1/2;
   width: 200px;
   height: 200px;
-  background-color: yellow;
+  background-image: url(../img/bandidos1.jpg);
 }
-.bodyAbout .bodyAbout__main .bodyAbout__main__articleDos .bodyAbout__main__articleDos__imagenes .bodyAbout__main__articleDos__imagenes__imagen3 {
+.bodyAbout__main .bodyAbout__main__articleDos .bodyAbout__main__articleDos__imagenes .bodyAbout__main__articleDos__imagenes__imagen3 {
   grid-column: 3/4;
   grid-row: 1/2;
   width: 200px;
   height: 200px;
-  background-color: yellow;
+  background-image: url(../img/bandidos1.jpg);
 }
-.bodyAbout .bodyAbout__main .bodyAbout__main__articleDos .bodyAbout__main__articleDos__imagenes .bodyAbout__main__articleDos__imagenes__imagen4 {
+.bodyAbout__main .bodyAbout__main__articleDos .bodyAbout__main__articleDos__imagenes .bodyAbout__main__articleDos__imagenes__imagen4 {
   grid-column: 4/5;
   grid-row: 1/2;
   width: 200px;
   height: 200px;
-  background-color: yellow;
+  background-image: url(../img/bandidos1.jpg);
 }
-.bodyAbout .bodyAbout__main .bodyAbout__main__articleDos .bodyAbout__main__articleDos__imagenes .bodyAbout__main__articleDos__imagenes__imagen5 {
+.bodyAbout__main .bodyAbout__main__articleDos .bodyAbout__main__articleDos__imagenes .bodyAbout__main__articleDos__imagenes__imagen5 {
   grid-column: 1/2;
   grid-row: 2/3;
   width: 200px;
   height: 200px;
-  background-color: yellow;
+  background-image: url(../img/bandidos1.jpg);
 }
-.bodyAbout .bodyAbout__main .bodyAbout__main__articleDos .bodyAbout__main__articleDos__imagenes .bodyAbout__main__articleDos__imagenes__imagen6 {
+.bodyAbout__main .bodyAbout__main__articleDos .bodyAbout__main__articleDos__imagenes .bodyAbout__main__articleDos__imagenes__imagen6 {
   grid-column: 2/3;
   grid-row: 2/3;
   width: 200px;
   height: 200px;
-  background-color: yellow;
+  background-image: url(../img/bandidos1.jpg);
 }
-.bodyAbout .bodyAbout__main .bodyAbout__main__articleDos .bodyAbout__main__articleDos__imagenes .bodyAbout__main__articleDos__imagenes__imagen7 {
+.bodyAbout__main .bodyAbout__main__articleDos .bodyAbout__main__articleDos__imagenes .bodyAbout__main__articleDos__imagenes__imagen7 {
   grid-column: 3/4;
   grid-row: 2/3;
   width: 200px;
   height: 200px;
-  background-color: yellow;
+  background-image: url(../img/bandidos1.jpg);
 }
-.bodyAbout .bodyAbout__main .bodyAbout__main__articleDos .bodyAbout__main__articleDos__imagenes .bodyAbout__main__articleDos__imagenes__imagen8 {
+.bodyAbout__main .bodyAbout__main__articleDos .bodyAbout__main__articleDos__imagenes .bodyAbout__main__articleDos__imagenes__imagen8 {
   grid-column: 4/5;
   grid-row: 2/3;
   width: 200px;
   height: 200px;
-  background-color: yellow;
+  background-image: url(../img/bandidos1.jpg);
 }
 
 /*# sourceMappingURL=index.css.map */

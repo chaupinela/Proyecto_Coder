@@ -5,6 +5,11 @@
 
   }
   :root {
+    --medium-turquoise: #4ecdc4ff;
+    --mint-cream: #f7fff7ff;
+    --skobeloff: #00635dff;
+    --slate-blue: #744fc6ff;
+    --bittersweet: #ff6b6bff;
     --orange-yellow-crayola: #fed766ff;
     --fire-opal: #e86252ff;
     --russian-green: #659157ff;
@@ -41,6 +46,9 @@
     height: 3048px;
     font-family: "Montserrat", sans-serif;
     background-color:var(--light-cyan);
+  }
+  .bodyAbout{
+    height: 200vh;
   }
   
   

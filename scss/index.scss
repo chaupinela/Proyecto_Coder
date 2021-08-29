@@ -6,7 +6,11 @@
 @import "./Partials/header";
 @import "./Partials/footer";
 
-
+$fuenteCuerpo :'Indie Flower', cursive;
+$tamanioFuenteCuerpo: 1.8rem;
+$tamanioTitulo:2.5rem;
+$colorTextoAbout: var(--fire-opal);
+$colorTituloAbout: var(--slate-blue);
 /*Header index*/
 
 /* ------------------------------main del index --------------------------------------------------------- */
@@ -540,26 +544,26 @@ font-size: 2rem;
   
   /* --------------------------------------- pagina About ------------------------------------------------- */
 
-  .bodyAbout {
-    
-    height: 280vh;
-    align-content: center;
-    align-items: center;
-    .bodyAbout__main {
-      align-content: center;
-      align-items: center;
+      
+  .bodyAbout__main {
+      align-content:flex-end;
+      align-items: flex-end;
       width: 1024px;
-      height: 1000px;
+      
       margin: 45px auto;
       .bodyAbout__main__articleUno {
         .bodyAbout__main__articleUno__titulo {
-          font-size: 2rem;
-          color: yellow;
+          font-size: $tamanioTitulo; 
+          color:$colorTituloAbout;
+          border: $colorTituloAbout 3px solid;
+          border-radius: 5px;
+          
         }
         .bodyAbout__main__articleUno__texto {
-          font-size: 1.2rem;
+          font-size: $tamanioFuenteCuerpo;
           padding: 10px 15px;
-          color: var(--manatee);
+          color: var(--fire-opal);
+          font-family: $fuenteCuerpo ;
         }
       }
 
@@ -567,33 +571,36 @@ font-size: 2rem;
         /*grid*/
 
         gap: 0.5rem;
-        height: 150vh;
+        // height: 150vh;
         margin: 10px auto;
 
         .bodyAbout__main__articleDos__titulo {
-          color: yellow;
-          font-size: 2rem;
+          color:$colorTituloAbout;
+          border: $colorTituloAbout 3px solid;
+          border-radius: 5px;
+          font-size: $tamanioTitulo; 
         }
         .bodyAbout__main__articleDos__texto {
           padding: 10px 15px;
-          font-size: 1rem;
-          color: var(--manatee);
+          font-size: $tamanioFuenteCuerpo;
+          font-family: $fuenteCuerpo;
+          color:$colorTextoAbout;
           text-align: justify;
         }
         .bodyAbout__main__articleDos__imagenes {
           grid-template-columns: repeat(4, 1fr);
           grid-template-rows: repeat(2, 1fr);
-          height: 80vh;
+          // height: 80vh;
           gap: 1rem;
-          $caja: amarillo;
+          $caja: bandidos1;
           .bodyAbout__main__articleDos__imagenes__imagen1 {
             grid-column: 1/2;
             grid-row: 1/2;
             width: 200px;
             height: 200px;
 
-            @if ($caja==amarillo) {
-              background-color: yellow;
+            @if ($caja==bandidos1) {
+              background-image: url(../img/bandidos1.jpg);
             } @else {
               background-color: gray;
             }
@@ -603,8 +610,8 @@ font-size: 2rem;
             grid-row: 1/2;
             width: 200px;
             height: 200px;
-            @if ($caja==amarillo) {
-              background-color: yellow;
+            @if ($caja==bandidos1) {
+              background-image: url(../img/bandidos1.jpg);
             } @else {
               background-color: gray;
             }
@@ -614,8 +621,8 @@ font-size: 2rem;
             grid-row: 1/2;
             width: 200px;
             height: 200px;
-            @if ($caja==amarillo) {
-              background-color: yellow;
+            @if ($caja==bandidos1) {
+              background-image: url(../img/bandidos1.jpg);
             } @else {
               background-color: gray;
             }
@@ -625,8 +632,8 @@ font-size: 2rem;
             grid-row: 1/2;
             width: 200px;
             height: 200px;
-            @if ($caja==amarillo) {
-              background-color: yellow;
+            @if ($caja==bandidos1) {
+              background-image: url(../img/bandidos1.jpg);
             } @else {
               background-color: gray;
             }
@@ -636,8 +643,8 @@ font-size: 2rem;
             grid-row: 2/3;
             width: 200px;
             height: 200px;
-            @if ($caja==amarillo) {
-              background-color: yellow;
+            @if ($caja==bandidos1) {
+              background-image: url(../img/bandidos1.jpg);
             } @else {
               background-color: gray;
             }
@@ -647,8 +654,8 @@ font-size: 2rem;
             grid-row: 2/3;
             width: 200px;
             height: 200px;
-            @if ($caja==amarillo) {
-              background-color: yellow;
+            @if ($caja==bandidos1) {
+              background-image: url(../img/bandidos1.jpg);
             } @else {
               background-color: gray;
             }
@@ -658,8 +665,8 @@ font-size: 2rem;
             grid-row: 2/3;
             width: 200px;
             height: 200px;
-            @if ($caja==amarillo) {
-              background-color: yellow;
+            @if ($caja==bandidos1) {
+              background-image: url(../img/bandidos1.jpg);
             } @else {
               background-color: gray;
             }
@@ -669,8 +676,8 @@ font-size: 2rem;
             grid-row: 2/3;
             width: 200px;
             height: 200px;
-            @if ($caja==amarillo) {
-              background-color: yellow;
+            @if ($caja==bandidos1) {
+              background-image: url(../img/bandidos1.jpg);
             } @else {
               background-color: gray;
             }
@@ -678,76 +685,5 @@ font-size: 2rem;
         }
       }
     }
-  }
-  // .bodyAbout__pie {
-  //   width: 1024px;
-  //   height: 400px;
-  //   grid-area: pie;
-  //   grid-template-areas:
-  //     "pie__pDeFooter pie__pDeFooter "
-  //     "pie__datos pie__derechos"
-  //     "pie__redes  pie__redes ";
-  //   grid-template-columns: 1fr 1fr;
-  //   grid-template-rows: 1fr 1fr 1fr;
-  //   column-gap: 10px;
-  //   row-gap: 10px;
-  //   color: var(--manatee);
-  //   .bodyAbout__pie__pDeFooter {
-  //     grid-area: pie__pDeFooter;
-  //     font-size: 2rem;
-  //     text-align: center;
-  //     border-bottom: 6px var(--manatee) solid;
-  //     margin-bottom: 15px;
-  //     padding-bottom: 15px;
-  //   }
-  //   .bodyAbout__pie__datos {
-  //     grid-area: pie__datos;
-  //     font-size: 2rem;
-  //     text-align: start;
-  //   }
-  //   .bodyAbout__pie__derechos {
-  //     grid-area: pie__derechos;
-  //     font-size: 2rem;
-  //     text-align: end;
-  //   }
-  //   .bodyAbout__pie__redes {
-  //     grid-area: pie__redes;
-  //     display: flex;
-  //     flex-direction: row;
-  //     justify-content: space-around;
-  //     width: 100%;
-  //     transition: 1s;
-  //     .bodyAbout__pie__redes__item {
-  //       font-size: 1.5rem;
-  //       list-style: none;
-  //       .bodyAbout__pie_redes__item__link {
-  //         list-style: none;
-  //         text-decoration: none;
-  //         font-size: 2rem;
-  //         color: var(--manatee);
-  //         border-radius: 5px;
-  //         #redes__face:hover {
-  //           background-color: rgba(50, 50, 230, 0.904);
-  //           color: white;
-  //         }
-  //         #redes__twiter:hover {
-  //           background-color: rgba(98, 198, 216, 0.925);
-  //           color: white;
-  //         }
-  //         #redes__instagram:hover {
-  //           background: linear-gradient(
-  //             45deg,
-  //             #ed601e 6%,
-  //             #f71348 31%,
-  //             #e50d8b 52%,
-  //             #f202d2 67%,
-  //             #cd02e0 84%,
-  //             #dd09f4 100%
-  //           );
-  //           color: white;
-  //         }
-  //       }
-  //     }
-  //   }
-  // }
-
+  
+  
