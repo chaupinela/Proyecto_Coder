@@ -38,7 +38,18 @@
                 font-size: 2rem;
                 padding: 5px 25px;
                 font-family: 'Indie Flower', cursive;
-                color: black;
+                .headerIndex____navbar__items__list--index{
+                    color:var(--maximum-green-yellow)
+                }
+                .headerIndex__navbar__items__list--amigurumi{
+                    color:var(--maximum-green-yellow)
+                }
+                .headerIndex__navbar__items__list--about{
+                    color:var(--maximum-green-yellow)
+                }
+                .headerIndex__navbar__items__list--Contacto{
+                    color:var(--maximum-green-yellow)
+                }
     
             }
             .headerIndex__navbar__items__list:hover{
@@ -65,7 +76,7 @@
             font-size: 3rem;
             text-align: center;
             margin-top: 50px;
-            color: var(--magic-mint);
+            color: var(--fire-opal);
             text-shadow: aqua 2px 2px 4px;
                         
 
@@ -74,7 +85,7 @@
             width: 100%;
             font-family: 'Palette Mosaic', cursive;
             font-size: 4rem;
-            color: var(--magic-mint);
+            color: var(--fire-opal);
             text-shadow: aqua 2px 2px 4px;
             align-items: center;
             align-content: center;

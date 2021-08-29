@@ -191,7 +191,18 @@ ul {
   font-size: 2rem;
   padding: 5px 25px;
   font-family: "Indie Flower", cursive;
-  color: black;
+}
+.headerIndex .headerIndex__navbar .headerIndex__navbar__items .headerIndex__navbar__items__list .headerIndex____navbar__items__list--index {
+  color: var(--maximum-green-yellow);
+}
+.headerIndex .headerIndex__navbar .headerIndex__navbar__items .headerIndex__navbar__items__list .headerIndex__navbar__items__list--amigurumi {
+  color: var(--maximum-green-yellow);
+}
+.headerIndex .headerIndex__navbar .headerIndex__navbar__items .headerIndex__navbar__items__list .headerIndex__navbar__items__list--about {
+  color: var(--maximum-green-yellow);
+}
+.headerIndex .headerIndex__navbar .headerIndex__navbar__items .headerIndex__navbar__items__list .headerIndex__navbar__items__list--Contacto {
+  color: var(--maximum-green-yellow);
 }
 .headerIndex .headerIndex__navbar .headerIndex__navbar__items .headerIndex__navbar__items__list:hover {
   color: var(--fire-opal);
@@ -214,14 +225,14 @@ ul {
   font-size: 3rem;
   text-align: center;
   margin-top: 50px;
-  color: var(--magic-mint);
+  color: var(--fire-opal);
   text-shadow: aqua 2px 2px 4px;
 }
 .headerIndex .headerIndex__banner .headerIndex__banner__titulo {
   width: 100%;
   font-family: "Palette Mosaic", cursive;
   font-size: 4rem;
-  color: var(--magic-mint);
+  color: var(--fire-opal);
   text-shadow: aqua 2px 2px 4px;
   align-items: center;
   align-content: center;
@@ -619,14 +630,19 @@ ul {
 }
 
 /* -------------------------------------------pagina Contacto------------------------------------------*/
-h2 {
-  color: var(--manatee);
-  font-size: 3rem;
-  text-align: center;
+.mainContacto {
+  font-family: "Indie Flower", cursive;
 }
-
+.mainContacto .mainContacto__cajaMainContacto {
+  text-align: center;
+  justify-content: center;
+  align-self: center;
+  margin-top: 50px;
+  height: 120vh;
+}
 .mainContacto .mainContacto__cajaMainContacto .mainContacto__cajaMainContacto__tituloContacto {
-  font-size: 2rem;
+  font-size: 2.5rem;
+  color: var(--slate-blue);
 }
 .mainContacto .mainContacto__cajaMainContacto .mainContacto__cajaMainContacto__tituloDatosPersonales {
   color: var(--manatee);
@@ -635,16 +651,17 @@ h2 {
   margin-top: 3vh;
 }
 .mainContacto .mainContacto__cajaMainContacto .mainContacto__cajaMainContacto__cajaFormulario {
-  background-color: var(--smoky-black);
-  /* background-color:var(--smoky-black); */
+  justify-items: stretch;
+  align-items: stretch;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(9, 54px);
+  grid-template-rows: repeat(9, 1fr);
   width: 1024px;
   height: 80vh;
   gap: 1rem;
   margin: 0 auto;
 }
 .mainContacto .mainContacto__cajaMainContacto .mainContacto__cajaMainContacto__cajaFormulario #inpNombre {
+  background-color: #cbf578;
   height: 35px;
   width: 250px;
   grid-column: 2/4;
@@ -654,6 +671,7 @@ h2 {
   border-radius: 5px;
 }
 .mainContacto .mainContacto__cajaMainContacto .mainContacto__cajaMainContacto__cajaFormulario #inpApellido {
+  background-color: #cbf578;
   height: 35px;
   width: 250px;
   grid-column: 2/4;
@@ -663,6 +681,7 @@ h2 {
   border-radius: 5px;
 }
 .mainContacto .mainContacto__cajaMainContacto .mainContacto__cajaMainContacto__cajaFormulario #inpCorreo {
+  background-color: #cbf578;
   height: 35px;
   grid-column: 2/6;
   grid-row: 4/5;
@@ -672,6 +691,7 @@ h2 {
   width: 500px;
 }
 .mainContacto .mainContacto__cajaMainContacto .mainContacto__cajaMainContacto__cajaFormulario #recibir {
+  background-color: #cbf578;
   grid-column: 2/4;
   grid-row: 5/6;
   font-size: 1.5rem;
@@ -679,19 +699,22 @@ h2 {
   color: var(--manatee);
 }
 .mainContacto .mainContacto__cajaMainContacto .mainContacto__cajaMainContacto__cajaFormulario #meInteresa {
+  background-color: #cbf578;
   grid-column: 4/8;
   grid-row: 5/6;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   border: none;
   color: var(--manatee);
 }
 .mainContacto .mainContacto__cajaMainContacto .mainContacto__cajaMainContacto__cajaFormulario #clickSi {
+  background-color: #cbf578;
   grid-column: 6;
   grid-row: 6;
   width: 25px;
   height: 25px;
 }
 .mainContacto .mainContacto__cajaMainContacto .mainContacto__cajaMainContacto__cajaFormulario #noInteresa {
+  background-color: #cbf578;
   grid-column: 9/11;
   grid-row: 5/6;
   font-size: 1.5rem;
@@ -699,12 +722,14 @@ h2 {
   color: var(--manatee);
 }
 .mainContacto .mainContacto__cajaMainContacto .mainContacto__cajaMainContacto__cajaFormulario #clickNo {
+  background-color: #cbf578;
   grid-column: 10;
   grid-row: 6;
   width: 25px;
   height: 25px;
 }
 .mainContacto .mainContacto__cajaMainContacto .mainContacto__cajaMainContacto__cajaFormulario #ciudad {
+  background-color: #cbf578;
   grid-column: 9/11;
   grid-row: 1/2;
   font-size: 1.5rem;
@@ -712,6 +737,7 @@ h2 {
   color: var(--manatee);
 }
 .mainContacto .mainContacto__cajaMainContacto .mainContacto__cajaMainContacto__cajaFormulario #ciudadesList {
+  background-color: #cbf578;
   height: 35px;
   width: 130px;
   border: none;
@@ -723,6 +749,7 @@ h2 {
   border-radius: 5px;
 }
 .mainContacto .mainContacto__cajaMainContacto .mainContacto__cajaMainContacto__cajaFormulario #comentario {
+  background-color: #cbf578;
   grid-column: 2/4;
   grid-row: 7;
   font-size: 1.5rem;
@@ -730,6 +757,7 @@ h2 {
   color: var(--manatee);
 }
 .mainContacto .mainContacto__cajaMainContacto .mainContacto__cajaMainContacto__cajaFormulario #cajaComentario {
+  background-color: #cbf578;
   grid-column: 4/11;
   grid-row: 7/9;
   font-size: 1.5rem;
@@ -738,6 +766,7 @@ h2 {
   color: var(--manatee);
 }
 .mainContacto .mainContacto__cajaMainContacto .mainContacto__cajaMainContacto__cajaFormulario #limpia {
+  background-color: #cbf578;
   height: 35px;
   width: 120px;
   grid-column: 1/3;
@@ -748,6 +777,7 @@ h2 {
   border-radius: 5px;
 }
 .mainContacto .mainContacto__cajaMainContacto .mainContacto__cajaMainContacto__cajaFormulario #envia {
+  background-color: #cbf578;
   height: 35px;
   width: 120px;
   grid-column: 12/13;
@@ -766,11 +796,16 @@ h2 {
   margin: 45px auto;
 }
 .bodyAbout__main .bodyAbout__main__articleUno .bodyAbout__main__articleUno__titulo {
+  text-align: center;
   font-size: 2.5rem;
   color: var(--slate-blue);
   border: var(--slate-blue) 3px solid;
   border-radius: 5px;
   font-family: "Indie Flower", cursive;
+}
+.bodyAbout__main .bodyAbout__main__articleUno .bodyAbout__main__articleUno__titulo:hover {
+  font-size: 3.5rem;
+  background-color: var(--beau-blue);
 }
 .bodyAbout__main .bodyAbout__main__articleUno .bodyAbout__main__articleUno__texto {
   font-size: 1.8rem;
@@ -784,11 +819,16 @@ h2 {
   margin: 10px auto;
 }
 .bodyAbout__main .bodyAbout__main__articleDos .bodyAbout__main__articleDos__titulo {
+  text-align: center;
   color: var(--slate-blue);
   border: var(--slate-blue) 3px solid;
   border-radius: 5px;
   font-size: 2.5rem;
   font-family: "Indie Flower", cursive;
+}
+.bodyAbout__main .bodyAbout__main__articleDos .bodyAbout__main__articleDos__titulo:hover {
+  font-size: 3.5rem;
+  background-color: var(--beau-blue);
 }
 .bodyAbout__main .bodyAbout__main__articleDos .bodyAbout__main__articleDos__texto {
   padding: 10px 15px;

@@ -12,6 +12,7 @@ $tamanioTitulo:2.5rem;
 $colorTextoAbout: var(--fire-opal);
 $colorTituloAbout: var(--slate-blue);
 $fuenteTamanioGrid:1.4rem;
+$colorcajainput:rgb(203, 245, 120);
 /*Header index*/
 
 /* ------------------------------main del index --------------------------------------------------------- */
@@ -275,17 +276,19 @@ $fuenteTamanioGrid:1.4rem;
 
   /* -------------------------------------------pagina Contacto------------------------------------------*/
 
-  h2 {
-    color: var(--manatee);
-    font-size: 3rem;
-    text-align: center;
-  }
+  
 .mainContacto{
-
+  font-family: $fuenteCuerpo;
+  
   .mainContacto__cajaMainContacto{
-
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+    margin-top: 50px;
+    height: 120vh;
     .mainContacto__cajaMainContacto__tituloContacto{
-font-size: 2rem;
+    font-size: $tamanioTitulo;
+    color: $colorTituloAbout;
 
     }
     .mainContacto__cajaMainContacto__tituloDatosPersonales{
@@ -296,15 +299,17 @@ font-size: 2rem;
       
     }
     .mainContacto__cajaMainContacto__cajaFormulario {
-      background-color: var(--smoky-black);
-    /* background-color:var(--smoky-black); */
+      justify-items: stretch;
+      align-items: stretch;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(9, 54px);
+    grid-template-rows: repeat(9, 1fr);
     width: 1024px;
     height: 80vh;
     gap: 1rem;
     margin: 0 auto;
+   
     #inpNombre {
+      background-color: $colorcajainput;
       height: 35px;
       width: 250px;
       grid-column: 2/4;
@@ -312,8 +317,11 @@ font-size: 2rem;
       font-size: 1.5rem;
       border: none;
       border-radius: 5px;
+      
+    
     }
     #inpApellido {
+      background-color: $colorcajainput;
       height: 35px;
       width: 250px;
       grid-column: 2/4;
@@ -321,8 +329,10 @@ font-size: 2rem;
       font-size: 1.5rem;
       border: none;
       border-radius: 5px;
+      
     }
     #inpCorreo {
+      background-color: $colorcajainput;
       height: 35px;
       grid-column: 2/6;
       grid-row: 4/5;
@@ -330,50 +340,64 @@ font-size: 2rem;
       border: none;
       border-radius: 5px;
       width: 500px;
+ 
     }
     #recibir {
+      background-color: $colorcajainput;
       grid-column: 2/4;
       grid-row: 5/6;
       font-size: 1.5rem;
       border: none;
       color: var(--manatee);
+      
     }
     #meInteresa {
+      background-color: $colorcajainput;
       grid-column: 4/8;
       grid-row: 5/6;
-      font-size: 1.5rem;
+      font-size: $fuenteTamanioGrid;
       border: none;
       color: var(--manatee);
+     
     }
     #clickSi {
+      background-color: $colorcajainput;
       grid-column: 6;
       grid-row: 6;
   
       width: 25px;
       height: 25px;
+    
     }
     #noInteresa {
+      background-color: $colorcajainput;
       grid-column: 9/11;
       grid-row: 5/6;
       font-size: 1.5rem;
       border: none;
       color: var(--manatee);
+     
     }
     #clickNo {
+      background-color: $colorcajainput;
       grid-column: 10;
       grid-row: 6;
   
       width: 25px;
       height: 25px;
+     
     }
     #ciudad {
+      background-color: $colorcajainput;
       grid-column: 9/11;
       grid-row: 1/2;
       font-size: 1.5rem;
       border: none;
       color: var(--manatee);
+    
     }
     #ciudadesList {
+      background-color: $colorcajainput;
       height: 35px;
       width: 130px;
       border: none;
@@ -383,15 +407,19 @@ font-size: 2rem;
       color: var(--manatee);
       border: none;
       border-radius: 5px;
+     
     }
     #comentario {
+      background-color: $colorcajainput;
       grid-column: 2/4;
       grid-row: 7;
       font-size: 1.5rem;
       border: none;
       color: var(--manatee);
+    
     }
     #cajaComentario {
+      background-color: $colorcajainput;
       grid-column: 4/11;
       grid-row: 7/9;
       font-size: 1.5rem;
@@ -399,8 +427,10 @@ font-size: 2rem;
   
       border-radius: 10px;
       color: var(--manatee);
+      
     }
     #limpia {
+      background-color: $colorcajainput;
       height: 35px;
       width: 120px;
       grid-column: 1/3;
@@ -410,8 +440,10 @@ font-size: 2rem;
       color: var(--manatee);
       border: none;
       border-radius: 5px;
+      
     }
     #envia {
+      background-color: $colorcajainput;
       height: 35px;
       width: 120px;
       grid-column: 12/13;
@@ -420,6 +452,7 @@ font-size: 2rem;
       border: none;
       border-radius: 5px;
       color: var(--manatee);
+      
     }
 
     }
@@ -444,12 +477,18 @@ font-size: 2rem;
       margin: 45px auto;
       .bodyAbout__main__articleUno {
         .bodyAbout__main__articleUno__titulo {
+          text-align: center;
           font-size: $tamanioTitulo; 
           color:$colorTituloAbout;
           border: $colorTituloAbout 3px solid;
           border-radius: 5px;
           font-family: $fuenteCuerpo;
+           
           
+        }
+        .bodyAbout__main__articleUno__titulo:hover{
+          font-size: 3.5rem;
+          background-color: var(--beau-blue);
         }
         .bodyAbout__main__articleUno__texto {
           font-size: $tamanioFuenteCuerpo;
@@ -467,11 +506,16 @@ font-size: 2rem;
         margin: 10px auto;
 
         .bodyAbout__main__articleDos__titulo {
+          text-align: center;
           color:$colorTituloAbout;
           border: $colorTituloAbout 3px solid;
           border-radius: 5px;
           font-size: $tamanioTitulo; 
           font-family: $fuenteCuerpo;
+        }
+        .bodyAbout__main__articleDos__titulo:hover{
+          font-size: 3.5rem;
+          background-color: var(--beau-blue);
         }
         .bodyAbout__main__articleDos__texto {
           padding: 10px 15px;
