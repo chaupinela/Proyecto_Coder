@@ -1,10 +1,16 @@
 
+
 /* globales */ 
 @import "./Partials/globales";
 
 /* partials */
 @import "./Partials/header";
 @import "./Partials/footer";
+
+
+
+
+
 
 $fuenteCuerpo :'Indie Flower', cursive;
 $tamanioFuenteCuerpo: 1.8rem;
@@ -20,7 +26,7 @@ $colorcajainput:rgb(203, 245, 120);
 .mainIndexUno {
   
   width: 85vw;
-  height: 120vh;
+  height: 150vh;
   gap: 1rem;
   margin: 0px auto;
   .mainIndexUno__seccionUno {
@@ -30,7 +36,7 @@ $colorcajainput:rgb(203, 245, 120);
     margin: 35px auto;
     .mainIndexUno__seccionUno__tituloindex{
       text-align: center;
-      font-size: 4rem;
+      font-size: $tamanioTitulo;
       color: black;
     }
     .mainIndexUno__seccionUno__divSeccionUno {
@@ -43,11 +49,13 @@ $colorcajainput:rgb(203, 245, 120);
       .mainIndexUno__seccionUno__divSeccionUno__titulo{
         font-family: 'Indie Flower', cursive;
         color: black;
+        font-size: $tamanioTitulo;
       }
       .mainIndexUno__seccionUno__divSeccionUno__textoPrimero {
         font-size: 1.9rem;
         text-align: center;
         color: black;
+        font-family: $fuenteCuerpo;  
       }
     }
   }
@@ -62,6 +70,7 @@ $colorcajainput:rgb(203, 245, 120);
       color: black;
       font-size: 3rem;
       font-family: 'Indie Flower', cursive;
+      text-align: center;
 
     }
       
@@ -623,4 +632,105 @@ $colorcajainput:rgb(203, 245, 120);
       }
     }
   
+  /*-------------------------------------------------------------------------------*/
+
+
+    @media (max-width: 376px) {
+
+     .headerIndex {
+      
+       
+       display: flex;
+       flex-direction: column;
+       height: 120px;
+        
+      .headerIndex__navbar{
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          height: 200px;
+          justify-content: center;
+          
+         
+          
+          .headerIndex__navbar__logo{
+              // width: 100px;
+              // height: 60px;
+              // text-align: center;
+              // font-size: 4rem;
+              .headerIndex__navbar__logo--logo_nav{
+                  font-family: 'Palette Mosaic', cursive;
+                  font-size: 1.5rem;
+                  color: var(--maximum-green-yellow);
+                  width: 200px;
+                  height: 20px;
+                  text-align: center;
+                  
   
+              }
+          
+          }
+          .headerIndex__navbar__items{
+              margin: 5px 5px;
+              .headerIndex__navbar__items__list{
+                  display: inline-block;
+                  font-size: 1.5rem;
+                  padding: 5px 5px;
+                  font-family: 'Indie Flower', cursive;
+                  
+                  .headerIndex____navbar__items__list--index{
+                      color:var(--maximum-green-yellow)
+                  }
+                  .headerIndex__navbar__items__list--amigurumi{
+                      color:var(--maximum-green-yellow)
+                  }
+                  .headerIndex__navbar__items__list--about{
+                      color:var(--maximum-green-yellow)
+                  }
+                  .headerIndex__navbar__items__list--Contacto{
+                      color:var(--maximum-green-yellow)
+                  }
+      
+              }
+              .headerIndex__navbar__items__list:hover{
+                  color: var(--fire-opal);
+                  border-bottom: var(--maximum-green-yellow) 5px solid;
+                 
+              }
+          }
+      }
+    }
+    .headerIndex__banner{
+      display: none;
+      // background-image: url(../img/carrusel2.jpg);
+      // background-position: bottom;
+      // background-size: cover;
+      // width: 85vw;
+      // height: 1200px;
+      // margin: 0 auto;
+      // margin-top: 15vh;
+      // border-radius: 0 0 15px 15px;
+      // justify-content: space-around;
+      // box-shadow: black 4px 4px 6px;
+          .headerIndex__banner__nombre{
+            display: none;
+              // font-family: 'Palette Mosaic', cursive;
+              // font-size: 3rem;
+              // text-align: center;
+              // margin-top: 50px;
+              // color: var(--fire-opal);
+              // text-shadow: aqua 2px 2px 4px;
+                          
+  
+          }
+          .headerIndex__banner__titulo{
+          display: none;
+              
+              
+              
+          }
+      
+          
+          }
+
+  }
