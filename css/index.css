@@ -670,7 +670,6 @@ h2 {
 
 /* --------------------------------------- pagina About ------------------------------------------------- */
 .bodyAbout {
-  background-color: var(--smoky-black);
   height: 280vh;
   align-content: center;
   align-items: center;
@@ -768,67 +767,6 @@ h2 {
   width: 200px;
   height: 200px;
   background-color: yellow;
-}
-
-.bodyAbout__pie {
-  width: 1024px;
-  height: 400px;
-  grid-area: pie;
-  grid-template-areas: "pie__pDeFooter pie__pDeFooter " "pie__datos pie__derechos" "pie__redes  pie__redes ";
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  column-gap: 10px;
-  row-gap: 10px;
-  color: var(--manatee);
-}
-.bodyAbout__pie .bodyAbout__pie__pDeFooter {
-  grid-area: pie__pDeFooter;
-  font-size: 2rem;
-  text-align: center;
-  border-bottom: 6px var(--manatee) solid;
-  margin-bottom: 15px;
-  padding-bottom: 15px;
-}
-.bodyAbout__pie .bodyAbout__pie__datos {
-  grid-area: pie__datos;
-  font-size: 2rem;
-  text-align: start;
-}
-.bodyAbout__pie .bodyAbout__pie__derechos {
-  grid-area: pie__derechos;
-  font-size: 2rem;
-  text-align: end;
-}
-.bodyAbout__pie .bodyAbout__pie__redes {
-  grid-area: pie__redes;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  width: 100%;
-  transition: 1s;
-}
-.bodyAbout__pie .bodyAbout__pie__redes .bodyAbout__pie__redes__item {
-  font-size: 1.5rem;
-  list-style: none;
-}
-.bodyAbout__pie .bodyAbout__pie__redes .bodyAbout__pie__redes__item .bodyAbout__pie_redes__item__link {
-  list-style: none;
-  text-decoration: none;
-  font-size: 2rem;
-  color: var(--manatee);
-  border-radius: 5px;
-}
-.bodyAbout__pie .bodyAbout__pie__redes .bodyAbout__pie__redes__item .bodyAbout__pie_redes__item__link #redes__face:hover {
-  background-color: rgba(50, 50, 230, 0.904);
-  color: white;
-}
-.bodyAbout__pie .bodyAbout__pie__redes .bodyAbout__pie__redes__item .bodyAbout__pie_redes__item__link #redes__twiter:hover {
-  background-color: rgba(98, 198, 216, 0.925);
-  color: white;
-}
-.bodyAbout__pie .bodyAbout__pie__redes .bodyAbout__pie__redes__item .bodyAbout__pie_redes__item__link #redes__instagram:hover {
-  background: linear-gradient(45deg, #ed601e 6%, #f71348 31%, #e50d8b 52%, #f202d2 67%, #cd02e0 84%, #dd09f4 100%);
-  color: white;
 }
 
 /*# sourceMappingURL=index.css.map */
