@@ -286,7 +286,7 @@ $colorcajainput:rgb(203, 245, 120);
         }
         .bodyAbout__main__articleUno__texto {
            background-color: chocolate;
-          font-size: 0.5rem;
+          font-size: 0.8rem;
           padding: 10px 15px;
           color: black;
           font-family: $fuenteCuerpo ;
@@ -408,6 +408,81 @@ $colorcajainput:rgb(203, 245, 120);
       }
     }
   
-  
-  
+  /*------------------------------amigurumi------------------------------*/
+  .cajaAmigurumi__main{
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    .cajaAmigurumi__main__tituloMain{
+      color:$colorTituloAbout;
+      font-family: $fuenteCuerpo;
+      font-size: $tamanioTitulo;
+      
+      display: flex;
+        p{
+          font-size: 3rem;
+          text-align: center;
+      }
+        h2{
+          font-size: 2rem;
+          color: var(--manatee);
+        }
+    }
+
+    .cajaAmigurumi__main__materiales1 {
+      
+      max-width: 100%;
+      // background-color: yellow;
+      background-image:url(../img/amigurumi1.jpg);
+      background-size: cover;
+      background-position: center;
+      
+    }
+    .cajaAmigurumi__main__materiales2 {
+      font-size: $fuenteTamanioGrid;
+      font-family: $fuenteCuerpo;
+    } 
+    .cajaAmigurumi__main__materiales3 {
+      font-size: $fuenteTamanioGrid;
+      font-family: $fuenteCuerpo;
+     
+    }
+    .cajaAmigurumi__main__materiales4 {
+      background-image:url(../img/amigurumi2.jpg);
+      background-size: cover;
+      background-position: center;
+      
+    }
+    .cajaAmigurumi__main__materiales5 {
+      background-image:url(../img/amigurumi3.jpg);
+      background-size: cover;
+      background-position: bottom;
+    }
+    .cajaAmigurumi__main__materiales6 {
+      font-size: $fuenteTamanioGrid;
+      font-family: $fuenteCuerpo;
+      justify-self: stretch;
+      align-self: center;
+      
+    }
+    .cajaAmigurumi__main__materiales7 {
+      font-size: $fuenteTamanioGrid;
+      font-family: $fuenteCuerpo;
+      justify-self: stretch;
+      align-self: center;
+     
+    }
+    .cajaAmigurumi__main__materiales8 {
+      background-image: url(../img/amigurumi5.jpg);
+      background-size: cover;
+      background-position: center;
+      
+      
+    }
+    
+  }
+
+
+
   }
