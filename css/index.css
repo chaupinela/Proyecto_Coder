@@ -705,6 +705,302 @@ ul {
     color: white;
   }
 }
+/* medias */
+/* -------------------------------------navbar gral ----------------------------------------*/
+@media (max-width: 320px) {
+  .headerIndex {
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+  }
+  .headerIndex .headerIndex__navbar {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 150px;
+    background-color: var(--fire-opal);
+  }
+  .headerIndex .headerIndex__navbar .headerIndex__navbar__logo {
+    background-color: var(--medium-turquoise);
+  }
+  .headerIndex .headerIndex__navbar .headerIndex__navbar__logo .headerIndex__navbar__logo--logo_nav {
+    font-family: "Palette Mosaic", cursive;
+    font-size: 1.5rem;
+    color: var(--maximum-green-yellow);
+    width: 200px;
+    height: 20px;
+    text-align: center;
+  }
+  .headerIndex .headerIndex__navbar .headerIndex__navbar__items {
+    margin: 5px 5px;
+  }
+  .headerIndex .headerIndex__navbar .headerIndex__navbar__items .headerIndex__navbar__items__list {
+    display: inline-block;
+    font-size: 1.1rem;
+    padding: 5px 5px;
+    font-family: "Indie Flower", cursive;
+  }
+  .headerIndex .headerIndex__navbar .headerIndex__navbar__items .headerIndex__navbar__items__list .headerIndex____navbar__items__list--index {
+    color: var(--maximum-green-yellow);
+  }
+  .headerIndex .headerIndex__navbar .headerIndex__navbar__items .headerIndex__navbar__items__list .headerIndex__navbar__items__list--amigurumi {
+    color: var(--maximum-green-yellow);
+  }
+  .headerIndex .headerIndex__navbar .headerIndex__navbar__items .headerIndex__navbar__items__list .headerIndex__navbar__items__list--about {
+    color: var(--maximum-green-yellow);
+  }
+  .headerIndex .headerIndex__navbar .headerIndex__navbar__items .headerIndex__navbar__items__list .headerIndex__navbar__items__list--Contacto {
+    color: var(--maximum-green-yellow);
+  }
+
+  .headerIndex__banner {
+    display: none;
+  }
+  .headerIndex__banner .headerIndex__banner__nombre {
+    display: none;
+  }
+  .headerIndex__banner .headerIndex__banner__titulo {
+    display: none;
+  }
+
+  /*-----------------------------------  main index -----------------*/
+  .mainIndexUno {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 250vh;
+    gap: 0.5rem;
+    margin: 0px auto;
+  }
+  .mainIndexUno .mainIndexUno__seccionUno {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .mainIndexUno .mainIndexUno__seccionUno .mainIndexUno__seccionUno__divSeccionUno {
+    display: flex;
+    flex-direction: column;
+  }
+  .mainIndexUno .mainIndexUno__seccionUno .mainIndexUno__seccionUno__divSeccionUno .mainIndexUno__seccionUno__divSeccionUno__titulo {
+    font-size: 1.6rem;
+  }
+  .mainIndexUno .mainIndexUno__seccionUno .mainIndexUno__seccionUno__divSeccionUno .mainIndexUno__seccionUno__divSeccionUno__textoPrimero {
+    width: 100%;
+    font-size: 1.2rem;
+    text-align: center;
+    color: black;
+    font-family: "Indie Flower", cursive;
+    margin: 0 auto;
+    margin-left: 25px;
+  }
+  .mainIndexUno .mainIndexUno__seccionDos {
+    width: 100%;
+    height: 700vh;
+    margin: 0 auto;
+    gap: 1rem;
+  }
+  .mainIndexUno .mainIndexUno__seccionDos .mainIndexUno__seccionDos__tituloGaleria .mainIndexUno__seccionDos__tituloGaleria__titulo {
+    color: black;
+    font-size: 1.6rem;
+    font-family: "Indie Flower", cursive;
+    text-align: center;
+  }
+  .mainIndexUno .mainIndexUno__seccionDos .mainIndexUno__seccionDos__imagenesSeccionDos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .mainIndexUno .mainIndexUno__seccionDos .mainIndexUno__seccionDos__imagenesSeccionDos .img-nariz {
+    background-image: url(../img/nariz.jpg);
+    width: 200px;
+    height: 200px;
+    text-align: center;
+  }
+  .mainIndexUno .mainIndexUno__seccionDos .mainIndexUno__seccionDos__imagenesSeccionDos .img-supe {
+    background-image: url(../img/supe.jpg);
+    width: 200px;
+    height: 200px;
+    text-align: center;
+  }
+  .mainIndexUno .mainIndexUno__seccionDos .mainIndexUno__seccionDos__imagenesSeccionDos .img-nena {
+    background-image: url(../img/nena.jpg);
+    width: 200px;
+    height: 200px;
+    text-align: center;
+  }
+
+  .mainIndexDos {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 300vh;
+    margin: 0px auto;
+    justify-content: flex-start;
+    align-content: center;
+  }
+  .mainIndexDos .mainIndexDos__imagenesPorfolio {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 0;
+    height: 300vh;
+    justify-self: center;
+    align-items: center;
+  }
+  .mainIndexDos .mainIndexDos__imagenesPorfolio .mainIndexDos__imagenesPorfolio__tituloPorfolio {
+    margin-top: 15px;
+  }
+  .mainIndexDos .mainIndexDos__imagenesPorfolio .mainIndexDos__imagenesPorfolio__tituloPorfolio .mainIndexDos__imagenesPorfolio__tituloPorfolio--titulo {
+    color: black;
+    text-align: center;
+    font-size: 3rem;
+    font-family: "Indie Flower", cursive;
+  }
+  .mainIndexDos .mainIndexDos__imagenesPorfolio .mainIndexDos__imagenesPorfolio__img--4 {
+    width: 200px;
+    height: 200px;
+  }
+  .mainIndexDos .mainIndexDos__imagenesPorfolio .mainIndexDos__imagenesPorfolio__img--5 {
+    width: 200px;
+    height: 200px;
+  }
+  .mainIndexDos .mainIndexDos__imagenesPorfolio .mainIndexDos__imagenesPorfolio__img--6 {
+    width: 200px;
+    height: 200px;
+  }
+  .mainIndexDos .mainIndexDos__imagenesPorfolio .mainIndexDos__imagenesPorfolio__img--7 {
+    width: 200px;
+    height: 200px;
+  }
+  .mainIndexDos .mainIndexDos__imagenesPorfolio .mainIndexDos__imagenesPorfolio__img--8 {
+    width: 200px;
+    height: 200px;
+  }
+  .mainIndexDos .mainIndexDos__imagenesPorfolio .mainIndexDos__imagenesPorfolio__img--9 {
+    width: 200px;
+    height: 200px;
+  }
+  .mainIndexDos .mainIndexDos__imagenesPorfolio .mainIndexDos__imagenesPorfolio__img--10 {
+    width: 200px;
+    height: 200px;
+  }
+
+  .card-group {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100vw;
+    height: 260vh;
+    gap: 2rem;
+  }
+}
+/*---------------------------------- medias about------------------------*/
+@media (max-width: 321px) {
+  .bodyAbout__main {
+    background-color: chartreuse;
+    height: 200vh;
+    margin: 0 auto;
+  }
+  .bodyAbout__main .bodyAbout__main__articleUno .bodyAbout__main__articleUno__titulo {
+    text-align: center;
+    font-size: 1rem;
+    color: var(--slate-blue);
+    font-family: "Indie Flower", cursive;
+  }
+  .bodyAbout__main .bodyAbout__main__articleUno .bodyAbout__main__articleUno__texto {
+    background-color: chocolate;
+    font-size: 0.5rem;
+    padding: 10px 15px;
+    color: black;
+    font-family: "Indie Flower", cursive;
+  }
+  .bodyAbout__main .bodyAbout__main__articleDos {
+    gap: 0.5rem;
+    height: 150vh;
+    margin: 10px auto;
+  }
+  .bodyAbout__main .bodyAbout__main__articleDos .bodyAbout__main__articleDos__titulo {
+    text-align: center;
+    color: var(--slate-blue);
+    border: var(--slate-blue) 3px solid;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-family: "Indie Flower", cursive;
+  }
+  .bodyAbout__main .bodyAbout__main__articleDos .bodyAbout__main__articleDos__titulo:hover {
+    font-size: 3.5rem;
+    background-color: var(--beau-blue);
+  }
+  .bodyAbout__main .bodyAbout__main__articleDos .bodyAbout__main__articleDos__texto {
+    padding: 10px 15px;
+    font-size: 1rem;
+    font-family: "Indie Flower", cursive;
+    color: var(--fire-opal);
+    text-align: justify;
+  }
+  .bodyAbout__main .bodyAbout__main__articleDos .bodyAbout__main__articleDos__imagenes {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  .bodyAbout__main .bodyAbout__main__articleDos .bodyAbout__main__articleDos__imagenes .bodyAbout__main__articleDos__imagenes__imagen1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 200px;
+    height: 200px;
+    background-image: url(../img/bandidos1.jpg);
+  }
+  .bodyAbout__main .bodyAbout__main__articleDos .bodyAbout__main__articleDos__imagenes .bodyAbout__main__articleDos__imagenes__imagen2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    width: 200px;
+    height: 200px;
+    background-image: url(../img/bandidos1.jpg);
+  }
+  .bodyAbout__main .bodyAbout__main__articleDos .bodyAbout__main__articleDos__imagenes .bodyAbout__main__articleDos__imagenes__imagen3 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    width: 200px;
+    height: 200px;
+    background-image: url(../img/bandidos1.jpg);
+  }
+  .bodyAbout__main .bodyAbout__main__articleDos .bodyAbout__main__articleDos__imagenes .bodyAbout__main__articleDos__imagenes__imagen4 {
+    grid-column: 4/5;
+    grid-row: 1/2;
+    width: 200px;
+    height: 200px;
+    background-image: url(../img/bandidos1.jpg);
+  }
+  .bodyAbout__main .bodyAbout__main__articleDos .bodyAbout__main__articleDos__imagenes .bodyAbout__main__articleDos__imagenes__imagen5 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    width: 200px;
+    height: 200px;
+    background-image: url(../img/bandidos1.jpg);
+  }
+  .bodyAbout__main .bodyAbout__main__articleDos .bodyAbout__main__articleDos__imagenes .bodyAbout__main__articleDos__imagenes__imagen6 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    width: 200px;
+    height: 200px;
+    background-image: url(../img/bandidos1.jpg);
+  }
+  .bodyAbout__main .bodyAbout__main__articleDos .bodyAbout__main__articleDos__imagenes .bodyAbout__main__articleDos__imagenes__imagen7 {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    width: 200px;
+    height: 200px;
+    background-image: url(../img/bandidos1.jpg);
+  }
+  .bodyAbout__main .bodyAbout__main__articleDos .bodyAbout__main__articleDos__imagenes .bodyAbout__main__articleDos__imagenes__imagen8 {
+    grid-column: 4/5;
+    grid-row: 2/3;
+    width: 200px;
+    height: 200px;
+    background-image: url(../img/bandidos1.jpg);
+  }
+}
 /*Header index*/
 /* ------------------------------main del index --------------------------------------------------------- */
 .mainIndexUno {
@@ -1212,195 +1508,5 @@ ul {
 }
 
 /*-------------------------------------------------------------------------------*/
-/*------------------------------------- medias para celulares  hasta 320 PX ----------------------------------*/
-@media (max-width: 320px) {
-  .headerIndex {
-    display: flex;
-    flex-direction: column;
-    height: 50px;
-  }
-  .headerIndex .headerIndex__navbar {
-    display: flex;
-    flex-direction: column;
-    width: 100vw;
-    height: 150px;
-    background-color: var(--fire-opal);
-  }
-  .headerIndex .headerIndex__navbar .headerIndex__navbar__logo {
-    background-color: var(--medium-turquoise);
-  }
-  .headerIndex .headerIndex__navbar .headerIndex__navbar__logo .headerIndex__navbar__logo--logo_nav {
-    font-family: "Palette Mosaic", cursive;
-    font-size: 1.5rem;
-    color: var(--maximum-green-yellow);
-    width: 200px;
-    height: 20px;
-    text-align: center;
-  }
-  .headerIndex .headerIndex__navbar .headerIndex__navbar__items {
-    margin: 5px 5px;
-  }
-  .headerIndex .headerIndex__navbar .headerIndex__navbar__items .headerIndex__navbar__items__list {
-    display: inline-block;
-    font-size: 1.1rem;
-    padding: 5px 5px;
-    font-family: "Indie Flower", cursive;
-  }
-  .headerIndex .headerIndex__navbar .headerIndex__navbar__items .headerIndex__navbar__items__list .headerIndex____navbar__items__list--index {
-    color: var(--maximum-green-yellow);
-  }
-  .headerIndex .headerIndex__navbar .headerIndex__navbar__items .headerIndex__navbar__items__list .headerIndex__navbar__items__list--amigurumi {
-    color: var(--maximum-green-yellow);
-  }
-  .headerIndex .headerIndex__navbar .headerIndex__navbar__items .headerIndex__navbar__items__list .headerIndex__navbar__items__list--about {
-    color: var(--maximum-green-yellow);
-  }
-  .headerIndex .headerIndex__navbar .headerIndex__navbar__items .headerIndex__navbar__items__list .headerIndex__navbar__items__list--Contacto {
-    color: var(--maximum-green-yellow);
-  }
-
-  .headerIndex__banner {
-    display: none;
-  }
-  .headerIndex__banner .headerIndex__banner__nombre {
-    display: none;
-  }
-  .headerIndex__banner .headerIndex__banner__titulo {
-    display: none;
-  }
-
-  /*-----------------------------------  main  -----------------*/
-  .mainIndexUno {
-    display: flex;
-    flex-direction: column;
-    width: 100vw;
-    height: 250vh;
-    gap: 0.5rem;
-    margin: 0px auto;
-  }
-  .mainIndexUno .mainIndexUno__seccionUno {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  .mainIndexUno .mainIndexUno__seccionUno .mainIndexUno__seccionUno__divSeccionUno {
-    display: flex;
-    flex-direction: column;
-  }
-  .mainIndexUno .mainIndexUno__seccionUno .mainIndexUno__seccionUno__divSeccionUno .mainIndexUno__seccionUno__divSeccionUno__titulo {
-    font-size: 1.6rem;
-  }
-  .mainIndexUno .mainIndexUno__seccionUno .mainIndexUno__seccionUno__divSeccionUno .mainIndexUno__seccionUno__divSeccionUno__textoPrimero {
-    width: 100%;
-    font-size: 1.2rem;
-    text-align: center;
-    color: black;
-    font-family: "Indie Flower", cursive;
-    margin: 0 auto;
-    margin-left: 25px;
-  }
-  .mainIndexUno .mainIndexUno__seccionDos {
-    width: 100%;
-    height: 700vh;
-    margin: 0 auto;
-    gap: 1rem;
-  }
-  .mainIndexUno .mainIndexUno__seccionDos .mainIndexUno__seccionDos__tituloGaleria .mainIndexUno__seccionDos__tituloGaleria__titulo {
-    color: black;
-    font-size: 1.6rem;
-    font-family: "Indie Flower", cursive;
-    text-align: center;
-  }
-  .mainIndexUno .mainIndexUno__seccionDos .mainIndexUno__seccionDos__imagenesSeccionDos {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .mainIndexUno .mainIndexUno__seccionDos .mainIndexUno__seccionDos__imagenesSeccionDos .img-nariz {
-    background-image: url(../img/nariz.jpg);
-    width: 200px;
-    height: 200px;
-    text-align: center;
-  }
-  .mainIndexUno .mainIndexUno__seccionDos .mainIndexUno__seccionDos__imagenesSeccionDos .img-supe {
-    background-image: url(../img/supe.jpg);
-    width: 200px;
-    height: 200px;
-    text-align: center;
-  }
-  .mainIndexUno .mainIndexUno__seccionDos .mainIndexUno__seccionDos__imagenesSeccionDos .img-nena {
-    background-image: url(../img/nena.jpg);
-    width: 200px;
-    height: 200px;
-    text-align: center;
-  }
-
-  .mainIndexDos {
-    display: flex;
-    flex-direction: column;
-    width: 100vw;
-    height: 300vh;
-    margin: 0px auto;
-    justify-content: flex-start;
-    align-content: center;
-  }
-  .mainIndexDos .mainIndexDos__imagenesPorfolio {
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    padding: 0;
-    height: 300vh;
-    justify-self: center;
-    align-items: center;
-  }
-  .mainIndexDos .mainIndexDos__imagenesPorfolio .mainIndexDos__imagenesPorfolio__tituloPorfolio {
-    margin-top: 15px;
-  }
-  .mainIndexDos .mainIndexDos__imagenesPorfolio .mainIndexDos__imagenesPorfolio__tituloPorfolio .mainIndexDos__imagenesPorfolio__tituloPorfolio--titulo {
-    color: black;
-    text-align: center;
-    font-size: 3rem;
-    font-family: "Indie Flower", cursive;
-  }
-  .mainIndexDos .mainIndexDos__imagenesPorfolio .mainIndexDos__imagenesPorfolio__img--4 {
-    width: 200px;
-    height: 200px;
-  }
-  .mainIndexDos .mainIndexDos__imagenesPorfolio .mainIndexDos__imagenesPorfolio__img--5 {
-    width: 200px;
-    height: 200px;
-  }
-  .mainIndexDos .mainIndexDos__imagenesPorfolio .mainIndexDos__imagenesPorfolio__img--6 {
-    width: 200px;
-    height: 200px;
-  }
-  .mainIndexDos .mainIndexDos__imagenesPorfolio .mainIndexDos__imagenesPorfolio__img--7 {
-    width: 200px;
-    height: 200px;
-  }
-  .mainIndexDos .mainIndexDos__imagenesPorfolio .mainIndexDos__imagenesPorfolio__img--8 {
-    width: 200px;
-    height: 200px;
-  }
-  .mainIndexDos .mainIndexDos__imagenesPorfolio .mainIndexDos__imagenesPorfolio__img--9 {
-    width: 200px;
-    height: 200px;
-  }
-  .mainIndexDos .mainIndexDos__imagenesPorfolio .mainIndexDos__imagenesPorfolio__img--10 {
-    width: 200px;
-    height: 200px;
-  }
-
-  .card-group {
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    width: 100vw;
-    height: 260vh;
-    gap: 2rem;
-  }
-}
-/*----------------------------------about------------------------*/
 
 /*# sourceMappingURL=index.css.map */

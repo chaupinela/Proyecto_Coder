@@ -1,0 +1,420 @@
+
+$fuenteCuerpo :'Indie Flower', cursive;
+$tamanioFuenteCuerpo: 1rem;
+$tamanioTitulo:1.1rem;
+$colorTextoAbout: var(--fire-opal);
+$colorTituloAbout: var(--slate-blue);
+$fuenteTamanioGrid:1rem;
+$colorcajainput:rgb(203, 245, 120);
+
+/* -------------------------------------navbar gral ----------------------------------------*/
+
+@media (max-width: 320px) {
+
+
+
+    
+    .headerIndex {
+      display: flex;
+      flex-direction: column;
+      height: 50px;
+       
+     .headerIndex__navbar{
+         display: flex;
+         flex-direction: column;
+         width: 100vw;
+         height: 150px;
+         background-color: var(--fire-opal);
+         
+         .headerIndex__navbar__logo{
+             // width: 100px;
+             // height: 60px;
+             // text-align: center;
+             // font-size: 4rem;
+             background-color: var(--medium-turquoise);
+             .headerIndex__navbar__logo--logo_nav{
+                 font-family: 'Palette Mosaic', cursive;
+                 font-size: 1.5rem;
+                 color: var(--maximum-green-yellow);
+                 width: 200px;
+                 height: 20px;
+                 text-align: center;
+                 
+  
+             }
+         
+         }
+         .headerIndex__navbar__items{
+             margin: 5px 5px;
+             .headerIndex__navbar__items__list{
+                 display: inline-block;
+                 font-size: 1.1rem;
+                 padding: 5px 5px;
+                 font-family: 'Indie Flower', cursive;
+                 
+                 .headerIndex____navbar__items__list--index{
+                     color:var(--maximum-green-yellow)
+                 }
+                 .headerIndex__navbar__items__list--amigurumi{
+                     color:var(--maximum-green-yellow)
+                 }
+                 .headerIndex__navbar__items__list--about{
+                     color:var(--maximum-green-yellow)
+                 }
+                 .headerIndex__navbar__items__list--Contacto{
+                     color:var(--maximum-green-yellow)
+                 }
+     
+             }
+             
+         }
+     }
+   }
+   
+  
+  
+   .headerIndex__banner{
+     display: none;
+     // background-image: url(../img/carrusel2.jpg);
+     // background-position: bottom;
+     // background-size: cover;
+     // width: 85vw;
+     // height: 1200px;
+     // margin: 0 auto;
+     // margin-top: 15vh;
+     // border-radius: 0 0 15px 15px;
+     // justify-content: space-around;
+     // box-shadow: black 4px 4px 6px;
+         .headerIndex__banner__nombre{
+           display: none;
+             // font-family: 'Palette Mosaic', cursive;
+             // font-size: 3rem;
+             // text-align: center;
+             // margin-top: 50px;
+             // color: var(--fire-opal);
+             // text-shadow: aqua 2px 2px 4px;
+                         
+  
+         }
+         .headerIndex__banner__titulo{
+         display: none;
+                  
+         }
+        }
+    /*-----------------------------------  main index -----------------*/
+  
+    
+    .mainIndexUno {
+      display: flex;
+      flex-direction: column;
+      width: 100vw;
+      height: 250vh;
+      gap: 0.5rem;
+      margin: 0px auto;
+      .mainIndexUno__seccionUno {
+          display: flex;
+          flex-direction: column;
+          justify-content: center; 
+       
+        // .mainIndexUno__seccionUno__tituloindex{
+        //   text-align: center;
+        //   font-size: 1.5rem;
+        //   color: black;
+        // }
+        .mainIndexUno__seccionUno__divSeccionUno {
+          display: flex;
+          flex-direction: column;
+          
+          
+          .mainIndexUno__seccionUno__divSeccionUno__titulo{
+            font-size: 1.6rem;
+          }
+          .mainIndexUno__seccionUno__divSeccionUno__textoPrimero {
+            width: 100%;
+            font-size: 1.2rem;
+            text-align: center;
+            color: black;
+            font-family: $fuenteCuerpo; 
+            margin: 0 auto;
+            margin-left: 25px; 
+          }
+        }
+      }
+      .mainIndexUno__seccionDos {
+        width: 100%;
+        height: 700vh;
+        margin: 0 auto;
+        gap: 1rem;
+        .mainIndexUno__seccionDos__tituloGaleria {
+    
+          .mainIndexUno__seccionDos__tituloGaleria__titulo{
+          color: black;
+          font-size: 1.6rem;
+          font-family: 'Indie Flower', cursive;
+          text-align: center;
+    
+        }
+          
+        }
+        .mainIndexUno__seccionDos__imagenesSeccionDos {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          
+          @each $juguete in nariz supe nena {
+            .img-#{$juguete} {
+              background-image: url(../img/#{$juguete}.jpg);
+              width: 200px;
+            height: 200px;
+            text-align: center;
+            }
+          }
+          
+            }
+          }
+    }
+    
+    
+    .mainIndexDos {
+      display: flex;
+      flex-direction: column;
+      
+      width: 100vw;
+      height: 300vh;
+      margin: 0px auto;
+      justify-content:flex-start;
+      align-content: center; 
+      
+      
+      .mainIndexDos__imagenesPorfolio {
+        
+            
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+            margin: 0 auto;
+            padding: 0;
+            height: 300vh;
+            justify-self: center;
+            align-items: center;
+            .mainIndexDos__imagenesPorfolio__tituloPorfolio {
+              margin-top: 15px;
+              
+              .mainIndexDos__imagenesPorfolio__tituloPorfolio--titulo{
+                color: black;
+                  text-align: center;
+                  font-size: 3rem;
+                  font-family: 'Indie Flower', cursive;
+              }
+            }
+            
+              
+              .mainIndexDos__imagenesPorfolio__img--4{
+                width: 200px;
+                height: 200px;
+  
+              }
+              .mainIndexDos__imagenesPorfolio__img--5{
+                width: 200px;
+                height: 200px;
+  
+              }
+              .mainIndexDos__imagenesPorfolio__img--6{
+                width: 200px;
+                height: 200px;
+  
+              }
+              .mainIndexDos__imagenesPorfolio__img--7{
+                width: 200px;
+                height: 200px;
+  
+              }
+              .mainIndexDos__imagenesPorfolio__img--8{
+                width: 200px;
+                height: 200px;
+  
+              }
+              .mainIndexDos__imagenesPorfolio__img--9{
+                width: 200px;
+                height: 200px;
+  
+              }
+              .mainIndexDos__imagenesPorfolio__img--10{
+                width: 200px;
+                height: 200px;
+  
+              }
+    
+    
+            
+    }
+    }
+    
+    
+    .card-group {
+      
+          display: flex;
+          flex-direction: column;
+          margin: 0 auto;
+          width: 100vw;
+          height: 260vh;
+  
+          gap: 2rem;
+    }
+  
+  } 
+  
+  
+  /*---------------------------------- medias about------------------------*/
+  
+  @media (max-width: 321px) {
+  
+    .bodyAbout__main {
+      background-color: chartreuse;
+      height: 200vh;
+      margin: 0 auto;
+      .bodyAbout__main__articleUno {
+        .bodyAbout__main__articleUno__titulo {
+          text-align: center;
+          font-size: 1rem; 
+          color:$colorTituloAbout;
+          font-family: $fuenteCuerpo;
+                
+        }
+        .bodyAbout__main__articleUno__texto {
+           background-color: chocolate;
+          font-size: 0.5rem;
+          padding: 10px 15px;
+          color: black;
+          font-family: $fuenteCuerpo ;
+        }
+      }
+  
+      .bodyAbout__main__articleDos {
+       
+  
+        gap: 0.5rem;
+        height: 150vh;
+        margin: 10px auto;
+  
+        .bodyAbout__main__articleDos__titulo {
+          text-align: center;
+          color:$colorTituloAbout;
+          border: $colorTituloAbout 3px solid;
+          border-radius: 5px;
+          font-size: $tamanioTitulo; 
+          font-family: $fuenteCuerpo;
+        }
+        .bodyAbout__main__articleDos__titulo:hover{
+          font-size: 3.5rem;
+          background-color: var(--beau-blue);
+        }
+        .bodyAbout__main__articleDos__texto {
+          padding: 10px 15px;
+          font-size: $tamanioFuenteCuerpo;
+          font-family: $fuenteCuerpo;
+          color:$colorTextoAbout;
+          text-align: justify;
+        }
+        .bodyAbout__main__articleDos__imagenes {
+          grid-template-columns: repeat(4, 1fr);
+          grid-template-rows: repeat(2, 1fr);
+          // height: 80vh;
+          gap: 1rem;
+          $caja: bandidos1;
+          .bodyAbout__main__articleDos__imagenes__imagen1 {
+            grid-column: 1/2;
+            grid-row: 1/2;
+            width: 200px;
+            height: 200px;
+  
+            @if ($caja==bandidos1) {
+              background-image: url(../img/bandidos1.jpg);
+            } @else {
+              background-color: gray;
+            }
+          }
+          .bodyAbout__main__articleDos__imagenes__imagen2 {
+            grid-column: 2/3;
+            grid-row: 1/2;
+            width: 200px;
+            height: 200px;
+            @if ($caja==bandidos1) {
+              background-image: url(../img/bandidos1.jpg);
+            } @else {
+              background-color: gray;
+            }
+          }
+          .bodyAbout__main__articleDos__imagenes__imagen3 {
+            grid-column: 3/4;
+            grid-row: 1/2;
+            width: 200px;
+            height: 200px;
+            @if ($caja==bandidos1) {
+              background-image: url(../img/bandidos1.jpg);
+            } @else {
+              background-color: gray;
+            }
+          }
+          .bodyAbout__main__articleDos__imagenes__imagen4 {
+            grid-column: 4/5;
+            grid-row: 1/2;
+            width: 200px;
+            height: 200px;
+            @if ($caja==bandidos1) {
+              background-image: url(../img/bandidos1.jpg);
+            } @else {
+              background-color: gray;
+            }
+          }
+          .bodyAbout__main__articleDos__imagenes__imagen5 {
+            grid-column: 1/2;
+            grid-row: 2/3;
+            width: 200px;
+            height: 200px;
+            @if ($caja==bandidos1) {
+              background-image: url(../img/bandidos1.jpg);
+            } @else {
+              background-color: gray;
+            }
+          }
+          .bodyAbout__main__articleDos__imagenes__imagen6 {
+            grid-column: 2/3;
+            grid-row: 2/3;
+            width: 200px;
+            height: 200px;
+            @if ($caja==bandidos1) {
+              background-image: url(../img/bandidos1.jpg);
+            } @else {
+              background-color: gray;
+            }
+          }
+          .bodyAbout__main__articleDos__imagenes__imagen7 {
+            grid-column: 3/4;
+            grid-row: 2/3;
+            width: 200px;
+            height: 200px;
+            @if ($caja==bandidos1) {
+              background-image: url(../img/bandidos1.jpg);
+            } @else {
+              background-color: gray;
+            }
+          }
+          .bodyAbout__main__articleDos__imagenes__imagen8 {
+            grid-column: 4/5;
+            grid-row: 2/3;
+            width: 200px;
+            height: 200px;
+            @if ($caja==bandidos1) {
+              background-image: url(../img/bandidos1.jpg);
+            } @else {
+              background-color: gray;
+            }
+          }
+        }
+      }
+    }
+  
+  
+  
+  }
