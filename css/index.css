@@ -321,7 +321,7 @@ ul {
     align-items: center;
     align-self: center;
     width: 100vw;
-    height: 200vh;
+    height: 115vh;
     grid-area: pie;
     margin: 50px auto;
     text-decoration: none;
@@ -473,7 +473,6 @@ ul {
   height: 100%;
 }
 
-/*------------------------------------- medias para celulares ----------------------------------*/
 * {
   margin: 0;
   padding: 0;
@@ -639,7 +638,7 @@ ul {
     align-items: center;
     align-self: center;
     width: 100vw;
-    height: 200vh;
+    height: 115vh;
     grid-area: pie;
     margin: 50px auto;
     text-decoration: none;

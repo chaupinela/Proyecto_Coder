@@ -103,6 +103,7 @@ $fuenteFooter :'Indie Flower', cursive;
 @media (max-width: 320px){
 
 .pie {
+  
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -110,7 +111,7 @@ $fuenteFooter :'Indie Flower', cursive;
   align-items: center;
   align-self: center;
   width: 100vw;
-  height: 200vh;
+  height: 115vh;
   grid-area: pie;
   margin: 50px auto;
   text-decoration: none;
