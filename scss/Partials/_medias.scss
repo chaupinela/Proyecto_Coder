@@ -267,13 +267,16 @@ $colorcajainput:rgb(203, 245, 120);
   
   /*---------------------------------- medias about------------------------*/
   
-  @media (max-width: 321px) {
+  @media (max-width: 320px) {
   
     .bodyAbout__main {
+      width: 100vw;
       background-color: chartreuse;
-      height: 200vh;
+      height: 800vh;
       margin: 0 auto;
       .bodyAbout__main__articleUno {
+          width: 100%;
+          height: 100%;
         .bodyAbout__main__articleUno__titulo {
           text-align: center;
           font-size: 1rem; 
@@ -317,14 +320,11 @@ $colorcajainput:rgb(203, 245, 120);
           text-align: justify;
         }
         .bodyAbout__main__articleDos__imagenes {
-          grid-template-columns: repeat(4, 1fr);
-          grid-template-rows: repeat(2, 1fr);
-          // height: 80vh;
-          gap: 1rem;
+         
+         
           $caja: bandidos1;
           .bodyAbout__main__articleDos__imagenes__imagen1 {
-            grid-column: 1/2;
-            grid-row: 1/2;
+            
             width: 200px;
             height: 200px;
   
@@ -335,8 +335,7 @@ $colorcajainput:rgb(203, 245, 120);
             }
           }
           .bodyAbout__main__articleDos__imagenes__imagen2 {
-            grid-column: 2/3;
-            grid-row: 1/2;
+            
             width: 200px;
             height: 200px;
             @if ($caja==bandidos1) {
@@ -346,8 +345,7 @@ $colorcajainput:rgb(203, 245, 120);
             }
           }
           .bodyAbout__main__articleDos__imagenes__imagen3 {
-            grid-column: 3/4;
-            grid-row: 1/2;
+            
             width: 200px;
             height: 200px;
             @if ($caja==bandidos1) {
@@ -357,8 +355,7 @@ $colorcajainput:rgb(203, 245, 120);
             }
           }
           .bodyAbout__main__articleDos__imagenes__imagen4 {
-            grid-column: 4/5;
-            grid-row: 1/2;
+            
             width: 200px;
             height: 200px;
             @if ($caja==bandidos1) {
@@ -368,8 +365,7 @@ $colorcajainput:rgb(203, 245, 120);
             }
           }
           .bodyAbout__main__articleDos__imagenes__imagen5 {
-            grid-column: 1/2;
-            grid-row: 2/3;
+            
             width: 200px;
             height: 200px;
             @if ($caja==bandidos1) {
@@ -379,8 +375,7 @@ $colorcajainput:rgb(203, 245, 120);
             }
           }
           .bodyAbout__main__articleDos__imagenes__imagen6 {
-            grid-column: 2/3;
-            grid-row: 2/3;
+            
             width: 200px;
             height: 200px;
             @if ($caja==bandidos1) {
@@ -390,8 +385,7 @@ $colorcajainput:rgb(203, 245, 120);
             }
           }
           .bodyAbout__main__articleDos__imagenes__imagen7 {
-            grid-column: 3/4;
-            grid-row: 2/3;
+            
             width: 200px;
             height: 200px;
             @if ($caja==bandidos1) {
@@ -401,8 +395,7 @@ $colorcajainput:rgb(203, 245, 120);
             }
           }
           .bodyAbout__main__articleDos__imagenes__imagen8 {
-            grid-column: 4/5;
-            grid-row: 2/3;
+            
             width: 200px;
             height: 200px;
             @if ($caja==bandidos1) {
