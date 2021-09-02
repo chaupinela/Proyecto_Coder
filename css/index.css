@@ -734,7 +734,7 @@ ul {
 }
 
 /*-------------------------------------------------------------------------------*/
-/*----------------medias 600px  -------------------------------*/
+/*----------------medias 600px  ----------------------------------------------------------*/
 @media only screen and (max-width: 600px) {
   .mainIndexUno {
     background-color: chartreuse;
@@ -852,6 +852,153 @@ ul {
     width: 72vw;
     height: 450px;
     gap: 2rem;
+  }
+
+  .bodyAbout__main {
+    align-content: flex-end;
+    align-items: flex-end;
+    width: 100vw;
+    margin: 45px auto;
+  }
+  .bodyAbout__main .bodyAbout__main__articleUno .bodyAbout__main__articleUno__titulo {
+    text-align: center;
+    font-size: 1.5rem;
+    color: black;
+    border: none;
+    font-family: "Indie Flower", cursive;
+  }
+  .bodyAbout__main .bodyAbout__main__articleUno .bodyAbout__main__articleUno__texto {
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    color: var(--fire-opal);
+    font-family: "Indie Flower", cursive;
+    padding: 0 25px;
+  }
+  .bodyAbout__main .bodyAbout__main__articleDos {
+    gap: 0.5rem;
+    margin: 10px auto;
+  }
+  .bodyAbout__main .bodyAbout__main__articleDos .bodyAbout__main__articleDos__titulo {
+    border: none;
+    text-align: center;
+    color: black;
+    font-size: 1.5rem;
+    font-family: "Indie Flower", cursive;
+  }
+  .bodyAbout__main .bodyAbout__main__articleDos .bodyAbout__main__articleDos__texto {
+    padding: 10px 15px;
+    font-size: 1.2rem;
+    font-family: "Indie Flower", cursive;
+    color: var(--fire-opal);
+    padding: 0 25px;
+  }
+  .bodyAbout__main .bodyAbout__main__articleDos .bodyAbout__main__articleDos__imagenes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .bodyAbout__main .bodyAbout__main__articleDos .bodyAbout__main__articleDos__imagenes .bodyAbout__main__articleDos__imagenes__imagen1 {
+    width: 200px;
+    height: 200px;
+    background-image: url(../img/bandidos1.jpg);
+  }
+  .bodyAbout__main .bodyAbout__main__articleDos .bodyAbout__main__articleDos__imagenes .bodyAbout__main__articleDos__imagenes__imagen2 {
+    width: 200px;
+    height: 200px;
+    background-image: url(../img/bandidos1.jpg);
+  }
+  .bodyAbout__main .bodyAbout__main__articleDos .bodyAbout__main__articleDos__imagenes .bodyAbout__main__articleDos__imagenes__imagen3 {
+    width: 200px;
+    height: 200px;
+    background-image: url(../img/bandidos1.jpg);
+  }
+  .bodyAbout__main .bodyAbout__main__articleDos .bodyAbout__main__articleDos__imagenes .bodyAbout__main__articleDos__imagenes__imagen4 {
+    width: 200px;
+    height: 200px;
+    background-image: url(../img/bandidos1.jpg);
+  }
+  .bodyAbout__main .bodyAbout__main__articleDos .bodyAbout__main__articleDos__imagenes .bodyAbout__main__articleDos__imagenes__imagen5 {
+    width: 200px;
+    height: 200px;
+    background-image: url(../img/bandidos1.jpg);
+  }
+  .bodyAbout__main .bodyAbout__main__articleDos .bodyAbout__main__articleDos__imagenes .bodyAbout__main__articleDos__imagenes__imagen6 {
+    width: 200px;
+    height: 200px;
+    background-image: url(../img/bandidos1.jpg);
+  }
+  .bodyAbout__main .bodyAbout__main__articleDos .bodyAbout__main__articleDos__imagenes .bodyAbout__main__articleDos__imagenes__imagen7 {
+    width: 200px;
+    height: 200px;
+    background-image: url(../img/bandidos1.jpg);
+  }
+  .bodyAbout__main .bodyAbout__main__articleDos .bodyAbout__main__articleDos__imagenes .bodyAbout__main__articleDos__imagenes__imagen8 {
+    width: 200px;
+    height: 200px;
+    background-image: url(../img/bandidos1.jpg);
+  }
+
+  .cajaAmigurumi__main {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 270vh;
+    margin: 25px auto;
+    align-items: center;
+  }
+  .cajaAmigurumi__main .cajaAmigurumi__main__tituloMain {
+    color: var(--slate-blue);
+    font-family: "Indie Flower", cursive;
+    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .cajaAmigurumi__main .cajaAmigurumi__main__tituloMain h2 {
+    font-size: 1.2rem;
+    color: var(--manatee);
+  }
+  .cajaAmigurumi__main .cajaAmigurumi__main__materiales1 {
+    width: 300px;
+    height: 300px;
+    background-image: url(../img/amigurumi1.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .cajaAmigurumi__main .cajaAmigurumi__main__materiales2 {
+    font-size: 1.2rem;
+    font-family: "Indie Flower", cursive;
+  }
+  .cajaAmigurumi__main .cajaAmigurumi__main__materiales3 {
+    font-size: 1.2rem;
+    font-family: "Indie Flower", cursive;
+  }
+  .cajaAmigurumi__main .cajaAmigurumi__main__materiales4 {
+    width: 300px;
+    height: 300px;
+    background-image: url(../img/amigurumi2.jpg);
+  }
+  .cajaAmigurumi__main .cajaAmigurumi__main__materiales5 {
+    width: 300px;
+    height: 300px;
+    background-image: url(../img/amigurumi3.jpg);
+    background-size: cover;
+    background-position: bottom;
+  }
+  .cajaAmigurumi__main .cajaAmigurumi__main__materiales6 {
+    font-size: 1.2rem;
+    font-family: "Indie Flower", cursive;
+  }
+  .cajaAmigurumi__main .cajaAmigurumi__main__materiales7 {
+    font-size: 1.2rem;
+    font-family: "Indie Flower", cursive;
+  }
+  .cajaAmigurumi__main .cajaAmigurumi__main__materiales8 {
+    width: 300px;
+    height: 300px;
+    background-image: url(../img/amigurumi5.jpg);
+    background-size: cover;
+    background-position: center;
   }
 }
 
