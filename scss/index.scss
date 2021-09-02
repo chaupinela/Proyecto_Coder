@@ -1,7 +1,3 @@
-
-
-
-
 $fuenteCuerpo :'Indie Flower', cursive;
 $tamanioFuenteCuerpo: 1.8rem;
 $tamanioTitulo:2.5rem;
@@ -9,9 +5,18 @@ $colorTextoAbout: var(--fire-opal);
 $colorTituloAbout: var(--slate-blue);
 $fuenteTamanioGrid:1.4rem;
 $colorcajainput:rgb(203, 245, 120);
+@import "./Partials/header";
+@import "./Partials/globales";
+@import "./Partials/footer";
 
 
-@import "./Partials/_imports.scss";
+
+
+
+
+
+
+
 
 
 /* ------------------------------main del index --------------------------------------------------------- */
@@ -19,7 +24,7 @@ $colorcajainput:rgb(203, 245, 120);
 .mainIndexUno {
   
   width: 85vw;
-  height: 150vh;
+  height: 90vh;
   gap: 1rem;
   margin: 0px auto;
   .mainIndexUno__seccionUno {
@@ -44,7 +49,7 @@ $colorcajainput:rgb(203, 245, 120);
         color: black;
         font-size: $tamanioTitulo;
       }
-      .mainIndexUno__seccionUno__divSeccionUno__textoPrimero {
+      .mainIndexUno__seccionUno__divSeccionUno__textoPrimero{
         font-size: 1.9rem;
         text-align: center;
         color: black;
@@ -627,7 +632,164 @@ $colorcajainput:rgb(203, 245, 120);
   
   /*-------------------------------------------------------------------------------*/
 
-  
+ /*----------------medias 600px  -------------------------------*/
+
+@media only screen and (max-width: 600px){
+
+  .mainIndexUno {
+      background-color:chartreuse;
+      display: flex;
+      flex-direction: column;
+      width: 85vw;
+      height: 180vh;
+      gap: 0.2rem;
+      margin: 0px auto;
+
+      justify-content: space-around;
+      
+      .mainIndexUno__seccionUno {
+        
+        .mainIndexUno__seccionUno__divSeccionUno{
+      
+             
+        
+          .mainIndexUno__seccionUno__divSeccionUno__titulo{
+              font-size: 1.6rem;
+          
+          }
+          .mainIndexUno__seccionUno__divSeccionUno__textoPrimero {
+              font-size: 1.2rem;
+             
+              padding: 0 25px;
+              
+          }
+        
+      }
+  }
+      .mainIndexUno__seccionDos {
+       display: flex;
+       flex-direction: column;
+       justify-content: space-around; 
+       background-color: blue;
+       height: 100vh;
+        .mainIndexUno__seccionDos__tituloGaleria {
+          
+          .mainIndexUno__seccionDos__tituloGaleria__titulo{
+              font-size: 1.6rem;
+              
+              
+        }
+          
+        }
+        .mainIndexUno__seccionDos__imagenesSeccionDos {
+          background-color: chartreuse;
+          
+          display: flex;
+          flex-direction: column;
+          align-content: center;
+          align-items: center;
+          align-self: center;
+          width: 400px;
+          
+          margin: 50px auto;
+          @each $juguete in nariz supe nena {
+            .img-#{$juguete} {
+              background-image: url(../img/#{$juguete}.jpg);
+              
+            text-align: center;
+            }
+          }
+          
+            }
+          }
+    }
+ .mainIndexDos {
+      background-color: cyan;
+      width: 85vw;
+      margin: 25px auto;
+      height: 150vh;
+      justify-content:flex-start;
+
+      
+      .mainIndexDos__imagenesPorfolio {
+            display: flex;
+            flex-direction: column;
+            width: 90%;
+           
+            gap: 1rem;
+            margin: 0 auto;
+            padding: 0;
+            background-color: darkblue;
+              height: 150vh;
+              align-items: center;
+            .mainIndexDos__imagenesPorfolio__tituloPorfolio {
+              margin-top: 15px;
+              
+              .mainIndexDos__imagenesPorfolio__tituloPorfolio--titulo{
+                color: black;
+                  text-align: center;
+                  font-size: 3rem;
+                  font-family: 'Indie Flower', cursive;
+
+              }
+            }
+            .mainIndexDos__imagenesPorfolio__img{
+              background-color: blue;
+              width: 200px;
+                   height: 200px; 
+              @for $i from 4 through 10{
+                &--#{$i} {
+                  background-image:url(../img/porf#{$i}.jpg);
+                  background-size: cover;
+                  @if $i == 4{
+                   
+                  
+                  }
+                  @else if $i == 5{
+                   
+                    
+                  }
+                  @else if $i == 6{
+                    
+                    
+                  }
+                  @else if $i == 7{
+                   
+                    
+                  }
+                  @else if $i == 8{
+                   
+                    
+                  }
+                  @else if $i == 9{
+                   
+                    
+                  }
+                  @else if $i == 10{
+                  
+                    
+                  }
+                }
+                  
+    
+              }
+    
+    
+            }  
+    }
+    }
+    
+    
+    .card-group {
+          margin: 0 auto;
+          width: 72vw;
+          height: 450px;
+          gap: 2rem;
+    }
+    
 
 
 
+
+
+}
