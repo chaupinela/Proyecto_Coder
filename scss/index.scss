@@ -637,7 +637,7 @@ $colorcajainput:rgb(203, 245, 120);
 @media only screen and (max-width: 600px){
 
   .mainIndexUno {
-      background-color:chartreuse;
+      
       display: flex;
       flex-direction: column;
       width: 85vw;
@@ -670,7 +670,7 @@ $colorcajainput:rgb(203, 245, 120);
        display: flex;
        flex-direction: column;
        justify-content: space-around; 
-       background-color: blue;
+       
        height: 100vh;
         .mainIndexUno__seccionDos__tituloGaleria {
           
@@ -682,7 +682,7 @@ $colorcajainput:rgb(203, 245, 120);
           
         }
         .mainIndexUno__seccionDos__imagenesSeccionDos {
-          background-color: chartreuse;
+          
           
           display: flex;
           flex-direction: column;
@@ -704,7 +704,7 @@ $colorcajainput:rgb(203, 245, 120);
           }
     }
  .mainIndexDos {
-      background-color: cyan;
+      
       width: 85vw;
       margin: 25px auto;
       height: 150vh;
@@ -719,7 +719,7 @@ $colorcajainput:rgb(203, 245, 120);
             gap: 1rem;
             margin: 0 auto;
             padding: 0;
-            background-color: darkblue;
+            
               height: 150vh;
               align-items: center;
             .mainIndexDos__imagenesPorfolio__tituloPorfolio {
@@ -734,7 +734,7 @@ $colorcajainput:rgb(203, 245, 120);
               }
             }
             .mainIndexDos__imagenesPorfolio__img{
-              background-color: blue;
+              
               width: 200px;
                    height: 200px; 
               @for $i from 4 through 10{
@@ -940,6 +940,7 @@ $colorcajainput:rgb(203, 245, 120);
       height: 270vh;
       margin: 25px auto;
       align-items: center;
+      justify-content: space-around;
       .cajaAmigurumi__main__tituloMain{
         
         color:$colorTituloAbout;
@@ -958,9 +959,7 @@ $colorcajainput:rgb(203, 245, 120);
       .cajaAmigurumi__main__materiales1 {
        width: 300px;
         height: 300px;
-
-        
-       
+  
         background-image:url(../img/amigurumi1.jpg);
         background-size: cover;
         background-position: center;
@@ -1013,7 +1012,176 @@ $colorcajainput:rgb(203, 245, 120);
       }
       
     }    
+  
     
+
+
+
+  .mainContacto{
+    display: flex;
+    flex-direction: column;
+   font-family: $fuenteCuerpo;
+  
+   justify-content:flex-start ;
+  
+  .mainContacto__cajaMainContacto{
+    text-align: center;
+    justify-content: flex-start;
+    align-self:flex-start;
+    margin-top: 50px;
+    height: 110vh;
+    .mainContacto__cajaMainContacto__tituloContacto{
+    font-size:1.5rem;
+    color: $colorTituloAbout;
+
+    }
+    .mainContacto__cajaMainContacto__tituloDatosPersonales{
+      color: var(--manatee);
+      font-size: 1rem;
+      text-align: center;
+      
+      
+    }
+    .mainContacto__cajaMainContacto__cajaFormulario {
+    display: flex;
+    flex-direction: column;
+      
+    width: 80vw;
+    height: 80vh;
+    gap: 1rem;
+    margin: 0 auto;
+   
+    #inpNombre {
+      background-color: $colorcajainput;
+      height: 35px;
+      width:80vw;
+     
+      font-size: 1rem;
+      border: none;
+      border-radius: 5px;
+      
     
+    }
+    #inpApellido {
+      background-color: $colorcajainput;
+      height: 35px;
+      width: 80vw;
+      
+      font-size: 1rem;
+      border: none;
+      border-radius: 5px;
+      
+    }
+    #inpCorreo {
+      background-color: $colorcajainput;
+      height: 35px;
+      font-size: 1rem;
+      border: none;
+      border-radius: 5px;
+      width: 80vw;
+ 
+    }
+    #recibir {
+      background-color: $colorcajainput;
+      
+      font-size: 1rem;
+      border: none;
+      color: var(--manatee);
+      
+    }
+    #meInteresa {
+      background-color: $colorcajainput;
+     
+      font-size:1rem;
+      border: none;
+      color: var(--manatee);
+     
+    }
+    #clickSi {
+      background-color: $colorcajainput;
+      width: 25px;
+      height: 25px;
+    
+    }
+    #noInteresa {
+      font-size: 1rem;
+      border: none;
+      color: var(--manatee);
+     
+    }
+    #clickNo {
+      background-color: red;
+      width: 50px;
+      height: 50px;
+     
+    }
+    #ciudad {
+      background-color: $colorcajainput;
+      font-size: 1rem;
+      border: none;
+      color: var(--manatee);
+    
+    }
+    #ciudadesList {
+      background-color: $colorcajainput;
+      height: 35px;
+      width: 80vw;
+      border: none;
+     
+      font-size: 1rem;
+      color: var(--manatee);
+      border: none;
+      border-radius: 5px;
+     
+    }
+    #comentario {
+      background-color: $colorcajainput;
+      
+     
+      font-size: 1rem;
+      border: none;
+      color: var(--manatee);
+    
+    }
+    #cajaComentario {
+      background-color: $colorcajainput;
+     
+      font-size: 1rem;
+      border: none;
+  
+      border-radius: 10px;
+      color: var(--manatee);
+      
+    }
+    #limpia {
+      background-color: $colorcajainput;
+      height: 35px;
+      width: 120px;
+      
+      
+      font-size: 1rem;
+  
+      color: var(--manatee);
+      border: none;
+      border-radius: 5px;
+      
+    }
+    #envia {
+      background-color: $colorcajainput;
+      height: 35px;
+      width: 120px;
+      
+     
+      font-size: 1rem;
+      border: none;
+      border-radius: 5px;
+      color: var(--manatee);
+      
+    }
+
+    }
+  }
+}
+  
     
   }

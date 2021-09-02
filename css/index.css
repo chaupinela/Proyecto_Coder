@@ -737,7 +737,6 @@ ul {
 /*----------------medias 600px  ----------------------------------------------------------*/
 @media only screen and (max-width: 600px) {
   .mainIndexUno {
-    background-color: chartreuse;
     display: flex;
     flex-direction: column;
     width: 85vw;
@@ -757,14 +756,12 @@ ul {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    background-color: blue;
     height: 100vh;
   }
   .mainIndexUno .mainIndexUno__seccionDos .mainIndexUno__seccionDos__tituloGaleria .mainIndexUno__seccionDos__tituloGaleria__titulo {
     font-size: 1.6rem;
   }
   .mainIndexUno .mainIndexUno__seccionDos .mainIndexUno__seccionDos__imagenesSeccionDos {
-    background-color: chartreuse;
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -787,7 +784,6 @@ ul {
   }
 
   .mainIndexDos {
-    background-color: cyan;
     width: 85vw;
     margin: 25px auto;
     height: 150vh;
@@ -800,7 +796,6 @@ ul {
     gap: 1rem;
     margin: 0 auto;
     padding: 0;
-    background-color: darkblue;
     height: 150vh;
     align-items: center;
   }
@@ -814,7 +809,6 @@ ul {
     font-family: "Indie Flower", cursive;
   }
   .mainIndexDos .mainIndexDos__imagenesPorfolio .mainIndexDos__imagenesPorfolio__img {
-    background-color: blue;
     width: 200px;
     height: 200px;
   }
@@ -945,6 +939,7 @@ ul {
     height: 270vh;
     margin: 25px auto;
     align-items: center;
+    justify-content: space-around;
   }
   .cajaAmigurumi__main .cajaAmigurumi__main__tituloMain {
     color: var(--slate-blue);
@@ -999,6 +994,135 @@ ul {
     background-image: url(../img/amigurumi5.jpg);
     background-size: cover;
     background-position: center;
+  }
+
+  .mainContacto {
+    display: flex;
+    flex-direction: column;
+    font-family: "Indie Flower", cursive;
+    justify-content: flex-start;
+  }
+  .mainContacto .mainContacto__cajaMainContacto {
+    text-align: center;
+    justify-content: flex-start;
+    align-self: flex-start;
+    margin-top: 50px;
+    height: 110vh;
+  }
+  .mainContacto .mainContacto__cajaMainContacto .mainContacto__cajaMainContacto__tituloContacto {
+    font-size: 1.5rem;
+    color: var(--slate-blue);
+  }
+  .mainContacto .mainContacto__cajaMainContacto .mainContacto__cajaMainContacto__tituloDatosPersonales {
+    color: var(--manatee);
+    font-size: 1rem;
+    text-align: center;
+  }
+  .mainContacto .mainContacto__cajaMainContacto .mainContacto__cajaMainContacto__cajaFormulario {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    height: 80vh;
+    gap: 1rem;
+    margin: 0 auto;
+  }
+  .mainContacto .mainContacto__cajaMainContacto .mainContacto__cajaMainContacto__cajaFormulario #inpNombre {
+    background-color: #cbf578;
+    height: 35px;
+    width: 80vw;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+  }
+  .mainContacto .mainContacto__cajaMainContacto .mainContacto__cajaMainContacto__cajaFormulario #inpApellido {
+    background-color: #cbf578;
+    height: 35px;
+    width: 80vw;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+  }
+  .mainContacto .mainContacto__cajaMainContacto .mainContacto__cajaMainContacto__cajaFormulario #inpCorreo {
+    background-color: #cbf578;
+    height: 35px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    width: 80vw;
+  }
+  .mainContacto .mainContacto__cajaMainContacto .mainContacto__cajaMainContacto__cajaFormulario #recibir {
+    background-color: #cbf578;
+    font-size: 1rem;
+    border: none;
+    color: var(--manatee);
+  }
+  .mainContacto .mainContacto__cajaMainContacto .mainContacto__cajaMainContacto__cajaFormulario #meInteresa {
+    background-color: #cbf578;
+    font-size: 1rem;
+    border: none;
+    color: var(--manatee);
+  }
+  .mainContacto .mainContacto__cajaMainContacto .mainContacto__cajaMainContacto__cajaFormulario #clickSi {
+    background-color: #cbf578;
+    width: 25px;
+    height: 25px;
+  }
+  .mainContacto .mainContacto__cajaMainContacto .mainContacto__cajaMainContacto__cajaFormulario #noInteresa {
+    font-size: 1rem;
+    border: none;
+    color: var(--manatee);
+  }
+  .mainContacto .mainContacto__cajaMainContacto .mainContacto__cajaMainContacto__cajaFormulario #clickNo {
+    background-color: red;
+    width: 50px;
+    height: 50px;
+  }
+  .mainContacto .mainContacto__cajaMainContacto .mainContacto__cajaMainContacto__cajaFormulario #ciudad {
+    background-color: #cbf578;
+    font-size: 1rem;
+    border: none;
+    color: var(--manatee);
+  }
+  .mainContacto .mainContacto__cajaMainContacto .mainContacto__cajaMainContacto__cajaFormulario #ciudadesList {
+    background-color: #cbf578;
+    height: 35px;
+    width: 80vw;
+    border: none;
+    font-size: 1rem;
+    color: var(--manatee);
+    border: none;
+    border-radius: 5px;
+  }
+  .mainContacto .mainContacto__cajaMainContacto .mainContacto__cajaMainContacto__cajaFormulario #comentario {
+    background-color: #cbf578;
+    font-size: 1rem;
+    border: none;
+    color: var(--manatee);
+  }
+  .mainContacto .mainContacto__cajaMainContacto .mainContacto__cajaMainContacto__cajaFormulario #cajaComentario {
+    background-color: #cbf578;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+    color: var(--manatee);
+  }
+  .mainContacto .mainContacto__cajaMainContacto .mainContacto__cajaMainContacto__cajaFormulario #limpia {
+    background-color: #cbf578;
+    height: 35px;
+    width: 120px;
+    font-size: 1rem;
+    color: var(--manatee);
+    border: none;
+    border-radius: 5px;
+  }
+  .mainContacto .mainContacto__cajaMainContacto .mainContacto__cajaMainContacto__cajaFormulario #envia {
+    background-color: #cbf578;
+    height: 35px;
+    width: 120px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    color: var(--manatee);
   }
 }
 
