@@ -1230,7 +1230,6 @@ ul {
     height: 120vh;
   }
   .mainIndexUno .mainIndexUno__seccionUno .mainIndexUno__seccionUno__divSeccionUno {
-    background-color: cornflowerblue;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -1241,14 +1240,12 @@ ul {
     font-size: 2.5rem;
   }
   .mainIndexUno .mainIndexUno__seccionUno .mainIndexUno__seccionUno__divSeccionUno .mainIndexUno__seccionUno__divSeccionUno__textoPrimero {
-    background-color: cyan;
     font-size: 1.5rem;
     justify-content: flex-start;
     padding: 0 25px;
     height: 150vh;
   }
   .mainIndexUno .mainIndexUno__seccionDos {
-    background-color: darkcyan;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -1259,7 +1256,6 @@ ul {
     font-size: 1.6rem;
   }
   .mainIndexUno .mainIndexUno__seccionDos .mainIndexUno__seccionDos__imagenesSeccionDos {
-    background-color: darkgoldenrod;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
