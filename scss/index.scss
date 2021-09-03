@@ -641,25 +641,29 @@ $colorcajainput:rgb(203, 245, 120);
       display: flex;
       flex-direction: column;
       width: 85vw;
-      height: 180vh;
+      height: 290vh;
       gap: 0.2rem;
       margin: 0px auto;
-
-      justify-content: space-around;
+      align-items: center;
+      justify-content: flex-start;
       
       .mainIndexUno__seccionUno {
+        background-color: brown;
+        height: 130vh;
         
         .mainIndexUno__seccionUno__divSeccionUno{
-      
-             
+          height: 200vh;
+           display: flex;
+           flex-direction: column;
+           justify-content: flex-start;  
         
           .mainIndexUno__seccionUno__divSeccionUno__titulo{
-              font-size: 1.6rem;
+              font-size: 1.5rem;
           
           }
           .mainIndexUno__seccionUno__divSeccionUno__textoPrimero {
               font-size: 1.2rem;
-             
+              justify-content: flex-start;
               padding: 0 25px;
               
           }
@@ -669,9 +673,9 @@ $colorcajainput:rgb(203, 245, 120);
       .mainIndexUno__seccionDos {
        display: flex;
        flex-direction: column;
-       justify-content: space-around; 
+       justify-content: flex-start; 
        
-       height: 100vh;
+       height: 150vh;
         .mainIndexUno__seccionDos__tituloGaleria {
           
           .mainIndexUno__seccionDos__tituloGaleria__titulo{
@@ -682,17 +686,15 @@ $colorcajainput:rgb(203, 245, 120);
           
         }
         .mainIndexUno__seccionDos__imagenesSeccionDos {
-          
-          
+          background-color: burlywood;
           display: flex;
           flex-direction: column;
-          align-content: center;
+          justify-content: flex-start;
           align-items: center;
           align-self: center;
-          width: 400px;
-          
-          margin: 50px auto;
-          @each $juguete in nariz supe nena {
+          width:100vw;
+          height: 150vh;
+                    @each $juguete in nariz supe nena {
             .img-#{$juguete} {
               background-image: url(../img/#{$juguete}.jpg);
               
@@ -704,10 +706,10 @@ $colorcajainput:rgb(203, 245, 120);
           }
     }
  .mainIndexDos {
-      
+      background-color: blueviolet;
       width: 85vw;
       margin: 25px auto;
-      height: 150vh;
+      height: 250vh;
       justify-content:flex-start;
 
       

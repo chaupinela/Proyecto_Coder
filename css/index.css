@@ -737,38 +737,52 @@ ul {
 /*----------------medias 600px  ----------------------------------------------------------*/
 @media only screen and (max-width: 600px) {
   .mainIndexUno {
+    background-color: aqua;
     display: flex;
     flex-direction: column;
     width: 85vw;
-    height: 180vh;
+    height: 290vh;
     gap: 0.2rem;
     margin: 0px auto;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .mainIndexUno .mainIndexUno__seccionUno {
+    background-color: brown;
+    height: 130vh;
+  }
+  .mainIndexUno .mainIndexUno__seccionUno .mainIndexUno__seccionUno__divSeccionUno {
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
   }
   .mainIndexUno .mainIndexUno__seccionUno .mainIndexUno__seccionUno__divSeccionUno .mainIndexUno__seccionUno__divSeccionUno__titulo {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
   }
   .mainIndexUno .mainIndexUno__seccionUno .mainIndexUno__seccionUno__divSeccionUno .mainIndexUno__seccionUno__divSeccionUno__textoPrimero {
     font-size: 1.2rem;
+    justify-content: flex-start;
     padding: 0 25px;
   }
   .mainIndexUno .mainIndexUno__seccionDos {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    height: 100vh;
+    justify-content: flex-start;
+    height: 150vh;
   }
   .mainIndexUno .mainIndexUno__seccionDos .mainIndexUno__seccionDos__tituloGaleria .mainIndexUno__seccionDos__tituloGaleria__titulo {
     font-size: 1.6rem;
   }
   .mainIndexUno .mainIndexUno__seccionDos .mainIndexUno__seccionDos__imagenesSeccionDos {
+    background-color: burlywood;
     display: flex;
     flex-direction: column;
-    align-content: center;
+    justify-content: flex-start;
     align-items: center;
     align-self: center;
-    width: 400px;
-    margin: 50px auto;
+    width: 100vw;
+    height: 150vh;
   }
   .mainIndexUno .mainIndexUno__seccionDos .mainIndexUno__seccionDos__imagenesSeccionDos .img-nariz {
     background-image: url(../img/nariz.jpg);
@@ -784,9 +798,10 @@ ul {
   }
 
   .mainIndexDos {
+    background-color: blueviolet;
     width: 85vw;
     margin: 25px auto;
-    height: 150vh;
+    height: 250vh;
     justify-content: flex-start;
   }
   .mainIndexDos .mainIndexDos__imagenesPorfolio {
