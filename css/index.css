@@ -765,7 +765,7 @@ ul {
     font-size: 1.5rem;
   }
   .mainIndexUno .mainIndexUno__seccionUno .mainIndexUno__seccionUno__divSeccionUno .mainIndexUno__seccionUno__divSeccionUno__textoPrimero {
-    height: 150vh;
+    height: 80vh;
     font-size: 1.2rem;
     justify-content: flex-start;
     padding: 0 25px;
@@ -774,7 +774,7 @@ ul {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    height: 180vh;
+    height: 120vh;
   }
   .mainIndexUno .mainIndexUno__seccionDos .mainIndexUno__seccionDos__tituloGaleria .mainIndexUno__seccionDos__tituloGaleria__titulo {
     font-size: 1.6rem;
