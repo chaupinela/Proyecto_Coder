@@ -90,7 +90,7 @@ ul {
   column-gap: 10px;
   row-gap: 10px;
   padding: 5px 10px;
-  color: var(--maximum-blue-purple);
+  color: black;
   font-family: "Indie Flower", cursive;
   font-size: 1.5rem;
 }
@@ -229,16 +229,13 @@ ul {
   }
 }
 /* ------------------------------main del index --------------------------------------------------------- */
-.bodyIndex {
-  height: 350vh;
-}
 .bodyIndex #bodyIndex__mainIndex {
-  height: 430vh;
+  height: 260vh;
 }
 
 .mainIndexUno {
   width: 85vw;
-  height: 250vh;
+  height: 160vh;
   gap: 1rem;
   margin: 0px auto;
 }
