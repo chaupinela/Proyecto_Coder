@@ -636,24 +636,21 @@ $colorcajainput:rgb(203, 245, 120);
 
 @media only screen and (max-width: 600px){
 
-  
+
   .mainIndexUno {
      
-      display: flex;
-      flex-direction: column;
+      
       width: 85vw;
-      height: 300vh;
+      height: 180vh;
       gap: 0.2rem;
-      margin: 0px auto;
-      align-items: center;
-      justify-content: flex-start;
+     
       
       .mainIndexUno__seccionUno {
        
-        height: 130vh;
+        height: 80vh;
         
         .mainIndexUno__seccionUno__divSeccionUno{
-          height: 200vh;
+          height: 100vh;
            display: flex;
            flex-direction: column;
            justify-content: flex-start;  
@@ -676,7 +673,7 @@ $colorcajainput:rgb(203, 245, 120);
        flex-direction: column;
        justify-content: flex-start; 
        
-       height: 150vh;
+       height: 80vh;
         .mainIndexUno__seccionDos__tituloGaleria {
           
           .mainIndexUno__seccionDos__tituloGaleria__titulo{
@@ -694,7 +691,7 @@ $colorcajainput:rgb(203, 245, 120);
           align-items: center;
           align-self: center;
           width:100vw;
-          height: 150vh;
+          height: 80vh;
                     @each $juguete in nariz supe nena {
             .img-#{$juguete} {
               background-image: url(../img/#{$juguete}.jpg);
@@ -715,10 +712,9 @@ $colorcajainput:rgb(203, 245, 120);
 
       
       .mainIndexDos__imagenesPorfolio {
-        
             display: flex;
             flex-direction: column;
-            width: 100vw;
+            
             height: 240vh;
             align-items: center;
             align-self: center;
@@ -1258,3 +1254,645 @@ $colorcajainput:rgb(203, 245, 120);
   
     
   }
+
+  /*--------------------------------min 600 -----------------------------*/
+
+
+  @media only screen and (min-width: 600px){
+
+     
+    #mainIndex{
+      display: flex;
+      flex-direction: column;
+      align-self: center;
+      height: 430vh;
+    }
+
+    .mainIndexUno {
+      display: flex;
+      flex-direction: column;
+       
+       
+        width: 80vw;
+        height: 208vh;
+        gap: 0.2rem;
+       
+        
+        .mainIndexUno__seccionUno {
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+         
+          height: 150vh;
+        
+          .mainIndexUno__seccionUno__divSeccionUno{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            height: 100vh;
+             display: flex;
+            
+               
+          
+            .mainIndexUno__seccionUno__divSeccionUno__titulo{
+                font-size: 2.5rem;
+            
+            }
+            .mainIndexUno__seccionUno__divSeccionUno__textoPrimero {
+                font-size: 1.5rem;
+                justify-content: flex-start;
+                padding: 0 25px;
+                height: 150vh;
+                
+            }
+          
+        }
+    }
+        .mainIndexUno__seccionDos {
+         
+         display: flex;
+         flex-direction: column;
+         justify-content: space-around; 
+         width: 80vw;
+         height: 80vh;
+          .mainIndexUno__seccionDos__tituloGaleria {
+            
+            .mainIndexUno__seccionDos__tituloGaleria__titulo{
+                font-size: 1.6rem;
+                
+                
+          }
+            
+          }
+          .mainIndexUno__seccionDos__imagenesSeccionDos {
+            
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            align-self: center;
+            width:100vw;
+            height: 500vh;
+                      @each $juguete in nariz supe nena {
+              .img-#{$juguete} {
+                background-image: url(../img/#{$juguete}.jpg);
+                
+              text-align: center;
+              }
+            }
+            
+              }
+            }
+      }
+   .mainIndexDos {
+    
+        
+        width: 80vw;
+        margin: 25px auto;
+        height: 150vh;
+        justify-content:flex-start;
+  
+        
+        .mainIndexDos__imagenesPorfolio {
+             
+              display: flex;
+              flex-direction:row;
+              width: 100vw;
+              height: 210vh;
+              flex-wrap: wrap;
+              .mainIndexDos__imagenesPorfolio__tituloPorfolio {
+                margin-top: 15px;
+                
+                .mainIndexDos__imagenesPorfolio__tituloPorfolio--titulo{
+                  color: black;
+                    text-align: center;
+                    font-size: 3rem;
+                    font-family: 'Indie Flower', cursive;
+  
+                }
+              }
+              .mainIndexDos__imagenesPorfolio__img{
+                
+                width: 250px;
+                height: 250px; 
+                @for $i from 4 through 10{
+                  &--#{$i} {
+                    background-image:url(../img/porf#{$i}.jpg);
+                    background-size: cover;
+                    @if $i == 4{
+                     
+                    
+                    }
+                    @else if $i == 5{
+                     
+                      
+                    }
+                    @else if $i == 6{
+                      
+                      
+                    }
+                    @else if $i == 7{
+                     
+                      
+                    }
+                    @else if $i == 8{
+                     
+                      
+                    }
+                    @else if $i == 9{
+                     
+                      
+                    }
+                    @else if $i == 10{
+                    
+                      
+                    }
+                  }
+                    
+      
+                }
+      
+      
+              }  
+      }
+      }
+      
+      
+      .card-group {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 400px;
+        gap: 0.5rem;
+      }
+      
+  
+    
+  
+  
+  
+      .bodyAbout__main {
+        
+        align-content:flex-start;
+        align-items: flex-start;
+        align-self: center;
+        width: 100vw;
+       
+        .bodyAbout__main__articleUno {
+          .bodyAbout__main__articleUno__titulo {
+            text-align: center;
+            font-size: 1.5rem; 
+            color:black;
+            border: none;
+            font-family: $fuenteCuerpo;
+             
+            
+          }
+          
+          .bodyAbout__main__articleUno__texto {
+            font-size: 1.2rem;
+            padding: 10px 15px;
+            color: black;
+            font-family: $fuenteCuerpo ;
+            padding: 0 25px;
+          }
+        }
+  
+        .bodyAbout__main__articleDos {
+         gap: 0.5rem;
+         margin: 10px auto;
+         
+          .bodyAbout__main__articleDos__titulo {
+            border: none;
+            text-align: center;
+            color: black;
+            font-size: 1.5rem; 
+            font-family: $fuenteCuerpo;
+          }
+         
+          .bodyAbout__main__articleDos__texto {
+            padding: 10px 15px;
+            font-size: 1.2rem;
+            font-family: $fuenteCuerpo;
+            color:black;
+            padding: 0 25px;
+            
+          }
+          .bodyAbout__main__articleDos__imagenes {
+            display: flex;
+            flex-direction: column;   
+            align-items: center;
+            $caja: bandidos1;
+            .bodyAbout__main__articleDos__imagenes__imagen1 {
+             
+              width: 200px;
+              height: 200px;
+  
+              @if ($caja==bandidos1) {
+                background-image: url(../img/bandidos1.jpg);
+              } @else {
+                background-color: gray;
+              }
+            }
+            .bodyAbout__main__articleDos__imagenes__imagen2 {
+              
+              width: 200px;
+              height: 200px;
+              @if ($caja==bandidos1) {
+                background-image: url(../img/bandidos1.jpg);
+              } @else {
+                background-color: gray;
+              }
+            }
+            .bodyAbout__main__articleDos__imagenes__imagen3 {
+              
+              width: 200px;
+              height: 200px;
+              @if ($caja==bandidos1) {
+                background-image: url(../img/bandidos1.jpg);
+              } @else {
+                background-color: gray;
+              }
+            }
+            .bodyAbout__main__articleDos__imagenes__imagen4 {
+              
+              width: 200px;
+              height: 200px;
+              @if ($caja==bandidos1) {
+                background-image: url(../img/bandidos1.jpg);
+              } @else {
+                background-color: gray;
+              }
+            }
+            .bodyAbout__main__articleDos__imagenes__imagen5 {
+              
+              width: 200px;
+              height: 200px;
+              @if ($caja==bandidos1) {
+                background-image: url(../img/bandidos1.jpg);
+              } @else {
+                background-color: gray;
+              }
+            }
+            .bodyAbout__main__articleDos__imagenes__imagen6 {
+              
+              width: 200px;
+              height: 200px;
+              @if ($caja==bandidos1) {
+                background-image: url(../img/bandidos1.jpg);
+              } @else {
+                background-color: gray;
+              }
+            }
+            .bodyAbout__main__articleDos__imagenes__imagen7 {
+              
+              width: 200px;
+              height: 200px;
+              @if ($caja==bandidos1) {
+                background-image: url(../img/bandidos1.jpg);
+              } @else {
+                background-color: gray;
+              }
+            }
+            .bodyAbout__main__articleDos__imagenes__imagen8 {
+              
+              width: 200px;
+              height: 200px;
+              @if ($caja==bandidos1) {
+                background-image: url(../img/bandidos1.jpg);
+              } @else {
+                background-color: gray;
+              }
+            }
+          }
+        }
+      }
+     
+      
+  
+  
+  
+      .cajaAmigurumi__main{
+        
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 270vh;
+        margin: 25px auto;
+        align-items: center;
+        justify-content: space-around;
+        .cajaAmigurumi__main__tituloMain{
+          
+          color:$colorTituloAbout;
+          font-family: $fuenteCuerpo;
+          font-size: 1.5rem;
+          justify-content: center;
+          align-items: center;
+          display: flex;
+        
+            h2{
+              font-size: 1.2rem;
+              color: var(--manatee);
+            }
+        }
+    
+        .cajaAmigurumi__main__materiales1 {
+         width: 300px;
+          height: 300px;
+    
+          background-image:url(../img/amigurumi1.jpg);
+          background-size: cover;
+          background-position: center;
+          
+        }
+        .cajaAmigurumi__main__materiales2 {
+          font-size: 1.2rem;
+          font-family: $fuenteCuerpo;
+         
+       
+        }
+        .cajaAmigurumi__main__materiales3 {
+          font-size: 1.2rem;
+          font-family: $fuenteCuerpo;
+         
+         
+        }
+        .cajaAmigurumi__main__materiales4 {
+          width: 300px;
+          height: 300px;
+          background-image:url(../img/amigurumi2.jpg);
+      
+        }
+        .cajaAmigurumi__main__materiales5 {
+          width: 300px;
+          height: 300px;
+          background-image:url(../img/amigurumi3.jpg);
+          background-size: cover;
+          background-position: bottom;
+        
+        }
+        .cajaAmigurumi__main__materiales6 {
+          font-size: 1.2rem;
+          font-family: $fuenteCuerpo;
+        
+        }
+        .cajaAmigurumi__main__materiales7 {
+          font-size: 1.2rem;
+          font-family: $fuenteCuerpo;
+         
+        }
+        .cajaAmigurumi__main__materiales8 {
+          width: 300px;
+          height: 300px;
+          background-image: url(../img/amigurumi5.jpg);
+          background-size: cover;
+          background-position: center;
+          
+       
+        }
+        
+      }    
+    
+      
+  
+  
+  
+    .mainContacto{
+      display: flex;
+      flex-direction: column;
+     font-family: $fuenteCuerpo;
+    
+     justify-content:flex-start ;
+    
+    .mainContacto__cajaMainContacto{
+      text-align: center;
+      justify-content: flex-start;
+      align-self:flex-start;
+      margin-top: 50px;
+      height: 110vh;
+      .mainContacto__cajaMainContacto__tituloContacto{
+      font-size:1.5rem;
+      color: $colorTituloAbout;
+  
+      }
+      .mainContacto__cajaMainContacto__tituloDatosPersonales{
+        color: var(--manatee);
+        font-size: 1rem;
+        text-align: center;
+        
+        
+      }
+      .mainContacto__cajaMainContacto__cajaFormulario {
+      display: flex;
+      flex-direction: column;
+        
+      width: 80vw;
+      height: 80vh;
+      gap: 1rem;
+      margin: 0 auto;
+     
+      #inpNombre {
+        background-color: $colorcajainput;
+        height: 35px;
+        width:80vw;
+       
+        font-size: 1rem;
+        border: none;
+        border-radius: 5px;
+        
+      
+      }
+      #inpApellido {
+        background-color: $colorcajainput;
+        height: 35px;
+        width: 80vw;
+        
+        font-size: 1rem;
+        border: none;
+        border-radius: 5px;
+        
+      }
+      #inpCorreo {
+        background-color: $colorcajainput;
+        height: 35px;
+        font-size: 1rem;
+        border: none;
+        border-radius: 5px;
+        width: 80vw;
+   
+      }
+      #recibir {
+        background-color: $colorcajainput;
+        
+        font-size: 1rem;
+        border: none;
+        color: var(--manatee);
+        
+      }
+      #meInteresa {
+        background-color: $colorcajainput;
+       
+        font-size:1rem;
+        border: none;
+        color: var(--manatee);
+       
+      }
+      #clickSi {
+        background-color: $colorcajainput;
+        width: 25px;
+        height: 25px;
+      
+      }
+      #noInteresa {
+        font-size: 1rem;
+        border: none;
+        color: var(--manatee);
+       
+      }
+      #clickNo {
+       
+        width: 50px;
+        height: 50px;
+       
+      }
+      #ciudad {
+        background-color: $colorcajainput;
+        font-size: 1rem;
+        border: none;
+        color: var(--manatee);
+      
+      }
+      #ciudadesList {
+        background-color: $colorcajainput;
+        height: 35px;
+        width: 80vw;
+        border: none;
+       
+        font-size: 1rem;
+        color: var(--manatee);
+        border: none;
+        border-radius: 5px;
+       
+      }
+      #comentario {
+        background-color: $colorcajainput;
+        
+       
+        font-size: 1rem;
+        border: none;
+        color: var(--manatee);
+      
+      }
+      #cajaComentario {
+        background-color: $colorcajainput;
+       
+        font-size: 1rem;
+        border: none;
+    
+        border-radius: 10px;
+        color: var(--manatee);
+        
+      }
+      #limpia {
+        background-color: $colorcajainput;
+        height: 35px;
+        width: 120px;
+        
+        
+        font-size: 1rem;
+    
+        color: var(--manatee);
+        border: none;
+        border-radius: 5px;
+        
+      }
+      #envia {
+        background-color: $colorcajainput;
+        height: 35px;
+        width: 120px;
+        
+       
+        font-size: 1rem;
+        border: none;
+        border-radius: 5px;
+        color: var(--manatee);
+        
+      }
+  
+      }
+    }
+  }
+  
+  
+  .pie {
+    width: 80vw;
+    height: 30vh;
+    grid-area: pie;
+    margin: 50px auto;
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 10px;
+    color:black;
+    font-family: $fuenteFooter;
+    font-size: 1rem;
+    
+    
+    .pie__pDeFooter {
+      
+      
+      text-align: center;
+      
+      margin-bottom: 5px;
+      padding-bottom: 5px;
+    }
+    .pie__datos {
+     
+      
+      text-align: center;
+    }
+    .pie__derechos {
+    
+      
+      text-align: center;
+    }
+    .pie__redes {
+     
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      width: 90vw;
+      transition: 1s;
+        .pie__redes__item__link--face {
+        
+        font-size: 1.1rem;
+        list-style: none;
+        text-decoration: none;
+        color: black;
+        border-radius: 5px;
+           
+        }
+        .pie__redes__item__link--tw {
+        font-size: 1.1rem;
+        list-style: none;
+        text-decoration: none;
+        color: black;
+        border-radius: 5px;
+            
+        
+        }
+        .pie__redes__item__link--inst {
+            font-size: 1.2rem;
+            list-style: none;
+            text-decoration: none;
+            color: black;
+            border-radius: 5px;
+                
+            
+            }
+  }   
+  }
+    
+      
+    }

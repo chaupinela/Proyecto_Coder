@@ -737,20 +737,15 @@ ul {
 /*----------------medias 600px  ----------------------------------------------------------*/
 @media only screen and (max-width: 600px) {
   .mainIndexUno {
-    display: flex;
-    flex-direction: column;
     width: 85vw;
-    height: 300vh;
+    height: 180vh;
     gap: 0.2rem;
-    margin: 0px auto;
-    align-items: center;
-    justify-content: flex-start;
   }
   .mainIndexUno .mainIndexUno__seccionUno {
-    height: 130vh;
+    height: 80vh;
   }
   .mainIndexUno .mainIndexUno__seccionUno .mainIndexUno__seccionUno__divSeccionUno {
-    height: 200vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -767,7 +762,7 @@ ul {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    height: 150vh;
+    height: 80vh;
   }
   .mainIndexUno .mainIndexUno__seccionDos .mainIndexUno__seccionDos__tituloGaleria .mainIndexUno__seccionDos__tituloGaleria__titulo {
     font-size: 1.6rem;
@@ -779,7 +774,7 @@ ul {
     align-items: center;
     align-self: center;
     width: 100vw;
-    height: 150vh;
+    height: 80vh;
   }
   .mainIndexUno .mainIndexUno__seccionDos .mainIndexUno__seccionDos__imagenesSeccionDos .img-nariz {
     background-image: url(../img/nariz.jpg);
@@ -803,7 +798,6 @@ ul {
   .mainIndexDos .mainIndexDos__imagenesPorfolio {
     display: flex;
     flex-direction: column;
-    width: 100vw;
     height: 240vh;
     align-items: center;
     align-self: center;
@@ -820,6 +814,469 @@ ul {
   .mainIndexDos .mainIndexDos__imagenesPorfolio .mainIndexDos__imagenesPorfolio__img {
     width: 200px;
     height: 200px;
+  }
+  .mainIndexDos .mainIndexDos__imagenesPorfolio .mainIndexDos__imagenesPorfolio__img--4 {
+    background-image: url(../img/porf4.jpg);
+    background-size: cover;
+  }
+  .mainIndexDos .mainIndexDos__imagenesPorfolio .mainIndexDos__imagenesPorfolio__img--5 {
+    background-image: url(../img/porf5.jpg);
+    background-size: cover;
+  }
+  .mainIndexDos .mainIndexDos__imagenesPorfolio .mainIndexDos__imagenesPorfolio__img--6 {
+    background-image: url(../img/porf6.jpg);
+    background-size: cover;
+  }
+  .mainIndexDos .mainIndexDos__imagenesPorfolio .mainIndexDos__imagenesPorfolio__img--7 {
+    background-image: url(../img/porf7.jpg);
+    background-size: cover;
+  }
+  .mainIndexDos .mainIndexDos__imagenesPorfolio .mainIndexDos__imagenesPorfolio__img--8 {
+    background-image: url(../img/porf8.jpg);
+    background-size: cover;
+  }
+  .mainIndexDos .mainIndexDos__imagenesPorfolio .mainIndexDos__imagenesPorfolio__img--9 {
+    background-image: url(../img/porf9.jpg);
+    background-size: cover;
+  }
+  .mainIndexDos .mainIndexDos__imagenesPorfolio .mainIndexDos__imagenesPorfolio__img--10 {
+    background-image: url(../img/porf10.jpg);
+    background-size: cover;
+  }
+
+  .card-group {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 400px;
+    gap: 0.5rem;
+  }
+
+  .bodyAbout__main {
+    align-content: flex-start;
+    align-items: flex-start;
+    align-self: center;
+    width: 100vw;
+  }
+  .bodyAbout__main .bodyAbout__main__articleUno .bodyAbout__main__articleUno__titulo {
+    text-align: center;
+    font-size: 1.5rem;
+    color: black;
+    border: none;
+    font-family: "Indie Flower", cursive;
+  }
+  .bodyAbout__main .bodyAbout__main__articleUno .bodyAbout__main__articleUno__texto {
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    color: black;
+    font-family: "Indie Flower", cursive;
+    padding: 0 25px;
+  }
+  .bodyAbout__main .bodyAbout__main__articleDos {
+    gap: 0.5rem;
+    margin: 10px auto;
+  }
+  .bodyAbout__main .bodyAbout__main__articleDos .bodyAbout__main__articleDos__titulo {
+    border: none;
+    text-align: center;
+    color: black;
+    font-size: 1.5rem;
+    font-family: "Indie Flower", cursive;
+  }
+  .bodyAbout__main .bodyAbout__main__articleDos .bodyAbout__main__articleDos__texto {
+    padding: 10px 15px;
+    font-size: 1.2rem;
+    font-family: "Indie Flower", cursive;
+    color: black;
+    padding: 0 25px;
+  }
+  .bodyAbout__main .bodyAbout__main__articleDos .bodyAbout__main__articleDos__imagenes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .bodyAbout__main .bodyAbout__main__articleDos .bodyAbout__main__articleDos__imagenes .bodyAbout__main__articleDos__imagenes__imagen1 {
+    width: 200px;
+    height: 200px;
+    background-image: url(../img/bandidos1.jpg);
+  }
+  .bodyAbout__main .bodyAbout__main__articleDos .bodyAbout__main__articleDos__imagenes .bodyAbout__main__articleDos__imagenes__imagen2 {
+    width: 200px;
+    height: 200px;
+    background-image: url(../img/bandidos1.jpg);
+  }
+  .bodyAbout__main .bodyAbout__main__articleDos .bodyAbout__main__articleDos__imagenes .bodyAbout__main__articleDos__imagenes__imagen3 {
+    width: 200px;
+    height: 200px;
+    background-image: url(../img/bandidos1.jpg);
+  }
+  .bodyAbout__main .bodyAbout__main__articleDos .bodyAbout__main__articleDos__imagenes .bodyAbout__main__articleDos__imagenes__imagen4 {
+    width: 200px;
+    height: 200px;
+    background-image: url(../img/bandidos1.jpg);
+  }
+  .bodyAbout__main .bodyAbout__main__articleDos .bodyAbout__main__articleDos__imagenes .bodyAbout__main__articleDos__imagenes__imagen5 {
+    width: 200px;
+    height: 200px;
+    background-image: url(../img/bandidos1.jpg);
+  }
+  .bodyAbout__main .bodyAbout__main__articleDos .bodyAbout__main__articleDos__imagenes .bodyAbout__main__articleDos__imagenes__imagen6 {
+    width: 200px;
+    height: 200px;
+    background-image: url(../img/bandidos1.jpg);
+  }
+  .bodyAbout__main .bodyAbout__main__articleDos .bodyAbout__main__articleDos__imagenes .bodyAbout__main__articleDos__imagenes__imagen7 {
+    width: 200px;
+    height: 200px;
+    background-image: url(../img/bandidos1.jpg);
+  }
+  .bodyAbout__main .bodyAbout__main__articleDos .bodyAbout__main__articleDos__imagenes .bodyAbout__main__articleDos__imagenes__imagen8 {
+    width: 200px;
+    height: 200px;
+    background-image: url(../img/bandidos1.jpg);
+  }
+
+  .cajaAmigurumi__main {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 270vh;
+    margin: 25px auto;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .cajaAmigurumi__main .cajaAmigurumi__main__tituloMain {
+    color: var(--slate-blue);
+    font-family: "Indie Flower", cursive;
+    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .cajaAmigurumi__main .cajaAmigurumi__main__tituloMain h2 {
+    font-size: 1.2rem;
+    color: var(--manatee);
+  }
+  .cajaAmigurumi__main .cajaAmigurumi__main__materiales1 {
+    width: 300px;
+    height: 300px;
+    background-image: url(../img/amigurumi1.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .cajaAmigurumi__main .cajaAmigurumi__main__materiales2 {
+    font-size: 1.2rem;
+    font-family: "Indie Flower", cursive;
+  }
+  .cajaAmigurumi__main .cajaAmigurumi__main__materiales3 {
+    font-size: 1.2rem;
+    font-family: "Indie Flower", cursive;
+  }
+  .cajaAmigurumi__main .cajaAmigurumi__main__materiales4 {
+    width: 300px;
+    height: 300px;
+    background-image: url(../img/amigurumi2.jpg);
+  }
+  .cajaAmigurumi__main .cajaAmigurumi__main__materiales5 {
+    width: 300px;
+    height: 300px;
+    background-image: url(../img/amigurumi3.jpg);
+    background-size: cover;
+    background-position: bottom;
+  }
+  .cajaAmigurumi__main .cajaAmigurumi__main__materiales6 {
+    font-size: 1.2rem;
+    font-family: "Indie Flower", cursive;
+  }
+  .cajaAmigurumi__main .cajaAmigurumi__main__materiales7 {
+    font-size: 1.2rem;
+    font-family: "Indie Flower", cursive;
+  }
+  .cajaAmigurumi__main .cajaAmigurumi__main__materiales8 {
+    width: 300px;
+    height: 300px;
+    background-image: url(../img/amigurumi5.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .mainContacto {
+    display: flex;
+    flex-direction: column;
+    font-family: "Indie Flower", cursive;
+    justify-content: flex-start;
+  }
+  .mainContacto .mainContacto__cajaMainContacto {
+    text-align: center;
+    justify-content: flex-start;
+    align-self: flex-start;
+    margin-top: 50px;
+    height: 110vh;
+  }
+  .mainContacto .mainContacto__cajaMainContacto .mainContacto__cajaMainContacto__tituloContacto {
+    font-size: 1.5rem;
+    color: var(--slate-blue);
+  }
+  .mainContacto .mainContacto__cajaMainContacto .mainContacto__cajaMainContacto__tituloDatosPersonales {
+    color: var(--manatee);
+    font-size: 1rem;
+    text-align: center;
+  }
+  .mainContacto .mainContacto__cajaMainContacto .mainContacto__cajaMainContacto__cajaFormulario {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    height: 80vh;
+    gap: 1rem;
+    margin: 0 auto;
+  }
+  .mainContacto .mainContacto__cajaMainContacto .mainContacto__cajaMainContacto__cajaFormulario #inpNombre {
+    background-color: #cbf578;
+    height: 35px;
+    width: 80vw;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+  }
+  .mainContacto .mainContacto__cajaMainContacto .mainContacto__cajaMainContacto__cajaFormulario #inpApellido {
+    background-color: #cbf578;
+    height: 35px;
+    width: 80vw;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+  }
+  .mainContacto .mainContacto__cajaMainContacto .mainContacto__cajaMainContacto__cajaFormulario #inpCorreo {
+    background-color: #cbf578;
+    height: 35px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    width: 80vw;
+  }
+  .mainContacto .mainContacto__cajaMainContacto .mainContacto__cajaMainContacto__cajaFormulario #recibir {
+    background-color: #cbf578;
+    font-size: 1rem;
+    border: none;
+    color: var(--manatee);
+  }
+  .mainContacto .mainContacto__cajaMainContacto .mainContacto__cajaMainContacto__cajaFormulario #meInteresa {
+    background-color: #cbf578;
+    font-size: 1rem;
+    border: none;
+    color: var(--manatee);
+  }
+  .mainContacto .mainContacto__cajaMainContacto .mainContacto__cajaMainContacto__cajaFormulario #clickSi {
+    background-color: #cbf578;
+    width: 25px;
+    height: 25px;
+  }
+  .mainContacto .mainContacto__cajaMainContacto .mainContacto__cajaMainContacto__cajaFormulario #noInteresa {
+    font-size: 1rem;
+    border: none;
+    color: var(--manatee);
+  }
+  .mainContacto .mainContacto__cajaMainContacto .mainContacto__cajaMainContacto__cajaFormulario #clickNo {
+    width: 50px;
+    height: 50px;
+  }
+  .mainContacto .mainContacto__cajaMainContacto .mainContacto__cajaMainContacto__cajaFormulario #ciudad {
+    background-color: #cbf578;
+    font-size: 1rem;
+    border: none;
+    color: var(--manatee);
+  }
+  .mainContacto .mainContacto__cajaMainContacto .mainContacto__cajaMainContacto__cajaFormulario #ciudadesList {
+    background-color: #cbf578;
+    height: 35px;
+    width: 80vw;
+    border: none;
+    font-size: 1rem;
+    color: var(--manatee);
+    border: none;
+    border-radius: 5px;
+  }
+  .mainContacto .mainContacto__cajaMainContacto .mainContacto__cajaMainContacto__cajaFormulario #comentario {
+    background-color: #cbf578;
+    font-size: 1rem;
+    border: none;
+    color: var(--manatee);
+  }
+  .mainContacto .mainContacto__cajaMainContacto .mainContacto__cajaMainContacto__cajaFormulario #cajaComentario {
+    background-color: #cbf578;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+    color: var(--manatee);
+  }
+  .mainContacto .mainContacto__cajaMainContacto .mainContacto__cajaMainContacto__cajaFormulario #limpia {
+    background-color: #cbf578;
+    height: 35px;
+    width: 120px;
+    font-size: 1rem;
+    color: var(--manatee);
+    border: none;
+    border-radius: 5px;
+  }
+  .mainContacto .mainContacto__cajaMainContacto .mainContacto__cajaMainContacto__cajaFormulario #envia {
+    background-color: #cbf578;
+    height: 35px;
+    width: 120px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    color: var(--manatee);
+  }
+
+  .pie {
+    width: 80vw;
+    height: 30vh;
+    grid-area: pie;
+    margin: 50px auto;
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 10px;
+    color: black;
+    font-family: "Indie Flower", cursive;
+    font-size: 1rem;
+  }
+  .pie .pie__pDeFooter {
+    text-align: center;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+  }
+  .pie .pie__datos {
+    text-align: center;
+  }
+  .pie .pie__derechos {
+    text-align: center;
+  }
+  .pie .pie__redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 90vw;
+    transition: 1s;
+  }
+  .pie .pie__redes .pie__redes__item__link--face {
+    font-size: 1.1rem;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+  }
+  .pie .pie__redes .pie__redes__item__link--tw {
+    font-size: 1.1rem;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+  }
+  .pie .pie__redes .pie__redes__item__link--inst {
+    font-size: 1.2rem;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+  }
+}
+/*--------------------------------min 600 -----------------------------*/
+@media only screen and (min-width: 600px) {
+  #mainIndex {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    height: 430vh;
+  }
+
+  .mainIndexUno {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    height: 208vh;
+    gap: 0.2rem;
+  }
+  .mainIndexUno .mainIndexUno__seccionUno {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 150vh;
+  }
+  .mainIndexUno .mainIndexUno__seccionUno .mainIndexUno__seccionUno__divSeccionUno {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100vh;
+    display: flex;
+  }
+  .mainIndexUno .mainIndexUno__seccionUno .mainIndexUno__seccionUno__divSeccionUno .mainIndexUno__seccionUno__divSeccionUno__titulo {
+    font-size: 2.5rem;
+  }
+  .mainIndexUno .mainIndexUno__seccionUno .mainIndexUno__seccionUno__divSeccionUno .mainIndexUno__seccionUno__divSeccionUno__textoPrimero {
+    font-size: 1.5rem;
+    justify-content: flex-start;
+    padding: 0 25px;
+    height: 150vh;
+  }
+  .mainIndexUno .mainIndexUno__seccionDos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 80vw;
+    height: 80vh;
+  }
+  .mainIndexUno .mainIndexUno__seccionDos .mainIndexUno__seccionDos__tituloGaleria .mainIndexUno__seccionDos__tituloGaleria__titulo {
+    font-size: 1.6rem;
+  }
+  .mainIndexUno .mainIndexUno__seccionDos .mainIndexUno__seccionDos__imagenesSeccionDos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-self: center;
+    width: 100vw;
+    height: 500vh;
+  }
+  .mainIndexUno .mainIndexUno__seccionDos .mainIndexUno__seccionDos__imagenesSeccionDos .img-nariz {
+    background-image: url(../img/nariz.jpg);
+    text-align: center;
+  }
+  .mainIndexUno .mainIndexUno__seccionDos .mainIndexUno__seccionDos__imagenesSeccionDos .img-supe {
+    background-image: url(../img/supe.jpg);
+    text-align: center;
+  }
+  .mainIndexUno .mainIndexUno__seccionDos .mainIndexUno__seccionDos__imagenesSeccionDos .img-nena {
+    background-image: url(../img/nena.jpg);
+    text-align: center;
+  }
+
+  .mainIndexDos {
+    width: 80vw;
+    margin: 25px auto;
+    height: 150vh;
+    justify-content: flex-start;
+  }
+  .mainIndexDos .mainIndexDos__imagenesPorfolio {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 210vh;
+    flex-wrap: wrap;
+  }
+  .mainIndexDos .mainIndexDos__imagenesPorfolio .mainIndexDos__imagenesPorfolio__tituloPorfolio {
+    margin-top: 15px;
+  }
+  .mainIndexDos .mainIndexDos__imagenesPorfolio .mainIndexDos__imagenesPorfolio__tituloPorfolio .mainIndexDos__imagenesPorfolio__tituloPorfolio--titulo {
+    color: black;
+    text-align: center;
+    font-size: 3rem;
+    font-family: "Indie Flower", cursive;
+  }
+  .mainIndexDos .mainIndexDos__imagenesPorfolio .mainIndexDos__imagenesPorfolio__img {
+    width: 250px;
+    height: 250px;
   }
   .mainIndexDos .mainIndexDos__imagenesPorfolio .mainIndexDos__imagenesPorfolio__img--4 {
     background-image: url(../img/porf4.jpg);
