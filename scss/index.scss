@@ -636,19 +636,20 @@ $colorcajainput:rgb(203, 245, 120);
 
 @media only screen and (max-width: 600px){
 
+  
   .mainIndexUno {
-      background-color: aqua;
+     
       display: flex;
       flex-direction: column;
       width: 85vw;
-      height: 290vh;
+      height: 300vh;
       gap: 0.2rem;
       margin: 0px auto;
       align-items: center;
       justify-content: flex-start;
       
       .mainIndexUno__seccionUno {
-        background-color: brown;
+       
         height: 130vh;
         
         .mainIndexUno__seccionUno__divSeccionUno{
@@ -686,7 +687,7 @@ $colorcajainput:rgb(203, 245, 120);
           
         }
         .mainIndexUno__seccionDos__imagenesSeccionDos {
-          background-color: burlywood;
+          
           display: flex;
           flex-direction: column;
           justify-content: flex-start;
@@ -706,7 +707,7 @@ $colorcajainput:rgb(203, 245, 120);
           }
     }
  .mainIndexDos {
-      background-color: blueviolet;
+      
       width: 85vw;
       margin: 25px auto;
       height: 250vh;
@@ -714,16 +715,13 @@ $colorcajainput:rgb(203, 245, 120);
 
       
       .mainIndexDos__imagenesPorfolio {
+        
             display: flex;
             flex-direction: column;
-            width: 90%;
-           
-            gap: 1rem;
-            margin: 0 auto;
-            padding: 0;
-            
-              height: 150vh;
-              align-items: center;
+            width: 100vw;
+            height: 240vh;
+            align-items: center;
+            align-self: center;
             .mainIndexDos__imagenesPorfolio__tituloPorfolio {
               margin-top: 15px;
               
@@ -738,7 +736,7 @@ $colorcajainput:rgb(203, 245, 120);
             .mainIndexDos__imagenesPorfolio__img{
               
               width: 200px;
-                   height: 200px; 
+              height: 200px; 
               @for $i from 4 through 10{
                 &--#{$i} {
                   background-image:url(../img/porf#{$i}.jpg);
@@ -783,22 +781,23 @@ $colorcajainput:rgb(203, 245, 120);
     
     
     .card-group {
-          margin: 0 auto;
-          width: 72vw;
-          height: 450px;
-          gap: 2rem;
+      display: flex;
+      flex-direction: column;
+      width: 100vw;
+      height: 400px;
+      gap: 0.5rem;
     }
     
 
-
+  
 
 
 
     .bodyAbout__main {
-      
+      background-color: chartreuse;
       align-content:flex-end;
       align-items: flex-end;
-      width: 100vw;
+      width: 80vw;
       margin: 45px auto;
       .bodyAbout__main__articleUno {
         .bodyAbout__main__articleUno__titulo {
@@ -1112,7 +1111,7 @@ $colorcajainput:rgb(203, 245, 120);
      
     }
     #clickNo {
-      background-color: red;
+     
       width: 50px;
       height: 50px;
      

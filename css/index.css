@@ -737,18 +737,16 @@ ul {
 /*----------------medias 600px  ----------------------------------------------------------*/
 @media only screen and (max-width: 600px) {
   .mainIndexUno {
-    background-color: aqua;
     display: flex;
     flex-direction: column;
     width: 85vw;
-    height: 290vh;
+    height: 300vh;
     gap: 0.2rem;
     margin: 0px auto;
     align-items: center;
     justify-content: flex-start;
   }
   .mainIndexUno .mainIndexUno__seccionUno {
-    background-color: brown;
     height: 130vh;
   }
   .mainIndexUno .mainIndexUno__seccionUno .mainIndexUno__seccionUno__divSeccionUno {
@@ -775,7 +773,6 @@ ul {
     font-size: 1.6rem;
   }
   .mainIndexUno .mainIndexUno__seccionDos .mainIndexUno__seccionDos__imagenesSeccionDos {
-    background-color: burlywood;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -798,7 +795,6 @@ ul {
   }
 
   .mainIndexDos {
-    background-color: blueviolet;
     width: 85vw;
     margin: 25px auto;
     height: 250vh;
@@ -807,12 +803,10 @@ ul {
   .mainIndexDos .mainIndexDos__imagenesPorfolio {
     display: flex;
     flex-direction: column;
-    width: 90%;
-    gap: 1rem;
-    margin: 0 auto;
-    padding: 0;
-    height: 150vh;
+    width: 100vw;
+    height: 240vh;
     align-items: center;
+    align-self: center;
   }
   .mainIndexDos .mainIndexDos__imagenesPorfolio .mainIndexDos__imagenesPorfolio__tituloPorfolio {
     margin-top: 15px;
@@ -857,16 +851,18 @@ ul {
   }
 
   .card-group {
-    margin: 0 auto;
-    width: 72vw;
-    height: 450px;
-    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 400px;
+    gap: 0.5rem;
   }
 
   .bodyAbout__main {
+    background-color: chartreuse;
     align-content: flex-end;
     align-items: flex-end;
-    width: 100vw;
+    width: 80vw;
     margin: 45px auto;
   }
   .bodyAbout__main .bodyAbout__main__articleUno .bodyAbout__main__articleUno__titulo {
@@ -1088,7 +1084,6 @@ ul {
     color: var(--manatee);
   }
   .mainContacto .mainContacto__cajaMainContacto .mainContacto__cajaMainContacto__cajaFormulario #clickNo {
-    background-color: red;
     width: 50px;
     height: 50px;
   }
