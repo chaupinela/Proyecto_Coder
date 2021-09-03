@@ -794,11 +794,12 @@ $colorcajainput:rgb(203, 245, 120);
 
 
     .bodyAbout__main {
-      background-color: chartreuse;
-      align-content:flex-end;
-      align-items: flex-end;
-      width: 80vw;
-      margin: 45px auto;
+      
+      align-content:flex-start;
+      align-items: flex-start;
+      align-self: center;
+      width: 100vw;
+     
       .bodyAbout__main__articleUno {
         .bodyAbout__main__articleUno__titulo {
           text-align: center;
@@ -813,7 +814,7 @@ $colorcajainput:rgb(203, 245, 120);
         .bodyAbout__main__articleUno__texto {
           font-size: 1.2rem;
           padding: 10px 15px;
-          color: var(--fire-opal);
+          color: black;
           font-family: $fuenteCuerpo ;
           padding: 0 25px;
         }
@@ -835,7 +836,7 @@ $colorcajainput:rgb(203, 245, 120);
           padding: 10px 15px;
           font-size: 1.2rem;
           font-family: $fuenteCuerpo;
-          color:$colorTextoAbout;
+          color:black;
           padding: 0 25px;
           
         }

@@ -859,11 +859,10 @@ ul {
   }
 
   .bodyAbout__main {
-    background-color: chartreuse;
-    align-content: flex-end;
-    align-items: flex-end;
-    width: 80vw;
-    margin: 45px auto;
+    align-content: flex-start;
+    align-items: flex-start;
+    align-self: center;
+    width: 100vw;
   }
   .bodyAbout__main .bodyAbout__main__articleUno .bodyAbout__main__articleUno__titulo {
     text-align: center;
@@ -875,7 +874,7 @@ ul {
   .bodyAbout__main .bodyAbout__main__articleUno .bodyAbout__main__articleUno__texto {
     font-size: 1.2rem;
     padding: 10px 15px;
-    color: var(--fire-opal);
+    color: black;
     font-family: "Indie Flower", cursive;
     padding: 0 25px;
   }
@@ -894,7 +893,7 @@ ul {
     padding: 10px 15px;
     font-size: 1.2rem;
     font-family: "Indie Flower", cursive;
-    color: var(--fire-opal);
+    color: black;
     padding: 0 25px;
   }
   .bodyAbout__main .bodyAbout__main__articleDos .bodyAbout__main__articleDos__imagenes {
