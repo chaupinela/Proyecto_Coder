@@ -229,6 +229,13 @@ ul {
   }
 }
 /* ------------------------------main del index --------------------------------------------------------- */
+.bodyIndex {
+  height: 350vh;
+}
+.bodyIndex #bodyIndex__mainIndex {
+  height: 230vh;
+}
+
 .mainIndexUno {
   width: 85vw;
   height: 90vh;
@@ -1189,6 +1196,13 @@ ul {
 }
 /*--------------------------------min 600 -----------------------------*/
 @media only screen and (min-width: 600px) and (max-width: 1065px) {
+  .bodyIndex {
+    height: 350vh;
+  }
+  .bodyIndex #bodyIndex__mainIndex {
+    height: 400vh;
+  }
+
   #mainIndex {
     display: flex;
     flex-direction: column;
