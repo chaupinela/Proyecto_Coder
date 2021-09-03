@@ -646,13 +646,22 @@ $colorcajainput:rgb(203, 245, 120);
  /*----------------medias 600px  ----------------------------------------------------------*/
 
 @media only screen and (max-width: 600px){
+  .bodyIndex{
+      
+    height: 550vh;
+      #bodyIndex__mainIndex{
+      
+        height: 550vh;
+      }
+  }
+   
 
 
   .mainIndexUno {
      
       
       width: 85vw;
-      height: 180vh;
+      height: 280vh;
       gap: 0.2rem;
      
       
@@ -661,7 +670,8 @@ $colorcajainput:rgb(203, 245, 120);
         height: 80vh;
         
         .mainIndexUno__seccionUno__divSeccionUno{
-          height: 100vh;
+          
+          height: 160vh;
            display: flex;
            flex-direction: column;
            justify-content: flex-start;  
@@ -671,6 +681,8 @@ $colorcajainput:rgb(203, 245, 120);
           
           }
           .mainIndexUno__seccionUno__divSeccionUno__textoPrimero {
+            
+            height: 150vh;
               font-size: 1.2rem;
               justify-content: flex-start;
               padding: 0 25px;
@@ -680,11 +692,12 @@ $colorcajainput:rgb(203, 245, 120);
       }
   }
       .mainIndexUno__seccionDos {
+       
        display: flex;
        flex-direction: column;
-       justify-content: flex-start; 
+       justify-content: flex-end; 
        
-       height: 80vh;
+       height: 180vh;
         .mainIndexUno__seccionDos__tituloGaleria {
           
           .mainIndexUno__seccionDos__tituloGaleria__titulo{
@@ -698,11 +711,11 @@ $colorcajainput:rgb(203, 245, 120);
           
           display: flex;
           flex-direction: column;
-          justify-content: flex-start;
+          justify-content: flex-end;
           align-items: center;
           align-self: center;
           width:100vw;
-          height: 80vh;
+          height: 150 vh ;
                     @each $juguete in nariz supe nena {
             .img-#{$juguete} {
               background-image: url(../img/#{$juguete}.jpg);
@@ -718,14 +731,14 @@ $colorcajainput:rgb(203, 245, 120);
       
       width: 85vw;
       margin: 25px auto;
-      height: 250vh;
-      justify-content:flex-start;
+      height: 240vh;
+      justify-content:flex-end;
 
       
       .mainIndexDos__imagenesPorfolio {
             display: flex;
             flex-direction: column;
-            
+            justify-content: flex-end;
             height: 240vh;
             align-items: center;
             align-self: center;
@@ -1276,7 +1289,7 @@ $colorcajainput:rgb(203, 245, 120);
 
     .bodyIndex{
       
-      height: 350vh;
+      height: 400vh;
         #bodyIndex__mainIndex{
          
           height: 400vh;
@@ -1305,13 +1318,14 @@ $colorcajainput:rgb(203, 245, 120);
           flex-direction: column;
           justify-content: flex-start;
          
-          height: 70vh;
+          height:120vh;
         
           .mainIndexUno__seccionUno__divSeccionUno{
+            background-color: cornflowerblue;
             display: flex;
             flex-direction: column;
-            justify-content: flex-start;
-            height: 80vh;
+            justify-content: flex-end;
+            height: 150vh;
              display: flex;
             
                
@@ -1321,22 +1335,23 @@ $colorcajainput:rgb(203, 245, 120);
             
             }
             .mainIndexUno__seccionUno__divSeccionUno__textoPrimero {
+              background-color: cyan;
                 font-size: 1.5rem;
                 justify-content: flex-start;
                 padding: 0 25px;
-                height: 50vh;
+                height: 150vh;
                 
             }
           
         }
     }
         .mainIndexUno__seccionDos {
-         
+         background-color: darkcyan;
          display: flex;
          flex-direction: column;
-         justify-content: space-around; 
+         justify-content: flex-end; 
          width: 80vw;
-         height: 80vh;
+         height: 60vh;
           .mainIndexUno__seccionDos__tituloGaleria {
             
             .mainIndexUno__seccionDos__tituloGaleria__titulo{
@@ -1347,14 +1362,14 @@ $colorcajainput:rgb(203, 245, 120);
             
           }
           .mainIndexUno__seccionDos__imagenesSeccionDos {
-            
+            background-color: darkgoldenrod;
             display: flex;
             flex-direction: row;
             justify-content: space-around;
             align-items: center;
             align-self: center;
             width:100vw;
-            height: 500vh;
+            
                       @each $juguete in nariz supe nena {
               .img-#{$juguete} {
                 background-image: url(../img/#{$juguete}.jpg);
