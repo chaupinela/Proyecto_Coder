@@ -1011,7 +1011,10 @@ $colorcajainput:rgb(203, 245, 120);
       
     }    
   
-    
+  #bodyContacto{
+   
+    height: 220vh;
+  }  
 
 
 
@@ -1019,7 +1022,7 @@ $colorcajainput:rgb(203, 245, 120);
     display: flex;
     flex-direction: column;
    font-family: $fuenteCuerpo;
-  
+    height: 185vh;
    justify-content:flex-start ;
   
   .mainContacto__cajaMainContacto{
@@ -1045,7 +1048,7 @@ $colorcajainput:rgb(203, 245, 120);
     flex-direction: column;
       
     width: 80vw;
-    height: 80vh;
+    height: 250vh;
     gap: 1rem;
     margin: 0 auto;
    
@@ -1109,8 +1112,8 @@ $colorcajainput:rgb(203, 245, 120);
     }
     #clickNo {
      
-      width: 50px;
-      height: 50px;
+      width: 25px;
+      height: 25px;
      
     }
     #ciudad {
@@ -1480,8 +1483,11 @@ $colorcajainput:rgb(203, 245, 120);
           }
           .bodyAbout__main__articleDos__imagenes {
             display: flex;
-            flex-direction: column;   
-            align-items: center;
+            flex-direction: row;  
+            justify-content: center; 
+            align-items: stretch;
+            align-self: stretch;
+            flex-wrap: wrap;
             $caja: bandidos1;
             .bodyAbout__main__articleDos__imagenes__imagen1 {
              
@@ -1661,7 +1667,7 @@ $colorcajainput:rgb(203, 245, 120);
       display: flex;
       flex-direction: column;
      font-family: $fuenteCuerpo;
-    
+      height: 180vh;
      justify-content:flex-start ;
     
     .mainContacto__cajaMainContacto{
@@ -1687,7 +1693,7 @@ $colorcajainput:rgb(203, 245, 120);
       flex-direction: column;
         
       width: 80vw;
-      height: 80vh;
+      height: 150vh;
       gap: 1rem;
       margin: 0 auto;
      
@@ -1695,7 +1701,7 @@ $colorcajainput:rgb(203, 245, 120);
         background-color: $colorcajainput;
         height: 35px;
         width:80vw;
-       
+        padding-left: 15px;
         font-size: 1rem;
         border: none;
         border-radius: 5px;
@@ -1706,7 +1712,7 @@ $colorcajainput:rgb(203, 245, 120);
         background-color: $colorcajainput;
         height: 35px;
         width: 80vw;
-        
+        padding-left: 15px;
         font-size: 1rem;
         border: none;
         border-radius: 5px;
@@ -1719,7 +1725,7 @@ $colorcajainput:rgb(203, 245, 120);
         border: none;
         border-radius: 5px;
         width: 80vw;
-   
+        padding-left: 15px;
       }
       #recibir {
         background-color: $colorcajainput;
@@ -1750,9 +1756,9 @@ $colorcajainput:rgb(203, 245, 120);
        
       }
       #clickNo {
-       
-        width: 50px;
-        height: 50px;
+        
+        width: 25px;
+        height: 25px;
        
       }
       #ciudad {

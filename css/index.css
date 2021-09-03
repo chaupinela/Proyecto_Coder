@@ -1000,10 +1000,15 @@ ul {
     background-position: center;
   }
 
+  #bodyContacto {
+    height: 220vh;
+  }
+
   .mainContacto {
     display: flex;
     flex-direction: column;
     font-family: "Indie Flower", cursive;
+    height: 185vh;
     justify-content: flex-start;
   }
   .mainContacto .mainContacto__cajaMainContacto {
@@ -1026,7 +1031,7 @@ ul {
     display: flex;
     flex-direction: column;
     width: 80vw;
-    height: 80vh;
+    height: 250vh;
     gap: 1rem;
     margin: 0 auto;
   }
@@ -1077,8 +1082,8 @@ ul {
     color: var(--manatee);
   }
   .mainContacto .mainContacto__cajaMainContacto .mainContacto__cajaMainContacto__cajaFormulario #clickNo {
-    width: 50px;
-    height: 50px;
+    width: 25px;
+    height: 25px;
   }
   .mainContacto .mainContacto__cajaMainContacto .mainContacto__cajaMainContacto__cajaFormulario #ciudad {
     background-color: #cbf578;
@@ -1355,8 +1360,11 @@ ul {
   }
   .bodyAbout__main .bodyAbout__main__articleDos .bodyAbout__main__articleDos__imagenes {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    align-self: stretch;
+    flex-wrap: wrap;
   }
   .bodyAbout__main .bodyAbout__main__articleDos .bodyAbout__main__articleDos__imagenes .bodyAbout__main__articleDos__imagenes__imagen1 {
     width: 200px;
@@ -1467,6 +1475,7 @@ ul {
     display: flex;
     flex-direction: column;
     font-family: "Indie Flower", cursive;
+    height: 180vh;
     justify-content: flex-start;
   }
   .mainContacto .mainContacto__cajaMainContacto {
@@ -1489,7 +1498,7 @@ ul {
     display: flex;
     flex-direction: column;
     width: 80vw;
-    height: 80vh;
+    height: 150vh;
     gap: 1rem;
     margin: 0 auto;
   }
@@ -1497,6 +1506,7 @@ ul {
     background-color: #cbf578;
     height: 35px;
     width: 80vw;
+    padding-left: 15px;
     font-size: 1rem;
     border: none;
     border-radius: 5px;
@@ -1505,6 +1515,7 @@ ul {
     background-color: #cbf578;
     height: 35px;
     width: 80vw;
+    padding-left: 15px;
     font-size: 1rem;
     border: none;
     border-radius: 5px;
@@ -1516,6 +1527,7 @@ ul {
     border: none;
     border-radius: 5px;
     width: 80vw;
+    padding-left: 15px;
   }
   .mainContacto .mainContacto__cajaMainContacto .mainContacto__cajaMainContacto__cajaFormulario #recibir {
     background-color: #cbf578;
@@ -1540,8 +1552,8 @@ ul {
     color: var(--manatee);
   }
   .mainContacto .mainContacto__cajaMainContacto .mainContacto__cajaMainContacto__cajaFormulario #clickNo {
-    width: 50px;
-    height: 50px;
+    width: 25px;
+    height: 25px;
   }
   .mainContacto .mainContacto__cajaMainContacto .mainContacto__cajaMainContacto__cajaFormulario #ciudad {
     background-color: #cbf578;
