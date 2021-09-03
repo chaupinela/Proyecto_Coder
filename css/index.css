@@ -1188,32 +1188,32 @@ ul {
   }
 }
 /*--------------------------------min 600 -----------------------------*/
-@media only screen and (min-width: 600px) and (max-width: 900px) {
+@media only screen and (min-width: 600px) and (max-width: 1065px) {
   #mainIndex {
     display: flex;
     flex-direction: column;
     align-self: center;
-    height: 430vh;
+    height: 360vh;
   }
 
   .mainIndexUno {
     display: flex;
     flex-direction: column;
     width: 80vw;
-    height: 208vh;
+    height: 190vh;
     gap: 0.2rem;
   }
   .mainIndexUno .mainIndexUno__seccionUno {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    height: 150vh;
+    height: 70vh;
   }
   .mainIndexUno .mainIndexUno__seccionUno .mainIndexUno__seccionUno__divSeccionUno {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    height: 100vh;
+    height: 80vh;
     display: flex;
   }
   .mainIndexUno .mainIndexUno__seccionUno .mainIndexUno__seccionUno__divSeccionUno .mainIndexUno__seccionUno__divSeccionUno__titulo {
@@ -1223,7 +1223,7 @@ ul {
     font-size: 1.5rem;
     justify-content: flex-start;
     padding: 0 25px;
-    height: 150vh;
+    height: 50vh;
   }
   .mainIndexUno .mainIndexUno__seccionDos {
     display: flex;
