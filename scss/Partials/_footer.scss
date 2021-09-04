@@ -54,7 +54,7 @@ $fuenteFooter :'Indie Flower', cursive;
       display: flex;
       flex-direction: row;
       justify-content: space-around;
-      width: 100%;
+      width: 100vh;
       transition: 1s;
         .pie__redes__item__link--face {
         
@@ -104,7 +104,7 @@ $fuenteFooter :'Indie Flower', cursive;
 }
 
 /*------------------------------------------medias---------------------------*/
-@media (max-width: 320px){
+@media (max-width: 600px){
 
 .pie {
   
@@ -149,10 +149,10 @@ $fuenteFooter :'Indie Flower', cursive;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 100%;
+    width: 100vw;
     transition: 1s;
       .pie__redes__item__link--face {
-      
+      display: none;
       font-size: 1.5rem;
       list-style: none;
       text-decoration: none;
