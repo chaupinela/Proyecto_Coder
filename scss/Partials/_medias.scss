@@ -9,8 +9,8 @@ $colorcajainput:rgb(203, 245, 120);
 
 @media only screen and (max-width: 600px){
     .bodyIndex{
-        
-      height: 550vh;
+       
+      height: 800vh;
         #bodyIndex__mainIndex{
         
           height: 550vh;
@@ -20,15 +20,18 @@ $colorcajainput:rgb(203, 245, 120);
   
   
     .mainIndexUno {
-       
-        
+        display: flex;
+        flex-direction: column;
+        background-color: aquamarine;
         width: 85vw;
-        height: 280vh;
+        height: 480px;
         gap: 0.2rem;
-       
+
         
         .mainIndexUno__seccionUno {
-         
+          display: flex;
+        flex-direction: column;
+         background-color: blueviolet;
           height: 80vh;
           
           .mainIndexUno__seccionUno__divSeccionUno{
@@ -36,7 +39,7 @@ $colorcajainput:rgb(203, 245, 120);
             height: 160vh;
              display: flex;
              flex-direction: column;
-             justify-content: flex-start;  
+             justify-content: flex-end;  
           
             .mainIndexUno__seccionUno__divSeccionUno__titulo{
                 font-size: 1.5rem;
@@ -52,18 +55,16 @@ $colorcajainput:rgb(203, 245, 120);
             }
           
         }
-    }
+      }
         .mainIndexUno__seccionDos {
-         
+         background-color: chartreuse;
          display: flex;
          flex-direction: column;
-         justify-content: flex-end; 
-         
-         height: 120vh;
+         height: 520vh;
           .mainIndexUno__seccionDos__tituloGaleria {
             
             .mainIndexUno__seccionDos__tituloGaleria__titulo{
-                font-size: 1.6rem;
+                font-size: 1.2rem;
                 
                 
           }
@@ -88,7 +89,8 @@ $colorcajainput:rgb(203, 245, 120);
             
               }
             }
-      }
+      
+    }
    .mainIndexDos {
         
         width: 85vw;
