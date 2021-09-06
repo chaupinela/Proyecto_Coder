@@ -1,88 +1,88 @@
 $fuenteCuerpo: "Indie Flower", cursive;
 $tamanioFuenteCuerpo: 1.8rem;
-$tamanioTitulo: 2.5rem;
+$tamanioTitulo: 3.5rem;
 $colorTextoAbout: var(--fire-opal);
 $colorTituloAbout: var(--slate-blue);
 $fuenteTamanioGrid: 1.4rem;
 $colorcajainput: rgb(203, 245, 120);
 @import "../libs/bootstrap/scss/bootstrap.scss";
+
 @import "./Partials/globales";
-
-@import "./Partials/header";
 @import "./Partials/footer";
-@import "./Partials/medias";
 
+@import "./Partials/medias";
+@import "./Partials/header";
 /* ------------------------------main del index --------------------------------------------------------- */
 
 .bodyIndex {
   .bodyIndex__main {
-    background-color: darksalmon;
-    height: 260vh;
-    .bodyIndex__main__boxUno{
-      
+    height: 240vh;
+    .bodyIndex__main__boxUno {
       width: 85vw;
-      height: 160vh;
+      height: 120vh;
       gap: 1rem;
       margin: 0px auto;
       .bodyIndex__main__boxUno__articleUno {
-        
         margin: 35px auto;
         .bodyIndex__main__boxUno__articleUno__div {
-          
           text-align: center;
           font-size: $tamanioTitulo;
           color: black;
           .bodyIndex__main__boxUno__articleUno__div__titulo {
-            
+            border-bottom: blue  3px solid;
             font-family: "Indie Flower", cursive;
             color: black;
             font-size: $tamanioTitulo;
           }
-          .bodyIndex__main__boxUno__articleUno__div__texto{
-           
+          .bodyIndex__main__boxUno__articleUno__div__texto {
             font-size: 1.9rem;
             text-align: center;
             color: black;
             font-family: $fuenteCuerpo;
-            
           }
         }
       }
-        .bodyIndex__main__boxUno__articleDos{
-          background-color: green;
-          height: 60vh;
+      .bodyIndex__main__boxUno__articleDos {
+        background-color: blue;
+        height: 90vh;
+        width: 100%;
+        gap: 1rem;
+        margin: 35px auto;
+
+        align-items: center;
+
+        .bodyIndex__main__boxUno__articleDos__divUno {
           width: 100%;
-          gap: 1rem;
-          margin: 35px auto;
-         
-          align-items: center;
-          
-          
-          .bodyIndex__main__boxUno__articleDos__divUno{
-            width: 100%;
-            margin: 0 auto;
-              .bodyIndex__main__boxUno__articleDos__divUno__titulo {
-              color: black;
-              font-size: $tamanioTitulo;
-              font-family: "Indie Flower", cursive;
-              text-align: center;
-            }
-          }  
-            .bodyIndex__main__boxUno__articleDos__divDos{
-              background-color: chartreuse;
-              height: 20vh;
-              justify-content: space-around;
-              @each $juguete in nariz supe nena {
-                .img-#{$juguete} {
-                  background-image: url(../img/#{$juguete}.jpg);
-                  width: 200px;
-                  height: 200px;
-                  text-align: center;
-                }
-              }
+
+          margin: 0 auto;
+          .bodyIndex__main__boxUno__articleDos__divUno__titulo {
+            color: black;
+            font-size: $tamanioTitulo;
+            font-family: "Indie Flower", cursive;
+            text-align: center;
           }
         }
-     }
+        .bodyIndex__main__boxUno__articleDos__divDos {
+          grid-template-columns:1fr 1fr 1fr ;
+          grid-template-rows: 1fr 2fr;
+          gap: 1rem;
+          
+          height: 40vh;
+          
+          .bodyIndex__main__boxUno__articleDos__divDos__img {
+            justify-self: center;
+            @for $i from 1 through 3 {
+              width: 250px;
+              height: 250px;
+              background-size: cover;
+              &--#{$i} {
+                background-image: url(../img/gal#{$i}.jpg);
+              }
+            }
+          }
+        }
+      }
+    }
     .bodyIndex__main__boxDos {
       width: 85vw;
       height: 180vh;
@@ -94,7 +94,7 @@ $colorcajainput: rgb(203, 245, 120);
         grid-template-columns: repeat(12, 1fr);
         grid-template-rows: repeat(8, 1fr);
         width: 100%;
-        height: 800px;
+        height: 100vh;
         gap: 1rem;
         margin: 0 auto;
         padding: 0;
@@ -103,7 +103,7 @@ $colorcajainput: rgb(203, 245, 120);
           grid-column: 1/13;
           grid-row: 1/2;
           .bodyIndex__main__boxDos__imagenesPorfolio__tituloPorfolio--titulo {
-            background-color: yellow;
+            
             color: black;
             text-align: center;
             font-size: $tamanioTitulo;

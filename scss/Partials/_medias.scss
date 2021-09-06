@@ -1,6 +1,6 @@
 $fuenteCuerpo :'Indie Flower', cursive;
 $tamanioFuenteCuerpo: 1.2rem;
-$tamanioTitulo:1.7rem;
+
 $colorTextoAbout: var(--fire-opal);
 $colorTituloAbout: var(--slate-blue);
 $fuenteTamanioGrid:1.2rem;
@@ -9,69 +9,61 @@ $colorcajainput:rgb(203, 245, 120);
 
 @media only screen and (max-width: 600px){
     .bodyIndex{
-       
       height: 800vh;
-        #bodyIndex__mainIndex{
+      .bodyIndex__main{
         
-          height: 550vh;
+         height: 700vh;
         }
-    }
-     
-  
-  
-    .mainIndexUno {
-        display: flex;
-        flex-direction: column;
-        background-color: aquamarine;
-        width: 85vw;
-        height: 480px;
-        gap: 0.2rem;
-
-        
-        .mainIndexUno__seccionUno {
+        .bodyIndex__main__boxUno {
           display: flex;
-        flex-direction: column;
-         background-color: blueviolet;
-          height: 80vh;
+          flex-direction: column;
           
-          .mainIndexUno__seccionUno__divSeccionUno{
-            
-            height: 160vh;
-             display: flex;
-             flex-direction: column;
-             justify-content: flex-end;  
-          
-            .mainIndexUno__seccionUno__divSeccionUno__titulo{
-                font-size: 1.5rem;
-            
-            }
-            .mainIndexUno__seccionUno__divSeccionUno__textoPrimero {
+          width: 85vw;
+          height: 480px;
+          gap: 0.2rem;
+          .bodyIndex__main__boxUno__articleUno{
+
+            .bodyIndex__main__boxUno__articleUno__div{
+              display: flex;
+              flex-direction: column;
               
               height: 80vh;
-                font-size: 1.2rem;
-                justify-content: flex-start;
-                padding: 0 25px;
+              
+              .bodyIndex__main__boxUno__articleUno__div__titulo{
                 
-            }
-          
+                height: 160vh;
+                display: flex;
+                flex-direction: column;
+               justify-content: flex-end;  
+            
+               
+                .bodyIndex__main__boxUno__articleUno__div__texto  {
+                  background-color: cadetblue;
+                  height: 80vh;
+                  font-size: 1.2rem;
+                  justify-content: flex-start;
+                  padding: 0 25px;
+                  
+              }
+              
+          }
         }
       }
-        .mainIndexUno__seccionDos {
-         background-color: chartreuse;
-         display: flex;
-         flex-direction: column;
-         height: 520vh;
-          .mainIndexUno__seccionDos__tituloGaleria {
-            
-            .mainIndexUno__seccionDos__tituloGaleria__titulo{
-                font-size: 1.2rem;
-                
-                
+          
+      .bodyIndex__main__boxUno__articleDos {
+        background-color: chartreuse;
+        display: flex;
+        flex-direction: column;
+        height: 520vh;
+        .bodyIndex__main__boxUno__articleDos__divUno {
+          
+            .bodyIndex__main__boxUno__articleDos__divUno__titulo{
+              font-size: 1.2rem;
+                        
           }
-            
-          }
-          .mainIndexUno__seccionDos__imagenesSeccionDos {
-            
+          
+        }
+        .bodyIndex__main__boxUno__articleDos__divDos {
             display: flex;
             flex-direction: column;
             justify-content: flex-end;
@@ -79,45 +71,45 @@ $colorcajainput:rgb(203, 245, 120);
             align-self: center;
             width:100vw;
             height: 150 vh ;
-                      @each $juguete in nariz supe nena {
+            @each $juguete in nariz supe nena {
               .img-#{$juguete} {
                 background-image: url(../img/#{$juguete}.jpg);
                 
-              text-align: center;
+                text-align: center;
               }
             }
             
-              }
-            }
-      
-    }
-   .mainIndexDos {
+          }
+        }
+        
+      }
+      .bodyIndex__main__boxDos {
         
         width: 85vw;
         margin: 25px auto;
         height: 240vh;
         justify-content:flex-end;
-  
         
-        .mainIndexDos__imagenesPorfolio {
-              display: flex;
-              flex-direction: column;
-              justify-content: flex-end;
-              height: 240vh;
-              align-items: center;
-              align-self: center;
-              .mainIndexDos__imagenesPorfolio__tituloPorfolio {
+        
+        .bodyIndex__main__boxDos__imagenesPorfolio {
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-end;
+          height: 240vh;
+          align-items: center;
+          align-self: center;
+          .bodyIndex__main__boxDos__imagenesPorfolio__tituloPorfolio {
                 margin-top: 15px;
                 
-                .mainIndexDos__imagenesPorfolio__tituloPorfolio--titulo{
+                .bodyIndex__main__boxDos__imagenesPorfolio__tituloPorfolio--titulo{
                   color: black;
-                    text-align: center;
-                    font-size: 3rem;
-                    font-family: 'Indie Flower', cursive;
-  
+                  text-align: center;
+                  font-size: 3rem;
+                  font-family: 'Indie Flower', cursive;
+                  
                 }
               }
-              .mainIndexDos__imagenesPorfolio__img{
+              .bodyIndex__main__boxDos__imagenesPorfolio__img{
                 
                 width: 200px;
                 height: 200px; 
@@ -126,11 +118,11 @@ $colorcajainput:rgb(203, 245, 120);
                     background-image:url(../img/porf#{$i}.jpg);
                     background-size: cover;
                     @if $i == 4{
-                     
-                    
+                      
+                      
                     }
                     @else if $i == 5{
-                     
+                      
                       
                     }
                     @else if $i == 6{
@@ -138,45 +130,38 @@ $colorcajainput:rgb(203, 245, 120);
                       
                     }
                     @else if $i == 7{
-                     
+                      
                       
                     }
                     @else if $i == 8{
-                     
+                      
                       
                     }
                     @else if $i == 9{
-                     
+                      
                       
                     }
                     @else if $i == 10{
-                    
+                      
                       
                     }
                   }
-                    
-      
+                  
+                  
                 }
-      
+                
       
               }  
-      }
-      }
-      
-      
-      .card-group {
-        display: flex;
-        flex-direction: column;
-        width: 100vw;
-        height: 400px;
-        gap: 0.5rem;
-      }
-      
-  
-    
-  
-  
-  
+            }
+          }
+
+          
+          
+}
+          
+          
+          
+          
       .bodyAbout__main {
         
         align-content:flex-start;
