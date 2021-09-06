@@ -11112,72 +11112,6 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: content-box;
-}
-
-:root {
-  --medium-turquoise: #4ecdc4ff;
-  --mint-cream: #f7fff7ff;
-  --skobeloff: #00635dff;
-  --slate-blue: #744fc6ff;
-  --bittersweet: #ff6b6bff;
-  --orange-yellow-crayola: #fed766ff;
-  --fire-opal: #e86252ff;
-  --russian-green: #659157ff;
-  --wild-blue-yonder: #a3a5c3ff;
-  --wild-blue-yonder50: rgba(163, 165, 195, 0.507);
-  --prussian-blue: #1c3144ff;
-  --maximum-green-yellow: #ddf45bff;
-  --midnight-green-eagle-green: #114b5fff;
-  --desert-sand: #e6beaeff;
-  --turquoise-green: #aad2baff;
-  --light-cyan: #d9fff5ff;
-  --magic-mint: #b9f5d8ff;
-  --middle-red: #d7816aff;
-  --middle-red-73: rgba(215, 130, 106, 0.733);
-  --medium-purple: #9381ffff;
-  --maximum-blue-purple: #b8b8ffff;
-  --ghost-white: #f8f7ffff;
-  --antique-white: #ffeeddff;
-  --unbleached-silk: #ffd8beff;
-  --manatee: #a1a6b4ff;
-  --black: #000100ff;
-  --dark-sky-blue: #94c5ccff;
-  --beau-blue: #b4d2e7ff;
-  --cultured: #f8f8f8ff;
-  --bone: #d4cbb3ff;
-  --dim-gray: #6b6d76ff;
-  --tea-green: #d2e0bfff;
-  --smoky-black: #131112ff;
-  --rich-black-fogra-39: #080705ff;
-}
-
-a {
-  text-decoration: none;
-}
-
-ul {
-  list-style-type: none;
-}
-
-.container {
-  display: grid;
-}
-
-.flexRow {
-  display: flex;
-  flex-direction: row;
-}
-
-.flexColum {
-  display: flex;
-  flex-direction: column;
-}
-
-/* Variables */
 .pie {
   width: 80vw;
   height: 30vh;
@@ -12273,9 +12207,74 @@ ul {
     border-radius: 5px;
   }
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+:root {
+  --medium-turquoise: #4ecdc4ff;
+  --mint-cream: #f7fff7ff;
+  --skobeloff: #00635dff;
+  --slate-blue: #744fc6ff;
+  --bittersweet: #ff6b6bff;
+  --orange-yellow-crayola: #fed766ff;
+  --fire-opal: #e86252ff;
+  --russian-green: #659157ff;
+  --wild-blue-yonder: #a3a5c3ff;
+  --wild-blue-yonder50: rgba(163, 165, 195, 0.507);
+  --prussian-blue: #1c3144ff;
+  --maximum-green-yellow: #ddf45bff;
+  --midnight-green-eagle-green: #114b5fff;
+  --desert-sand: #e6beaeff;
+  --turquoise-green: #aad2baff;
+  --light-cyan: #d9fff5ff;
+  --magic-mint: #b9f5d8ff;
+  --middle-red: #d7816aff;
+  --middle-red-73: rgba(215, 130, 106, 0.733);
+  --medium-purple: #9381ffff;
+  --maximum-blue-purple: #b8b8ffff;
+  --ghost-white: #f8f7ffff;
+  --antique-white: #ffeeddff;
+  --unbleached-silk: #ffd8beff;
+  --manatee: #a1a6b4ff;
+  --black: #000100ff;
+  --dark-sky-blue: #94c5ccff;
+  --beau-blue: #b4d2e7ff;
+  --cultured: #f8f8f8ff;
+  --bone: #d4cbb3ff;
+  --dim-gray: #6b6d76ff;
+  --tea-green: #d2e0bfff;
+  --smoky-black: #131112ff;
+  --rich-black-fogra-39: #080705ff;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container {
+  display: grid;
+}
+
+.flexRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.flexColum {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Variables */
 /* ------------------------------main del index --------------------------------------------------------- */
 .bodyIndex .bodyIndex__main {
-  background-color: darksalmon;
   height: 260vh;
 }
 .bodyIndex .bodyIndex__main .bodyIndex__main__boxUno {
@@ -12333,23 +12332,14 @@ ul {
   gap: 4rem;
   justify-content: space-around;
 }
-.bodyIndex .bodyIndex__main .bodyIndex__main__boxUno .bodyIndex__main__boxUno__articleUno .bodyIndex__main__boxUno__articleDos .bodyIndex__main__boxUno__articleDos__divDos .img-nariz {
-  background-image: url(../img/nariz.jpg);
-  width: 200px;
-  height: 200px;
-  text-align: center;
+.bodyIndex .bodyIndex__main .bodyIndex__main__boxUno .bodyIndex__main__boxUno__articleUno .bodyIndex__main__boxUno__articleDos .bodyIndex__main__boxUno__articleDos__divDos .bodyIndex__main__boxUno__articleDos__divDos__img--1 {
+  background-image: url(../img/gal1.jpg);
 }
-.bodyIndex .bodyIndex__main .bodyIndex__main__boxUno .bodyIndex__main__boxUno__articleUno .bodyIndex__main__boxUno__articleDos .bodyIndex__main__boxUno__articleDos__divDos .img-supe {
-  background-image: url(../img/supe.jpg);
-  width: 200px;
-  height: 200px;
-  text-align: center;
+.bodyIndex .bodyIndex__main .bodyIndex__main__boxUno .bodyIndex__main__boxUno__articleUno .bodyIndex__main__boxUno__articleDos .bodyIndex__main__boxUno__articleDos__divDos .bodyIndex__main__boxUno__articleDos__divDos__img--2 {
+  background-image: url(../img/gal2.jpg);
 }
-.bodyIndex .bodyIndex__main .bodyIndex__main__boxUno .bodyIndex__main__boxUno__articleUno .bodyIndex__main__boxUno__articleDos .bodyIndex__main__boxUno__articleDos__divDos .img-nena {
-  background-image: url(../img/nena.jpg);
-  width: 200px;
-  height: 200px;
-  text-align: center;
+.bodyIndex .bodyIndex__main .bodyIndex__main__boxUno .bodyIndex__main__boxUno__articleUno .bodyIndex__main__boxUno__articleDos .bodyIndex__main__boxUno__articleDos__divDos .bodyIndex__main__boxUno__articleDos__divDos__img--3 {
+  background-image: url(../img/gal3.jpg);
 }
 .bodyIndex .bodyIndex__main .bodyIndex__main__boxDos {
   width: 85vw;
@@ -12419,12 +12409,6 @@ ul {
   background-size: cover;
   grid-column: 1/4;
   grid-row: 5/8;
-}
-.bodyIndex .bodyIndex__main .card-group {
-  margin: 0 auto;
-  width: 72vw;
-  height: 450px;
-  gap: 2rem;
 }
 
 /*  --------------------------pagina de Amigurumi----------------------------------------------------- */
@@ -12789,7 +12773,5 @@ ul {
 }
 
 /*-------------------------------------------------------------------------------*/
-/*----------------medias 600px  ----------------------------------------------------------*/
-/*--------------------------------min 600 -----------------------------*/
 
 /*# sourceMappingURL=index.css.map */
