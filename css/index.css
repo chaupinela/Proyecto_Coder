@@ -12290,7 +12290,6 @@ ul {
   font-family: "Indie Flower", cursive;
 }
 .bodyIndex .bodyIndex__main .bodyIndex__main__boxUno .bodyIndex__main__boxUno__articleDos {
-  background-color: blue;
   height: 90vh;
   width: 100%;
   gap: 1rem;
@@ -12337,7 +12336,7 @@ ul {
 .bodyIndex .bodyIndex__main .bodyIndex__main__boxDos {
   width: 85vw;
   height: 180vh;
-  margin: 0px auto;
+  margin: 50px auto;
   height: 100vh;
   justify-content: flex-end;
 }
@@ -12347,7 +12346,7 @@ ul {
   width: 100%;
   height: 100vh;
   gap: 1rem;
-  margin: 0 auto;
+  margin-top: 50px;
   padding: 0;
 }
 .bodyIndex .bodyIndex__main .bodyIndex__main__boxDos .bodyIndex__main__boxDos__imagenesPorfolio .bodyIndex__main__boxDos__imagenesPorfolio__tituloPorfolio {
