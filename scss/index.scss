@@ -16,33 +16,41 @@ $colorcajainput: rgb(203, 245, 120);
 
 .bodyIndex {
   .bodyIndex__main {
+    background-color: darksalmon;
     height: 260vh;
     .bodyIndex__main__boxUno {
+      
       width: 85vw;
       height: 160vh;
       gap: 1rem;
       margin: 0px auto;
       .bodyIndex__main__boxUno__articleUno {
-        grid-column: 1/13;
-        grid-row: 1/5;
+        
         margin: 35px auto;
         .bodyIndex__main__boxUno__articleUno__div {
+          
           text-align: center;
           font-size: $tamanioTitulo;
           color: black;
           .bodyIndex__main__boxUno__articleUno__div__titulo {
+            
             font-family: "Indie Flower", cursive;
             color: black;
             font-size: $tamanioTitulo;
           }
           .bodyIndex__main__boxUno__articleUno__div__texto{
+           
             font-size: 1.9rem;
             text-align: center;
             color: black;
             font-family: $fuenteCuerpo;
+            
           }
         }
-        .bodyIndex__main__boxUno__articleDos {
+        .bodyIndex__main__boxUno__articleDos{
+          grid-template-columns: repeat(3, 1fr) ;
+          grid-template-rows: (2, 1fr) ;
+          gap: 1rem;
           background-color: cornflowerblue;
           height: 40vh;
           margin: 35px auto;
@@ -51,7 +59,7 @@ $colorcajainput: rgb(203, 245, 120);
           .bodyIndex__main__boxUno__articleDos__divUno{
             background-color: crimson;
             width: 100%;
-            height: 40vh;
+            height: 800px;
             margin: 0 auto;
             gap: 1rem;
             .bodyIndex__main__boxUno__articleDos__divUno__titulo {
