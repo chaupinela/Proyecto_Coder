@@ -12303,46 +12303,42 @@ ul {
   color: black;
   font-family: "Indie Flower", cursive;
 }
-.bodyIndex .bodyIndex__main .bodyIndex__main__boxUno .bodyIndex__main__boxUno__articleUno .bodyIndex__main__boxUno__articleDos {
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 2, 1fr;
+.bodyIndex .bodyIndex__main .bodyIndex__main__boxUno .bodyIndex__main__boxUno__articleDos {
+  background-color: green;
+  height: 60vh;
+  width: 100%;
   gap: 1rem;
-  height: 40vh;
   margin: 35px auto;
-  justify-content: space-around;
   align-items: center;
 }
-.bodyIndex .bodyIndex__main .bodyIndex__main__boxUno .bodyIndex__main__boxUno__articleUno .bodyIndex__main__boxUno__articleDos .bodyIndex__main__boxUno__articleDos__divUno {
+.bodyIndex .bodyIndex__main .bodyIndex__main__boxUno .bodyIndex__main__boxUno__articleDos .bodyIndex__main__boxUno__articleDos__divUno {
   width: 100%;
-  height: 800px;
   margin: 0 auto;
-  gap: 1rem;
 }
-.bodyIndex .bodyIndex__main .bodyIndex__main__boxUno .bodyIndex__main__boxUno__articleUno .bodyIndex__main__boxUno__articleDos .bodyIndex__main__boxUno__articleDos__divUno .bodyIndex__main__boxUno__articleDos__divUno__titulo {
+.bodyIndex .bodyIndex__main .bodyIndex__main__boxUno .bodyIndex__main__boxUno__articleDos .bodyIndex__main__boxUno__articleDos__divUno .bodyIndex__main__boxUno__articleDos__divUno__titulo {
   color: black;
-  font-size: 3rem;
+  font-size: 1.7rem;
   font-family: "Indie Flower", cursive;
   text-align: center;
 }
-.bodyIndex .bodyIndex__main .bodyIndex__main__boxUno .bodyIndex__main__boxUno__articleUno .bodyIndex__main__boxUno__articleDos .bodyIndex__main__boxUno__articleDos__divDos {
+.bodyIndex .bodyIndex__main .bodyIndex__main__boxUno .bodyIndex__main__boxUno__articleDos .bodyIndex__main__boxUno__articleDos__divDos {
   background-color: chartreuse;
-  height: 40vh;
-  gap: 4rem;
+  height: 20vh;
   justify-content: space-around;
 }
-.bodyIndex .bodyIndex__main .bodyIndex__main__boxUno .bodyIndex__main__boxUno__articleUno .bodyIndex__main__boxUno__articleDos .bodyIndex__main__boxUno__articleDos__divDos .img-nariz {
+.bodyIndex .bodyIndex__main .bodyIndex__main__boxUno .bodyIndex__main__boxUno__articleDos .bodyIndex__main__boxUno__articleDos__divDos .img-nariz {
   background-image: url(../img/nariz.jpg);
   width: 200px;
   height: 200px;
   text-align: center;
 }
-.bodyIndex .bodyIndex__main .bodyIndex__main__boxUno .bodyIndex__main__boxUno__articleUno .bodyIndex__main__boxUno__articleDos .bodyIndex__main__boxUno__articleDos__divDos .img-supe {
+.bodyIndex .bodyIndex__main .bodyIndex__main__boxUno .bodyIndex__main__boxUno__articleDos .bodyIndex__main__boxUno__articleDos__divDos .img-supe {
   background-image: url(../img/supe.jpg);
   width: 200px;
   height: 200px;
   text-align: center;
 }
-.bodyIndex .bodyIndex__main .bodyIndex__main__boxUno .bodyIndex__main__boxUno__articleUno .bodyIndex__main__boxUno__articleDos .bodyIndex__main__boxUno__articleDos__divDos .img-nena {
+.bodyIndex .bodyIndex__main .bodyIndex__main__boxUno .bodyIndex__main__boxUno__articleDos .bodyIndex__main__boxUno__articleDos__divDos .img-nena {
   background-image: url(../img/nena.jpg);
   width: 200px;
   height: 200px;
@@ -12370,9 +12366,10 @@ ul {
   grid-row: 1/2;
 }
 .bodyIndex .bodyIndex__main .bodyIndex__main__boxDos .bodyIndex__main__boxDos__imagenesPorfolio .bodyIndex__main__boxDos__imagenesPorfolio__tituloPorfolio .bodyIndex__main__boxDos__imagenesPorfolio__tituloPorfolio--titulo {
+  background-color: yellow;
   color: black;
   text-align: center;
-  font-size: 3rem;
+  font-size: 1.7rem;
   font-family: "Indie Flower", cursive;
 }
 .bodyIndex .bodyIndex__main .bodyIndex__main__boxDos .bodyIndex__main__boxDos__imagenesPorfolio .bodyIndex__main__boxDos__imagenesPorfolio__img--4 {
